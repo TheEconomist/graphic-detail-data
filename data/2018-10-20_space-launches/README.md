@@ -8,7 +8,7 @@ Data files can be downloaded and processed through the included R/Jupyter script
 
 | File     | Description            | Source                             |
 | -------- | ---------------------- | ---------------------------------- |
-| agencies | Space launch providers | Jonathan McDowell, _The Economist_ |
+| agencies | Space launch providers | Jonathan McDowell; _The Economist_ |
 
 ## Codebook
 
