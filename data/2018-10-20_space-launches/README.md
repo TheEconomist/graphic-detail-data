@@ -1,6 +1,6 @@
 # Space launches
 
-These are the data behind the "space launches" article, [The space race is dominated by new competitors](https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders).
+These are the data behind the "space launches" article, [The space race is dominated by new contenders](https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders).
 
 Principal data came from the Jonathan McDowell's JSR Launch Vehicle Database, available online at http://www.planet4589.org/space/lvdb/index.html.
 
