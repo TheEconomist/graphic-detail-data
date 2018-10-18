@@ -14,6 +14,22 @@ Data files can be downloaded and processed through the included R/Jupyter script
 
 ## Codebook
 
+### launches
+
+| variable    | definition                               |
+| ----------- | ---------------------------------------- |
+| tag         | Harvard or [COSPAR][cospar] id of launch |
+| JD          | [Julian Date][jd] of launch              |
+| launch_date | date of launch                           |
+| launch_year | year of launch                           |
+| type        | type of launch vehiccle                  |
+| variant     | variant of launch vehicle                |
+| mission     |
+| agency      | launching agency                         |
+| state_code  | launching agency's state                 |
+| category    | success (O) or failure (F)               |
+| agency_type | type of agency                           |
+
 ### agencies
 
 | variable           | definition              |
@@ -37,3 +53,6 @@ Data files can be downloaded and processed through the included R/Jupyter script
 | english_name       | english full name       |
 | unicode_name       | unicode full name       |
 | agency_type        | type of agency          |
+
+[cospar]: https://en.wikipedia.org/wiki/International_Designator
+[jd]: https://en.wikipedia.org/wiki/Julian_day
