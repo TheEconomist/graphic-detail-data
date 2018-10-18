@@ -1,6 +1,8 @@
 # Space launches
 
-These are the data behind the space launches chart. Principal data came from the Jonathan McDowell's JSR Launch Vehicle Database, available online at http://www.planet4589.org/space/lvdb/index.html.
+These are the data behind the "space launches" chart, [The space race is dominated by new competitors](https://economist.com/graphic-detail/2018/10/20/the-space-race-is-dominated-by-new-contenders).
+
+Principal data came from the Jonathan McDowell's JSR Launch Vehicle Database, available online at http://www.planet4589.org/space/lvdb/index.html.
 
 Data files can be downloaded and processed through the included R/Jupyter script, `Data processing.ipynb`.
 
