@@ -1,0 +1,130 @@
+---
+title: "Graphic detail: The Chinese Century"
+output: github_document
+---
+
+This is walk-through of the script required to reproduce the data and charts behind "The Chinese Century" published by The Economist, October 25th 2018
+
+```{r}
+
+#Set-up for srcipt 
+#path <- "your path to our repo"
+#setwd(path)
+
+#Call in libraries
+libs <- c("tidyverse", "WDI", "reshape2", "readxl", "countrycode")
+lapply(libs, require, character.only=T)
+```
+
+
+We spent some time cleaning up historic GDP data from the Maddison Project Database, and merging that data with forecasts for world economic growth from the Economist Intelligence Unit. 
+You can find Maddison data here : 
+https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2018
+
+As you'll see, we don't have data for all years nor all countries, back to 1AD, but it's the best there is. 
+
+
+```{r}
+gdp <- read_csv("inputs/gdp.csv")
+count(gdp, year)
+```
+
+We found the centre of each country, ie, it's latitude and longitude, via https://atcoordinates.info/resources/
+We've assumed that a country's border hasn't changed over the years -- not true! -- but it's a good enough approximation for these purposes. 
+
+```{r}
+latlon.cou <- read.csv("inputs/country_centroids_all.csv", sep = "\t", stringsAsFactors = F) %>%
+  select(iso2 = ISO3136, SHORT_NAME, LAT, LONG) %>%
+  mutate(iso = countrycode(iso2, "iso2c", "iso3c")) %>%
+  mutate(iso = ifelse(SHORT_NAME == "Namibia", "NAM", iso)) %>%
+  bind_rows(., read.csv("inputs/missing_lat_longs.csv", stringsAsFactors=F)) %>% #add in missing lat~longs
+  rename(cou.lon = LONG, cou.lat = LAT)
+summary(latlon.cou)
+
+```
+
+Next we need to convert our spherical coordinates to Cartesian coordinates. 
+h/t >>> https://rbrundritt.wordpress.com/2008/10/14/conversion-between-spherical-and-cartesian-coordinates-systems/)
+
+```{r}
+
+#Function 
+earthRadius <- 1 #radius in km (6367)
+conv.coord.f <- function(lat, lon) { 
+  lat = lat / 180 * pi
+  lon = lon / 180 * pi
+  x = earthRadius * cos(lat)*cos(lon);
+  y = earthRadius * cos(lat)*sin(lon);
+  z = earthRadius * sin(lat);
+  cart <- c(x, y, z) %>% t(.)
+  return(cart) }
+
+#apply function above, bind to df. 
+cart.coord <- mapply(conv.coord.f, latlon.cou$cou.lat, latlon.cou$cou.lon) %>% t(.) %>% 
+  as.data.frame(.) %>% rename(x=V1, y=V2, z=V3)
+latlon.cou <- bind_cols(latlon.cou, cart.coord)
+head(latlon.cou); tail(latlon.cou)
+
+```
+
+
+We add our Cartesian coordinates data to our main data frame, let's call it "DATA"
+```{r}
+DATA <- gdp %>%
+  left_join(., select(latlon.cou, -iso2, -SHORT_NAME), by = "iso")
+head(DATA); tail(DATA)
+```
+
+
+And then calcaulte the weighted average of our Cartesian coorindates. 
+```{r}
+eco.centre <- DATA %>% 
+  group_by(year) %>% summarise(x = weighted.mean(x, gdp.pct.share, na.rm=T),
+                               y = weighted.mean(y, gdp.pct.share, na.rm=T),
+                               z = weighted.mean(z, gdp.pct.share, na.rm=T), 
+                               count = n()) 
+head(eco.centre); tail(eco.centre)
+```
+
+
+To plot the data on a map, we then need to convert our Cartesian coordinates back to spherical coordinates. 
+```{r}
+#function to convert cartesian to spherical coords (from same source above)
+conv.caart.f <- function(x, y, z) {
+  v <- ppls::normalize.vector(c(x, y, z))
+  #v <- c(x, y, z)
+  lat = asin(v[[3]]) / pi * 180
+  lon = atan2(v[[2]], v[[1]]) / pi * 180
+  latlon <- c(lat,lon)
+  return(latlon) }
+
+#apply function, bind
+coord_centroid <- mapply(conv.caart.f, eco.centre$x, eco.centre$y, eco.centre$z) %>% t(.) %>% 
+  as.data.frame(.) %>% rename(lat=V1, lon=V2)
+eco.centre <- bind_cols(eco.centre, coord_centroid)
+head(eco.centre); tail(eco.centre)
+
+```
+
+
+For our print version we plotted the data in QGIS using a Orthographic Projection centred on Moscow. 
+
+But you can create a simple plot in R as follows: 
+
+```{r}
+#libs 
+library(maps)
+ggplot() +
+  borders("world", colour="gray50", fill="gray50") +
+  geom_point(data = eco.centre, aes(lon, lat)) +
+  coord_fixed(1.3)
+
+```
+
+Write out the file. 
+
+```{r}
+write_csv(eco.centre, "eco_centre.csv")
+```
+
+
