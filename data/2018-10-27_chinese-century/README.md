@@ -1,7 +1,7 @@
 Graphic detail: The Chinese Century
 ================
 
-This is walk-through of the script required to reproduce the data and charts behind "The Chinese Century" published by The Economist, October 25th 2018
+This is a walk-through of the script required to reproduce the data and charts behind "The Chinese Century" published by The Economist, October 25th 2018
 
 ``` r
 #Set-up for srcipt 
@@ -207,7 +207,7 @@ head(DATA); tail(DATA)
     ## 5  1481 ZMB    2025        0.0561   -15      30    0.837  0.483 -0.259
     ## 6  1482 ZWE    2025        0.0279   -19      29    0.827  0.458 -0.326
 
-And then calcaulte the weighted average of our Cartesian coorindates.
+And then calculate the weighted average of our Cartesian coorindates.
 
 ``` r
 eco.centre <- DATA %>% 
@@ -305,5 +305,163 @@ ggplot() +
 Write out the file.
 
 ``` r
-write_csv(eco.centre, "eco_centre.csv")
+write_csv(eco.centre, "outputs/eco_centre.csv")
 ```
+
+To continue, I'll show you how to recreate some of other graphics in the article.
+
+First stop, the scatter chart of income.
+
+We used the World Bank's excellent API to pull the data. We're using GDP per person at 2011 PPPs (purchasing-power parity)
+
+``` r
+gdp <- WDI(country = "all", indicator = "NY.GDP.PCAP.PP.KD", start = 1990, end = 2018, extra = T, cache = NULL) %>%
+  filter(region != "Aggregates") %>% filter(year %in% c(1990, 2017))
+#population data too
+pop <- WDI(country = "all", indicator = "SP.POP.TOTL", start = 1990, end = 2018, extra = F, cache = NULL) %>% 
+  filter(year == 2017)
+
+#Create the scatter data
+gdp.scat <- gdp %>% select(iso2c, country, region, year, NY.GDP.PCAP.PP.KD) %>%
+  dcast(iso2c + country + region ~ year, value.var = "NY.GDP.PCAP.PP.KD") %>%
+  left_join(., select(pop, -country, -year), by = c("iso2c")) %>%
+  rename(gdp.1990 = `1990`, gdp.2017 = `2017`, pop = SP.POP.TOTL) %>% 
+  mutate(gdp.pct.chg = gdp.2017 / gdp.1990 * 100 - 100)
+head(gdp.scat); tail(gdp.scat)
+```
+
+    ##   iso2c              country                     region   gdp.1990
+    ## 1    AD              Andorra      Europe & Central Asia         NA
+    ## 2    AE United Arab Emirates Middle East & North Africa 110432.465
+    ## 3    AF          Afghanistan                 South Asia         NA
+    ## 4    AG  Antigua and Barbuda Latin America & Caribbean   16381.018
+    ## 5    AL              Albania      Europe & Central Asia   4722.838
+    ## 6    AM              Armenia      Europe & Central Asia   3742.437
+    ##    gdp.2017      pop gdp.pct.chg
+    ## 1        NA    76965          NA
+    ## 2 67293.483  9400145   -39.06368
+    ## 3  1803.987 35530081          NA
+    ## 4 21490.943   102012    31.19418
+    ## 5 11803.431  2873457   149.92240
+    ## 6  8787.580  2930450   134.80900
+
+    ##     iso2c      country                     region gdp.1990  gdp.2017
+    ## 210    WS        Samoa        East Asia & Pacific 3649.144  6021.557
+    ## 211    XK       Kosovo      Europe & Central Asia       NA  9795.834
+    ## 212    YE  Yemen, Rep. Middle East & North Africa 3327.103        NA
+    ## 213    ZA South Africa        Sub-Saharan Africa  9696.384 12294.876
+    ## 214    ZM       Zambia        Sub-Saharan Africa  2341.933  3689.251
+    ## 215    ZW     Zimbabwe        Sub-Saharan Africa  2605.795  1899.775
+    ##          pop gdp.pct.chg
+    ## 210   196440    65.01287
+    ## 211  1830700          NA
+    ## 212 28250420          NA
+    ## 213 56717156    26.79857
+    ## 214 17094130    57.53016
+    ## 215 16529904   -27.09423
+
+Let's plot this data using ggplot:
+
+``` r
+plot.scat <- gdp.scat %>% filter(!is.na(gdp.pct.chg)) %>%
+  ggplot(., aes(x=gdp.1990, y=gdp.pct.chg)) + geom_point(aes(size=sqrt(pop))) + 
+  ylim(0,1000) + geom_smooth(method = "lm", se=F) + 
+  scale_x_log10() + scale_size_area() +
+  theme_minimal() + theme(legend.position = "top") + theme(aspect.ratio = 1) + 
+  ggtitle("GDP per person", sub = "Circle size = population, 2017")
+print(plot.scat)
+```
+
+    ## Warning: Removed 17 rows containing non-finite values (stat_smooth).
+
+    ## Warning: Removed 17 rows containing missing values (geom_point).
+
+![](README_files/figure-markdown_github/unnamed-chunk-11-1.png)
+
+``` r
+write_csv(gdp.scat, "outputs/gdp_scat_dat.csv")
+```
+
+Next, up, global extreme poverty (those living on less than $1.90 a day at 2011 PPPs) Again, courtesy of the World Bank.
+
+We wrote a couple of functions to parse this data easily.
+
+``` r
+#Function to parse WDI data
+wdi.f <- function(ind) {
+  dat <- WDI(country = c("CHN", "1W"), indicator = ind, start = 1960, end = 2018, extra = F, cache = NULL) %>%
+    rename(val = 3) %>% dcast(year ~ country, value.var = "val") %>%
+    mutate(world.ex.china = World - China) %>%
+    melt(., id.var = "year", variable.name = "country") 
+  return(dat) }
+
+#Do World ex.china calc (weighted by pop)
+w.ex.chn.f <- function(dat) {
+  dat1 <- dat %>% filter(country != "world.ex.china") %>% dcast(year ~ country, value.var = "value") 
+  dat2 <- pop %>% filter(country != "world.ex.china") %>% dcast(year ~ country, value.var = "value") 
+  dat <- left_join(dat1, dat2, by = "year") %>% 
+    mutate(world.ex.china = (World.x * World.y - China.x * China.y) / (World.y - China.y)) %>%
+    select(year, China=China.x, World=World.x, world.ex.china) %>%
+    melt(., id.var = "year", variable.name = "country")
+  return(dat) }
+```
+
+Run the functions above for poverty
+
+``` r
+#Get pop data
+pop <- wdi.f("SP.POP.TOTL") 
+
+#Poverty at $1.90 per day (absolute numbers) (to be updated by World Bank on Oct 17th)
+povr <- wdi.f("SI.POV.DDAY") %>% w.ex.chn.f(.) %>%
+  left_join(., rename(pop, pop=value), by = c("year", "country")) %>%
+  mutate(abs.pov = value/100 * pop) %>% 
+  select(year, country, value=abs.pov) %>% filter(!is.na(value)) %>% mutate(value = value/10^9)
+head(povr); tail(povr)
+```
+
+    ##   year country     value
+    ## 1 1990   China 0.7560332
+    ## 2 1993   China 0.6717108
+    ## 3 1996   China 0.5113710
+    ## 4 1999   China 0.5073577
+    ## 5 2002   China 0.4084476
+    ## 6 2005   China 0.2437956
+
+    ##    year        country     value
+    ## 35 2008 world.ex.china 1.0299754
+    ## 36 2010 world.ex.china 0.9386376
+    ## 37 2011 world.ex.china 0.8548665
+    ## 38 2012 world.ex.china 0.8209482
+    ## 39 2013 world.ex.china 0.7789452
+    ## 40 2015 world.ex.china 0.7261574
+
+Plot the data
+
+``` r
+plot3 <- povr %>% filter(country != "World") %>%
+  ggplot(., aes(x=year, y=value, fill=country)) + geom_area() + theme_minimal() + 
+  theme(legend.position = "top") + theme(aspect.ratio=.75)
+  ggtitle("Poverty rate, number of people living on $1.90 per day, bn")
+```
+
+    ## $title
+    ## [1] "Poverty rate, number of people living on $1.90 per day, bn"
+    ## 
+    ## $subtitle
+    ## NULL
+    ## 
+    ## attr(,"class")
+    ## [1] "labels"
+
+``` r
+print(plot3)
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-14-1.png)
+
+``` r
+write_csv(povr, "outputs/poverty.csv")
+```
+
+<ends>
