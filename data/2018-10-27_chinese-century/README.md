@@ -1,10 +1,10 @@
 Graphic detail: The Chinese Century
 ================
 
-This is a walk-through of the script required to reproduce the data and charts behind "The Chinese Century" published by The Economist, October 25th 2018
+This is a walk-through of the script required to reproduce the data and charts behind "The Chinese Century" published by The Economist, October 25th 2018.
 
 ``` r
-#Set-up for srcipt 
+#Set-up for script 
 #path <- "your path to our repo"
 #setwd(path)
 
