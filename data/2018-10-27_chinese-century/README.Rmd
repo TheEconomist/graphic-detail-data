@@ -226,6 +226,3 @@ write_csv(povr, "outputs/poverty.csv")
 <ends>
 
 
-
-
-
