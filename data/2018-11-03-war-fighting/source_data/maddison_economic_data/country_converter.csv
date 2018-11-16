@@ -1,0 +1,182 @@
+gwn_id,participant_country,participant_region,participant_maddison_code
+700,Afghanistan,Middle East,AFG
+339,Albania,Europe,ALB
+615,Algeria,Africa,DZA
+540,Angola,Africa,AGO
+160,Argentina,Americas,ARG
+371,Armenia,Europe,ARM
+900,Australia,Asia,AUS
+305,Austria,Europe,AUT
+300,Austria (with Hungary),Europe,AUT
+373,Azerbaijan,Europe,AZE
+692,Bahrain,Middle East,BHR
+771,Bangladesh,Asia,BGD
+,Barbados,Americas,BRB
+370,Belarus,Europe,BLR
+211,Belgium,Europe,BEL
+434,Benin,Africa,BEN
+145,Bolivia,Americas,BOL
+346,Bosnia-Herzegovina,Europe,BIH
+571,Botswana,Africa,BWA
+140,Brazil,Americas,BRA
+355,Bulgaria,Europe,BGR
+439,Burkina Faso,Africa,BFA
+516,Burundi,Africa,BDI
+402,Cabo Verde,Africa,CPV
+811,Cambodia,Asia,KHM
+471,Cameroon,Africa,CMR
+20,Canada,Americas,CAN
+482,Central African Republic,Africa,CAF
+483,Chad,Africa,TCD
+155,Chile,Americas,CHL
+710,China,Asia,CHN
+100,Colombia,Americas,COL
+581,Comoros,Africa,COM
+484,Congo,Africa,COG
+94,Costa Rica,Americas,CRI
+344,Croatia,Europe,HRV
+40,Cuba,Americas,CUB
+352,Cyprus,Europe,CYP
+316,Czech Republic,Europe,CZE
+315,Czechoslovakia,Europe,CSK
+390,Denmark,Europe,DNK
+522,Djibouti,Africa,DJI
+,Dominica,Americas,DMA
+42,Dominican Republic,Americas,DOM
+490,DR Congo (Zaire),Africa,COD
+130,Ecuador,Americas,ECU
+651,Egypt,Africa,EGY
+92,El Salvador,Americas,SLV
+411,Equatorial Guinea,Africa,GNQ
+531,Eritrea,Africa,ERI
+366,Estonia,Europe,EST
+530,Ethiopia,Africa,ETH
+375,Finland,Europe,FIN
+220,France,Europe,FRA
+481,Gabon,Africa,GAB
+420,Gambia,Africa,GMB
+372,Georgia,Europe,GEO
+255,Germany,Europe,DEU
+265,Germany (East),Europe,GDR
+260,Germany (West),Europe,GFR
+452,Ghana,Africa,GHA
+350,Greece,Europe,GRC
+90,Guatemala,Americas,GTM
+438,Guinea,Africa,GIN
+404,Guinea-Bissau,Africa,GNB
+41,Haiti,Americas,HTI
+91,Honduras,Americas,HND
+,Hong Kong,Asia,HKG
+310,Hungary,Europe,HUN
+751,Hyderabad (merged with India),Asia,IND
+395,Iceland,Europe,ISL
+750,India,Asia,IND
+850,Indonesia,Asia,IDN
+630,Iran,Middle East,IRN
+645,Iraq,Middle East,IRQ
+205,Ireland,Europe,IRL
+666,Israel,Middle East,ISR
+325,Italy,Europe,ITA
+437,Ivory Coast,Africa,CIV
+51,Jamaica,Americas,JAM
+740,Japan,Asia,JPN
+663,Jordan,Middle East,JOR
+705,Kazakhstan,Asia,KAZ
+501,Kenya,Africa,KEN
+690,Kuwait,Middle East,KWT
+703,Kyrgyzstan,Asia,KGZ
+812,Laos,Asia,LAO
+367,Latvia,Europe,LVA
+660,Lebanon,Middle East,LBN
+570,Lesotho,Africa,LSO
+450,Liberia,Africa,LBR
+620,Libya,Africa,LBY
+368,Lithuania,Europe,LTU
+212,Luxembourg,Europe,LUX
+343,"Macedonia, FYR",Europe,MKD
+580,Madagascar,Africa,MDG
+553,Malawi,Africa,MWI
+820,Malaysia,Asia,MYS
+432,Mali,Africa,MLI
+,Malta,Europe,MLT
+435,Mauritania,Africa,MRT
+590,Mauritius,Africa,MUS
+70,Mexico,Americas,MEX
+359,Moldova,Europe,MDA
+712,Mongolia,Asia,MNG
+348,Montenegro,Europe,MNE
+600,Morocco,Africa,MAR
+541,Mozambique,Africa,MOZ
+775,Myanmar (Burma),Asia,MMR
+565,Namibia,Africa,NAM
+790,Nepal,Asia,NPL
+210,Netherlands,Europe,NLD
+920,New Zealand,Asia,NZL
+93,Nicaragua,Americas,NIC
+436,Niger,Africa,NER
+475,Nigeria,Africa,NGA
+731,North Korea,Asia,PRK
+385,Norway,Europe,NOR
+698,Oman,Middle East,OMN
+770,Pakistan,Asia,PAK
+,Palestine,Middle East,PSE
+95,Panama,Americas,PAN
+910,Papua New Guinea,Asia,PNG
+150,Paraguay,Americas,PRY
+135,Peru,Americas,PER
+840,Philippines,Asia,PHL
+290,Poland,Europe,POL
+235,Portugal,Europe,PRT
+,Puerto Rico,Americas,PRI
+694,Qatar,Middle East,QAT
+360,Romania,Europe,ROU
+365,Russia,Europe,RUS
+517,Rwanda,Africa,RWA
+,Sao Tome and Principe,Africa,STP
+670,Saudi Arabia,Middle East,SAU
+433,Senegal,Africa,SEN
+342,Serbia (Yugoslavia),Europe,SRB
+,Seychelles,Africa,SYC
+451,Sierra Leone,Africa,SLE
+830,Singapore,Asia,SGP
+317,Slovakia,Europe,SVK
+349,Slovenia,Europe,SVN
+520,Somalia,Africa,SOM
+560,South Africa,Africa,ZAF
+732,South Korea,Asia,KOR
+626,South Sudan (merged with Sudan),Africa,SDN
+230,Spain,Europe,ESP
+780,Sri Lanka,Asia,LKA
+,St Lucia,Americas,LCA
+625,Sudan,Africa,SDN
+572,Swaziland,Africa,SWZ
+380,Sweden,Europe,SWE
+225,Switzerland,Europe,CHE
+652,Syria,Middle East,SYR
+713,Taiwan,Asia,TWN
+702,Tajikistan,Asia,TJK
+510,Tanzania,Africa,TZA
+800,Thailand,Asia,THA
+461,Togo,Africa,TGO
+52,Trinidad and Tobago,Americas,TTO
+616,Tunisia,Africa,TUN
+640,Turkey,Europe,TUR
+701,Turkmenistan,Asia,TKM
+500,Uganda,Africa,UGA
+369,Ukraine,Europe,UKR
+696,United Arab Emirates,Middle East,ARE
+200,United Kingdom,Europe,GBR
+2,United States of America,Americas,USA
+165,Uruguay,Americas,URY
+364,USSR,Europe,SUN
+704,Uzbekistan,Asia,UZB
+101,Venezuela,Americas,VEN
+818,Vietnam,Asia,VNM
+816,Vietnam (North),Asia,DRV
+817,Vietnam (South),Asia,RVN
+679,Yemen,Middle East,YEM
+678,Yemen (North),Middle East,YAR
+680,Yemen (South),Middle East,YPR
+345,Yugoslavia,Europe,YUG
+551,Zambia,Africa,ZMB
+552,Zimbabwe (Rhodesia),Africa,ZWE
