@@ -175,7 +175,7 @@ Both wealth and democracy had statistically significant relationships with the p
 
 | Democracy vs chance of conflict                    | Wealth vs chance of conflict                              |
 | ---------------------------------------------------|-----------------------------------------------------------|
-| ![Image](Charts/democracy_deaths_100.png?raw=true) | ![Image](Charts/wealth_deaths_100.png?raw=true)           |
+| ![Image](charts/democracy_deaths_100.png?raw=true) | ![Image](charts/wealth_deaths_100.png?raw=true)           |
    
 The third-order polynomial model fit for belligerence versus democracy (pseudo r-squared of 0.028) was better than the fit for belligerence versus wealth (pseudo r-squared of 0.015), suggesting that the relationship between war and regime type is closer than the one between war and economic development. It was possible to make a combined regression that included polynomials for democracy and wealth in which both variables were statistically significant. This suggests that rich democracies are more peaceful than middle-income ones.
 
@@ -219,56 +219,56 @@ We showed our working and findings to a few political scientists, who suggested 
 
 | Democracy vs chance of conflict, 25 deaths a year               | Wealth vs chance of conflict, 25 deaths a year                 |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_deaths_25.png?raw=true)               | ![Image](Charts/wealth_deaths_25.png?raw=true)                 |
+| ![Image](charts/democracy_deaths_25.png?raw=true)               | ![Image](charts/wealth_deaths_25.png?raw=true)                 |
 
 | Democracy vs chance of conflict, 1000 deaths a year             | Wealth vs chance of conflict, 1000 deaths a year               |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_deaths_1000.png?raw=true)             | ![Image](Charts/wealth_deaths_1000.png?raw=true)               |
+| ![Image](charts/democracy_deaths_1000.png?raw=true)             | ![Image](charts/wealth_deaths_1000.png?raw=true)               |
 
 
 ### Using different types of conflict
 
 | Democracy vs chance of conflict, interstate wars                | Wealth vs chance of conflict, interstate wars                  |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_conflicts_interstate.png?raw=true)    | ![Image](Charts/wealth_conflicts_interstate.png?raw=true)      |
+| ![Image](charts/democracy_conflicts_interstate.png?raw=true)    | ![Image](charts/wealth_conflicts_interstate.png?raw=true)      |
 
 | Democracy vs chance of conflict, civil wars                     | Wealth vs chance of conflict, civil wars                       |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_conflicts_civil.png?raw=true)         | ![Image](Charts/wealth_conflicts_civil.png?raw=true)           |
+| ![Image](charts/democracy_conflicts_civil.png?raw=true)         | ![Image](charts/wealth_conflicts_civil.png?raw=true)           |
 
 
 ### Using different time periods
 
 | Democracy vs chance of conflict, years pre-1989                 | Wealth vs chance of conflict, years pre-1989                   |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_years_pre_1989.png?raw=true)          | ![Image](Charts/wealth_years_pre_1989.png?raw=true)            |
+| ![Image](charts/democracy_years_pre_1989.png?raw=true)          | ![Image](charts/wealth_years_pre_1989.png?raw=true)            |
 
 | Democracy vs chance of conflict, years post-1989                | Wealth vs chance of conflict, years post-1989                  |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_years_post_1989.png?raw=true)         | ![Image](Charts/wealth_years_post_1989.png?raw=true)           |
+| ![Image](charts/democracy_years_post_1989.png?raw=true)         | ![Image](charts/wealth_years_post_1989.png?raw=true)           |
 
 
 ### Using regions
 
 | Democracy vs chance of conflict, Europe                         | Wealth vs chance of conflict, Europe                           |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_region_europe.png?raw=true)           | ![Image](Charts/wealth_region_europe.png?raw=true)             |
+| ![Image](charts/democracy_region_europe.png?raw=true)           | ![Image](charts/wealth_region_europe.png?raw=true)             |
 
 | Democracy vs chance of conflict, Americas                       | Wealth vs chance of conflict, Americas                         |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_region_americas.png?raw=true)         | ![Image](Charts/wealth_region_americas.png?raw=true)           |
+| ![Image](charts/democracy_region_americas.png?raw=true)         | ![Image](charts/wealth_region_americas.png?raw=true)           |
 
 | Democracy vs chance of conflict, Asia                           | Wealth vs chance of conflict, Asia                             |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_region_asia.png?raw=true)             | ![Image](Charts/wealth_region_asia.png?raw=true)               |
+| ![Image](charts/democracy_region_asia.png?raw=true)             | ![Image](charts/wealth_region_asia.png?raw=true)               |
 
 | Democracy vs chance of conflict, Africa                         | Wealth vs chance of conflict, Africa                           |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_region_africa.png?raw=true)           | ![Image](Charts/wealth_region_africa.png?raw=true)             |
+| ![Image](charts/democracy_region_africa.png?raw=true)           | ![Image](charts/wealth_region_africa.png?raw=true)             |
 
 | Democracy vs chance of conflict, Middle East                    | Wealth vs chance of conflict, Middle East                      |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_region_middle_east.png?raw=true)      | ![Image](Charts/wealth_region_middle_east.png?raw=true)        |
+| ![Image](charts/democracy_region_middle_east.png?raw=true)      | ![Image](charts/wealth_region_middle_east.png?raw=true)        |
 
 
 ### Using different components of the Polity democracy index
@@ -283,7 +283,7 @@ These three components of the index are themselves bundled into two measures in 
 
 | Executive recruitment vs chance of conflict                     | Executive constraints vs chance of conflict                    |
 | ----------------------------------------------------------------|----------------------------------------------------------------|
-| ![Image](Charts/democracy_polity_EXREC.png?raw=true)            | ![Image](Charts/democracy_polity_EXCONST.png?raw=true)         |
+| ![Image](charts/democracy_polity_EXREC.png?raw=true)            | ![Image](charts/democracy_polity_EXCONST.png?raw=true)         |
 
 
 ### With thanks
