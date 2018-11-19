@@ -1,0 +1,950 @@
+actor_id,dyad_id,conflict_id,coalition_components,actor_name,actor_name_fulltext,year,best_fatality_estimate,low_fatality_estimate,high_fatality_estimate,is_government_actor ,location,gwno_loc,gwno_a,region,version
+6,911,444,,Government of Haiti,Government of Haiti,1991,70,70,296,1,Haiti,41,41,5,18.1
+6,911,444,,Government of Haiti,Government of Haiti,1993,37,37,137,1,Haiti,41,41,5,18.1
+6,911,444,,Government of Haiti,Government of Haiti,1994,44,44,463,1,Haiti,41,41,5,18.1
+6,911,444,,Government of Haiti,Government of Haiti,2005,40,40,74,1,Haiti,41,41,5,18.1
+10,1108,641,,Government of Mexico,Government of Mexico,2014,28,28,32,1,Mexico,70,70,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1989,409,46,409,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1990,598,75,598,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1991,354,46,354,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1992,326,53,326,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1993,160,28,293,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1994,250,24,250,1,Guatemala,90,90,5,18.1
+11,912,445,,Government of Guatemala,Government of Guatemala,1995,95,21,95,1,Guatemala,90,90,5,18.1
+17,913,446,,Government of Colombia,Government of Colombia,1990,92,80,100,1,Colombia,100,100,5,18.1
+17,913,446,,Government of Colombia,Government of Colombia,1991,70,67,73,1,Colombia,100,100,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1989,61,61,416,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1990,64,64,79,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1991,30,30,41,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1992,79,79,95,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1993,63,63,92,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1994,36,36,52,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1995,26,26,79,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1996,33,33,58,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,1999,26,26,47,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,2000,25,25,46,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,2001,27,27,60,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,2003,25,25,53,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,2004,31,22,67,1,Venezuela,101,101,5,18.1
+18,914,447,,Government of Venezuela,Government of Venezuela,2005,30,19,45,1,Venezuela,101,101,5,18.1
+21,1116,649,,Government of Peru,Government of Peru,1994,72,76,77,1,Peru,135,135,5,18.1
+22,915,448,,Government of Brazil,Government of Brazil,1993,29,29,29,1,Brazil,140,140,5,18.1
+22,915,448,,Government of Brazil,Government of Brazil,2005,34,34,42,1,Brazil,140,140,5,18.1
+48,916,449,,Government of Croatia,Government of Croatia,1993,28,28,94,1,Croatia,344,344,1,18.1
+48,916,449,,Government of Croatia,Government of Croatia,1995,137,87,277,1,"Bosnia-Herzegovina, Croatia","344, 346",344,1,18.1
+49,917,450,,Government of Serbia (Yugoslavia),Government of Yugoslavia,1998,211,211,484,1,Serbia (Yugoslavia),345,345,1,18.1
+49,917,450,,Government of Serbia (Yugoslavia),Government of Yugoslavia,1999,781,781,2837,1,"Macedonia, FYR, Serbia (Yugoslavia)","343, 345",345,1,18.1
+50,918,451,,Government of Bosnia-Herzegovina,Government of Bosnia-Herzegovina,1992,80,80,159,1,Bosnia-Herzegovina,346,346,1,18.1
+50,918,451,,Government of Bosnia-Herzegovina,Government of Bosnia-Herzegovina,1993,167,167,515,1,Bosnia-Herzegovina,346,346,1,18.1
+56,919,452,,Government of Rumania,Government of Rumania,1989,199,199,779,1,Rumania,360,360,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),1991,33,33,54,1,Russia (Soviet Union),365,365,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),1995,141,141,2471,1,"Afghanistan, Russia (Soviet Union)","365, 700",365,"3, 1",18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),1996,42,42,54,1,Russia (Soviet Union),365,365,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),1999,311,311,475,1,Russia (Soviet Union),365,365,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),2000,1411,1384,1666,1,Russia (Soviet Union),365,365,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),2001,188,188,389,1,Russia (Soviet Union),365,365,1,18.1
+57,920,453,,Government of Russia (Soviet Union),Government of Russia (Soviet Union),2002,205,178,380,1,Russia (Soviet Union),365,365,1,18.1
+72,921,454,,Government of Mali,Government of Mali,1990,125,125,262,1,Mali,432,432,4,18.1
+72,921,454,,Government of Mali,Government of Mali,1991,176,176,204,1,Mali,432,432,4,18.1
+72,921,454,,Government of Mali,Government of Mali,1992,77,77,119,1,Mali,432,432,4,18.1
+72,921,454,,Government of Mali,Government of Mali,1994,251,251,989,1,Mali,432,432,4,18.1
+73,922,455,,Government of Senegal,Government of Senegal,1998,38,38,38,1,Senegal,433,433,4,18.1
+74,1161,694,,Government of Mauritania,Government of Mauritania,1989,27,27,32,1,"Mauritania, Senegal","433, 435",435,4,18.1
+75,923,456,,Government of Niger,Government of Niger,1990,200,63,603,1,Niger,436,436,4,18.1
+75,923,456,,Government of Niger,Government of Niger,1995,31,31,31,1,Niger,436,436,4,18.1
+75,923,456,,Government of Niger,Government of Niger,1998,147,147,148,1,Niger,436,436,4,18.1
+76,924,457,,Government of Ivory Coast,Government of Ivory Coast,2000,101,101,121,1,Ivory Coast,437,437,4,18.1
+76,924,457,,Government of Ivory Coast,Government of Ivory Coast,2002,228,228,279,1,Ivory Coast,437,437,4,18.1
+76,924,457,,Government of Ivory Coast,Government of Ivory Coast,2003,73,73,73,1,Ivory Coast,437,437,4,18.1
+76,924,457,,Government of Ivory Coast,Government of Ivory Coast,2004,42,39,109,1,Ivory Coast,437,437,4,18.1
+76,924,457,,Government of Ivory Coast,Government of Ivory Coast,2011,277,275,443,1,Ivory Coast,437,437,4,18.1
+77,925,458,,Government of Guinea,Government of Guinea,2007,45,42,56,1,Guinea,438,438,4,18.1
+77,925,458,,Government of Guinea,Government of Guinea,2009,160,90,160,1,Guinea,438,438,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,1990,1250,1250,1427,1,Liberia,450,450,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,1999,70,70,70,1,Liberia,450,450,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,2000,44,44,44,1,Liberia,450,450,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,2001,120,120,120,1,Liberia,450,450,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,2002,1648,1648,1648,1,Liberia,450,450,4,18.1
+79,926,459,,Government of Liberia,Government of Liberia,2003,1076,1076,1076,1,Liberia,450,450,4,18.1
+80,927,460,,Government of Sierra Leone,Government of Sierra Leone,1991,56,56,56,1,Sierra Leone,451,451,4,18.1
+80,927,460,,Government of Sierra Leone,Government of Sierra Leone,1994,46,46,46,1,Sierra Leone,451,451,4,18.1
+80,927,460,,Government of Sierra Leone,Government of Sierra Leone,1997,345,345,557,1,Sierra Leone,451,451,4,18.1
+80,927,460,,Government of Sierra Leone,Government of Sierra Leone,1998,84,84,84,1,Sierra Leone,451,451,4,18.1
+80,927,460,,Government of Sierra Leone,Government of Sierra Leone,1999,88,88,88,1,Sierra Leone,451,451,4,18.1
+82,928,461,,Government of Togo,Government of Togo,1991,32,30,32,1,Togo,461,461,4,18.1
+82,928,461,,Government of Togo,Government of Togo,1993,48,19,58,1,Togo,461,461,4,18.1
+82,928,461,,Government of Togo,Government of Togo,2005,436,436,461,1,Togo,461,461,4,18.1
+83,929,462,,Government of Cameroon,Government of Cameroon,1994,55,55,61,1,"Cameroon, Nigeria","471, 475",471,4,18.1
+83,929,462,,Government of Cameroon,Government of Cameroon,2015,30,30,30,1,Cameroon,471,471,4,18.1
+83,929,462,,Government of Cameroon,Government of Cameroon,2017,42,42,102,1,Cameroon,471,471,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,1990,80,80,80,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,1994,56,56,106,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,1998,43,43,67,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,1999,2704,2704,2846,1,"Nigeria, Sierra Leone","451, 475",475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2001,367,367,594,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2002,112,112,112,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2003,43,43,43,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2004,38,38,90,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2008,146,146,150,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2011,35,34,91,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2012,209,209,209,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2014,41,41,41,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2015,48,48,60,1,Nigeria,475,475,4,18.1
+84,930,463,,Government of Nigeria,Government of Nigeria,2016,71,71,71,1,Nigeria,475,475,4,18.1
+86,931,464,,Government of Central African Republic,Government of Central African Republic,2001,25,25,60,1,"Central African Republic, Chad","482, 483",482,4,18.1
+86,931,464,,Government of Central African Republic,Government of Central African Republic,2006,129,129,155,1,Central African Republic,482,482,4,18.1
+86,931,464,,Government of Central African Republic,Government of Central African Republic,2007,40,36,43,1,Central African Republic,482,482,4,18.1
+86,931,464,,Government of Central African Republic,Government of Central African Republic,2013,1277,907,1694,1,Central African Republic,482,482,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1990,41,41,441,1,"Chad, Sudan","483, 625",483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1991,27,27,32,1,Chad,483,483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1992,298,198,341,1,Chad,483,483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1993,193,193,247,1,Chad,483,483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1994,230,230,230,1,Chad,483,483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1995,47,47,48,1,Chad,483,483,4,18.1
+87,932,465,,Government of Chad,Government of Chad,1998,145,145,145,1,Chad,483,483,4,18.1
+88,933,466,,Government of Congo,Government of Congo,1993,82,82,82,1,Congo,484,484,4,18.1
+88,933,466,,Government of Congo,Government of Congo,1997,371,371,1171,1,Congo,484,484,4,18.1
+88,933,466,,Government of Congo,Government of Congo,1998,431,431,1560,1,Congo,484,484,4,18.1
+88,933,466,,Government of Congo,Government of Congo,1999,326,326,327,1,Congo,484,484,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1989,28,28,28,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1990,147,20,147,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1991,32,32,169,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1992,65,48,92,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1993,103,35,344,1,"DR Congo (Zaire), Zambia","490, 551",490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1995,58,49,81,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1996,1353,1253,1746,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1997,4160,4160,5083,1,"DR Congo (Zaire), Uganda","490, 500",490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1998,1591,1291,1666,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),1999,619,619,632,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2000,82,82,82,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2002,189,189,189,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2004,100,50,120,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2006,153,153,161,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2007,92,81,98,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2008,49,49,59,1,"DR Congo (Zaire), Uganda","490, 500",490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2009,895,895,1103,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2012,112,112,118,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2013,50,41,50,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2014,34,34,46,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2016,166,165,165,1,DR Congo (Zaire),490,490,4,18.1
+89,934,467,,Government of DR Congo (Zaire),Government of Democratic Republic of the Congo (Zaire),2017,294,257,792,1,DR Congo (Zaire),490,490,4,18.1
+90,935,468,,Government of Uganda,Government of Uganda,1990,80,80,80,1,Uganda,500,500,4,18.1
+90,935,468,,Government of Uganda,Government of Uganda,1991,59,59,59,1,Uganda,500,500,4,18.1
+90,935,468,,Government of Uganda,Government of Uganda,2000,26,26,26,1,DR Congo (Zaire),490,500,4,18.1
+91,936,469,,Government of Kenya,Government of Kenya,2007,41,41,49,1,Kenya,501,501,4,18.1
+91,936,469,,Government of Kenya,Government of Kenya,2008,220,195,254,1,Kenya,501,501,4,18.1
+91,936,469,,Government of Kenya,Government of Kenya,2017,43,43,44,1,Kenya,501,501,4,18.1
+92,937,470,,Government of Tanzania,Government of Tanzania,2001,37,37,71,1,Tanzania,510,510,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,1995,1118,740,1149,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,1996,1542,1212,8018,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,1997,199,199,856,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,1998,314,271,393,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,1999,225,225,581,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2000,389,359,408,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2002,243,243,340,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2003,129,129,206,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2004,33,33,33,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2005,26,26,26,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2015,77,77,105,1,Burundi,516,516,4,18.1
+93,938,471,,Government of Burundi,Government of Burundi,2017,42,42,43,1,"Burundi, Tanzania","510, 516",516,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1990,1466,1466,1970,1,Rwanda,517,517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1991,932,932,1432,1,Rwanda,517,517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1992,807,807,869,1,Rwanda,517,517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1993,376,376,376,1,Rwanda,517,517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1994,500000,171441,800000,1,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1995,4141,2141,8235,1,"DR Congo (Zaire), Rwanda","490, 517",517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1996,154,154,160,1,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,1997,3426,1126,4176,1,Rwanda,517,517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,2009,203,201,203,1,"DR Congo (Zaire), Rwanda","490, 517",517,4,18.1
+94,939,472,,Government of Rwanda,Government of Rwanda,2016,27,26,27,1,Rwanda,517,517,4,18.1
+95,940,473,,Government of Somalia,Government of Somalia,1989,688,688,5234,1,Somalia,520,520,4,18.1
+95,940,473,,Government of Somalia,Government of Somalia,1991,450,400,455,1,Somalia,520,520,4,18.1
+95,940,473,,Government of Somalia,Government of Somalia,2011,36,35,53,1,Somalia,520,520,4,18.1
+95,940,473,,Government of Somalia,Government of Somalia,2012,29,26,31,1,Somalia,520,520,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,1989,900,900,1300,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,1990,158,158,158,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,1991,37,37,37,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,1993,26,26,26,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2002,35,35,40,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2003,509,509,509,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2004,244,244,1252,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2006,26,26,26,1,"Ethiopia, Sudan","530, 625",530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2007,162,162,250,1,"Ethiopia, Somalia","520, 530",530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2008,33,33,57,1,"Ethiopia, Somalia","520, 530",530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2012,88,88,153,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2015,258,258,262,1,"Ethiopia, Somalia","520, 530",530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2016,300,300,306,1,Ethiopia,530,530,4,18.1
+97,941,474,,Government of Ethiopia,Government of Ethiopia,2017,173,173,188,1,Ethiopia,530,530,4,18.1
+99,942,475,,Government of Angola,Government of Angola,1997,30,30,107,1,"Angola, Congo","484, 540",540,4,18.1
+99,942,475,,Government of Angola,Government of Angola,1998,42,42,42,1,"Angola, Congo","484, 540",540,4,18.1
+99,942,475,,Government of Angola,Government of Angola,2003,59,59,74,1,Angola,540,540,4,18.1
+101,943,476,,Government of Zimbabwe (Rhodesia),Government of Rhodesia,2008,253,253,317,1,Zimbabwe (Rhodesia),552,552,4,18.1
+102,944,477,,Government of South Africa,Government of South Africa,1989,57,57,388,1,"Namibia, South Africa, Swaziland","560, 565, 572",560,4,18.1
+102,944,477,,Government of South Africa,Government of South Africa,1990,195,195,218,1,"Botswana, South Africa","560, 571",560,4,18.1
+102,944,477,,Government of South Africa,Government of South Africa,1991,49,49,62,1,South Africa,560,560,4,18.1
+102,944,477,,Government of South Africa,Government of South Africa,1992,57,57,70,1,South Africa,560,560,4,18.1
+102,944,477,,Government of South Africa,Government of South Africa,1993,67,67,94,1,South Africa,560,560,4,18.1
+106,945,478,,Government of Madagascar,Government of Madagascar,2009,31,28,50,1,Madagascar (Malagasy),580,580,4,18.1
+111,946,479,,Government of Libya,Government of Libya,1989,170,170,170,1,Niger,436,620,4,18.1
+111,946,479,,Government of Libya,Government of Libya,2011,152,152,168,1,Libya,620,620,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1989,1000,1000,1150,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1990,263,263,400,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1991,250,250,350,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1992,1558,1358,2928,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1993,598,598,708,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1994,471,471,581,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1995,228,228,332,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1996,34,34,59,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1997,200,200,1157,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1998,397,397,1156,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,1999,100,100,1070,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2000,279,279,503,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2001,51,51,136,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2002,55,55,55,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2003,1776,1776,12470,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2004,2593,2429,15408,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2005,403,303,706,1,"Chad, Sudan","483, 625",625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2006,252,252,362,1,"Chad, Sudan","483, 625",625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2007,99,99,145,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2008,186,186,357,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2011,176,176,364,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2012,53,53,65,1,"South Sudan, Sudan","625, 626",625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2013,27,27,40,1,"South Sudan, Sudan","625, 626",625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2014,94,94,174,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2015,371,371,590,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2016,440,438,499,1,Sudan,625,625,4,18.1
+112,947,480,,Government of Sudan,Government of Sudan,2017,51,51,63,1,Sudan,625,625,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2012,65,51,93,1,South Sudan,626,626,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2013,580,580,749,1,South Sudan,626,626,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2014,205,205,211,1,South Sudan,626,626,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2015,349,340,537,1,South Sudan,626,626,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2016,124,124,158,1,South Sudan,626,626,4,18.1
+113,1175,708,,Government of South Sudan,Government of South Sudan,2017,218,214,224,1,South Sudan,626,626,4,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1990,294,294,2737,1,"Iraq, Kuwait","645, 690",645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1991,957,957,1969,1,"Iraq, Kuwait, Turkey","640, 645, 690",645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1992,159,159,253,1,"Iraq, Jordan","645, 663",645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1993,133,103,173,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1994,45,45,62,1,"Iraq, Lebanon","645, 660",645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1995,100,100,220,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1996,109,109,319,1,"Iraq, Kuwait","645, 690",645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,1999,33,33,650,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2005,72,72,134,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2006,84,15,109,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2007,63,63,109,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2015,56,56,72,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2016,114,84,119,1,Iraq,645,645,2,18.1
+116,948,481,,Government of Iraq,Government of Iraq,2017,102,102,102,1,Iraq,645,645,2,18.1
+117,949,482,,Government of Egypt,Government of Egypt,2005,36,36,36,1,Egypt,651,651,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2011,2924,2823,3317,1,"Lebanon, Syria","652, 660",652,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2012,337,333,397,1,Syria,652,652,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2013,606,501,634,1,Syria,652,652,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2014,39,39,39,1,Syria,652,652,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2015,39,39,56,1,Syria,652,652,2,18.1
+118,1178,711,,Government of Syria,Government of Syria,2017,65,65,67,1,Syria,652,652,2,18.1
+121,950,483,,Government of Israel,Government of Israel,1989,62,62,66,1,Israel,666,666,2,18.1
+121,950,483,,Government of Israel,Government of Israel,1996,102,102,105,1,Lebanon,660,666,2,18.1
+121,950,483,,Government of Israel,Government of Israel,2004,31,31,75,1,Israel,666,666,2,18.1
+121,950,483,,Government of Israel,Government of Israel,2005,27,26,39,1,Israel,666,666,2,18.1
+121,950,483,,Government of Israel,Government of Israel,2006,182,182,222,1,"Israel, Lebanon","660, 666",666,2,18.1
+123,1182,715,,Government of Yemen (North Yemen),Government of North Yemen,2011,142,142,190,1,Yemen (North Yemen),678,678,2,18.1
+126,1185,718,,Government of Bahrain,Government of Bahrain,2011,26,26,30,1,Bahrain,692,692,2,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,1993,26,26,240,1,Afghanistan,700,700,3,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,1997,323,323,323,1,Afghanistan,700,700,3,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,1998,5801,3731,7381,1,Afghanistan,700,700,3,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,1999,436,436,912,1,Afghanistan,700,700,3,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,2000,152,152,152,1,Afghanistan,700,700,3,18.1
+130,951,484,,Government of Afghanistan,Government of Afghanistan,2001,298,298,1077,1,Afghanistan,700,700,3,18.1
+131,952,485,,Government of Tajikistan,Government of Tajikistan,1992,46,46,46,1,Tajikistan,702,702,3,18.1
+135,953,486,,Government of China,Government of China,1989,2600,931,3138,1,China,710,710,3,18.1
+135,953,486,,Government of China,Government of China,2008,51,51,151,1,China,710,710,3,18.1
+141,954,487,,Government of India,Government of India,1990,43,43,282,1,"Bangladesh, India, Pakistan","750, 770, 771",750,3,18.1
+141,954,487,,Government of India,Government of India,1993,56,56,306,1,India,750,750,3,18.1
+141,954,487,,Government of India,Government of India,2002,59,59,66,1,India,750,750,3,18.1
+143,1198,731,,Government of Bangladesh,Government of Bangladesh,1992,138,138,300,1,Bangladesh,771,771,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1991,231,231,235,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1992,142,118,223,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1994,98,97,98,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1995,128,125,135,1,"Myanmar (Burma), Thailand","775, 800",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1996,296,296,301,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1997,461,461,525,1,"Myanmar (Burma), Thailand","775, 800",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1998,435,433,441,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),1999,299,299,299,1,"Bangladesh, Myanmar (Burma), Thailand","771, 775, 800",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2000,457,457,467,1,"Bangladesh, Myanmar (Burma)","771, 775",775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2001,106,106,118,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2002,249,238,281,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2003,195,195,202,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2004,114,114,116,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2005,198,191,205,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2006,192,189,208,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2007,292,220,400,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2008,54,53,66,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2010,25,25,25,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2011,88,88,92,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2012,109,92,115,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2013,27,26,37,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2014,40,10,64,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2015,32,32,35,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2016,35,35,35,1,Myanmar (Burma),775,775,3,18.1
+144,955,488,,Government of Myanmar (Burma),Government of Myanmar (Burma),2017,755,565,1295,1,Myanmar (Burma),775,775,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,1989,59,42,379,1,Sri Lanka,780,780,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,1990,464,439,688,1,Sri Lanka,780,780,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,1991,67,67,150,1,Sri Lanka,780,780,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,1992,35,35,35,1,Sri Lanka,780,780,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,1996,32,32,32,1,Sri Lanka,780,780,3,18.1
+145,956,489,,Government of Sri Lanka,Government of Sri Lanka,2006,28,28,58,1,Sri Lanka,780,780,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,1996,27,27,29,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,1998,106,106,106,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,1999,89,89,89,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2000,51,51,51,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2001,74,74,76,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2002,274,274,278,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2003,197,197,269,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2004,176,176,250,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2005,108,108,136,1,Nepal,790,790,3,18.1
+146,957,490,,Government of Nepal,Government of Nepal,2006,47,46,51,1,Nepal,790,790,3,18.1
+148,1199,732,,Government of Cambodia (Kampuchea),Government of Cambodia,1993,26,26,94,1,Cambodia (Kampuchea),811,811,3,18.1
+149,959,492,,Government of Laos,Government of Laos,2006,73,70,73,1,Laos,812,812,3,18.1
+154,1204,737,,Government of Philippines,Government of Philippines,1990,35,35,69,1,Philippines,840,840,3,18.1
+154,1204,737,,Government of Philippines,Government of Philippines,1991,30,30,33,1,Philippines,840,840,3,18.1
+154,1204,737,,Government of Philippines,Government of Philippines,2016,32,32,46,1,Philippines,840,840,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1990,96,57,96,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1991,368,184,515,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1995,38,38,44,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1997,29,29,33,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1998,56,48,76,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,1999,914,867,1472,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,2000,36,36,49,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,2001,48,48,87,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,2002,37,19,51,1,Indonesia,850,850,3,18.1
+155,960,493,,Government of Indonesia,Government of Indonesia,2003,52,51,297,1,Indonesia,850,850,3,18.1
+157,961,494,,Government of Papua New Guinea,Government of Papua New Guinea,1992,27,27,28,1,Papua New Guinea,910,910,3,18.1
+157,961,494,,Government of Papua New Guinea,Government of Papua New Guinea,1996,28,20,31,1,Papua New Guinea,910,910,3,18.1
+169,962,495,,CPP,Communist Party of the Philippines,2015,34,34,35,0,Philippines,840,,3,18.1
+193,964,497,,PWG,People’s War Group,1990,47,47,47,0,India,750,,3,18.1
+194,965,498,,MCC,Maoist Communist Centre,1992,35,35,37,0,India,750,,3,18.1
+194,965,498,,MCC,Maoist Communist Centre,1999,49,35,49,0,India,750,,3,18.1
+194,965,498,,MCC,Maoist Communist Centre,2000,26,26,26,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2005,43,43,50,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2006,166,166,174,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2007,135,135,167,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2008,167,167,175,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2009,243,224,289,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2010,321,263,360,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2011,195,195,202,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2012,108,106,121,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2013,126,99,129,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2014,77,63,82,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2015,76,73,89,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2016,93,93,104,0,India,750,,3,18.1
+195,966,499,,CPI-Maoist,Communist Party of India-Maoist,2017,130,130,139,0,India,750,,3,18.1
+208,967,500,,PIJ,Palestinian Islamic Jihad,2001,37,37,38,0,Israel,666,,2,18.1
+208,967,500,,PIJ,Palestinian Islamic Jihad,2002,26,26,28,0,Israel,666,,2,18.1
+208,967,500,,PIJ,Palestinian Islamic Jihad,2005,30,30,32,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,1994,54,54,56,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,1996,44,44,59,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,2001,55,54,57,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,2002,145,145,145,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,2003,79,79,84,0,Israel,666,,2,18.1
+209,968,501,,Hamas,Islamic Resistance Movement,2004,35,35,46,0,Israel,666,,2,18.1
+211,969,502,,AMB,al-Aqsa Martyrs' Brigades,2002,81,80,81,0,Israel,666,,2,18.1
+211,969,502,,AMB,al-Aqsa Martyrs' Brigades,2003,41,41,43,0,Israel,666,,2,18.1
+223,970,503,,NSCN-IM,National Socialist Council of Nagaland – Isaac-Muivah faction,1989,90,90,90,0,India,750,,3,18.1
+223,970,503,,NSCN-IM,National Socialist Council of Nagaland – Isaac-Muivah faction,1993,194,194,207,0,India,750,,3,18.1
+223,970,503,,NSCN-IM,National Socialist Council of Nagaland – Isaac-Muivah faction,1994,56,56,81,0,India,750,,3,18.1
+223,970,503,,NSCN-IM,National Socialist Council of Nagaland – Isaac-Muivah faction,1995,35,35,35,0,India,750,,3,18.1
+223,970,503,,NSCN-IM,National Socialist Council of Nagaland – Isaac-Muivah faction,1996,33,33,33,0,India,750,,3,18.1
+233,972,505,,Ansar al-Islam,Supporters of Islam,2004,41,41,51,0,Iraq,645,,2,18.1
+233,972,505,,Ansar al-Islam,Supporters of Islam,2005,76,76,77,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2004,92,92,97,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2005,727,721,785,0,"Iraq, Jordan","645, 663",,2,18.1
+234,973,506,,IS,Islamic State,2006,443,443,503,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2007,1991,1436,2089,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2008,526,510,542,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2009,636,518,664,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2010,706,570,741,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2011,322,300,341,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2012,769,714,772,0,Iraq,645,,2,18.1
+234,973,506,,IS,Islamic State,2013,2144,2073,2200,0,"Iraq, Syria","645, 652",,2,18.1
+234,973,506,,IS,Islamic State,2014,4187,4187,4522,0,"Iraq, Syria","645, 652",,2,18.1
+234,973,506,,IS,Islamic State,2015,6042,5778,6955,0,"Afghanistan, Bangladesh, Cameroon, Chad, Egypt, France, Iraq, Kuwait, Libya, Niger, Nigeria, Pakistan, Russia (Soviet Union), Saudi Arabia, Syria, Tunisia, Turkey, United States of America, Yemen (North Yemen)","2, 220, 365, 436, 471, 475, 483, 616, 620, 640, 645, 651, 652, 670, 678, 690, 700, 770, 771",,"2, 4, 3, 1, 5",18.1
+234,973,506,,IS,Islamic State,2016,4016,3992,4339,0,"Afghanistan, Bangladesh, Belgium, Cameroon, Chad, Egypt, France, Germany, Iraq, Lebanon, Libya, Niger, Nigeria, Pakistan, Philippines, Russia (Soviet Union), Saudi Arabia, Syria, Turkey, Yemen (North Yemen)","211, 220, 260, 365, 436, 471, 475, 483, 620, 640, 645, 651, 652, 660, 670, 678, 700, 770, 771, 840",,"2, 4, 3, 1",18.1
+234,973,506,,IS,Islamic State,2017,2524,2514,2684,0,"Afghanistan, Bangladesh, Burkina Faso, Chad, Egypt, Iraq, Libya, Mali, Niger, Nigeria, Pakistan, Philippines, Spain, Sweden, Syria, Tunisia, Turkey, United States of America","2, 230, 380, 432, 436, 439, 475, 483, 616, 620, 640, 645, 651, 652, 700, 770, 771, 840",,"2, 4, 3, 1, 5",18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,1999,50,50,67,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2000,46,41,58,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2001,66,66,78,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2002,212,212,220,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2003,194,194,204,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2004,400,400,427,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2005,187,187,218,0,Nepal,790,,3,18.1
+258,974,507,,CPN-M,Communist Party of Nepal-Maoist,2006,62,61,75,0,Nepal,790,,3,18.1
+270,975,508,,KR,Red Khmers,1990,103,103,127,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1991,92,92,92,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1992,73,73,91,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1993,184,181,310,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1994,102,102,167,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1995,29,29,29,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1996,53,53,53,0,Cambodia (Kampuchea),811,,3,18.1
+270,975,508,,KR,Red Khmers,1998,25,23,45,0,Cambodia (Kampuchea),811,,3,18.1
+276,976,509,,MILF,Moro Islamic Liberation Front,2000,172,165,188,0,Philippines,840,,3,18.1
+276,976,509,,MILF,Moro Islamic Liberation Front,2003,55,39,128,0,Philippines,840,,3,18.1
+276,976,509,,MILF,Moro Islamic Liberation Front,2008,39,39,39,0,Philippines,840,,3,18.1
+277,977,510,,ASG,Abu Sayyaf Group,1995,25,25,51,0,Philippines,840,,3,18.1
+277,977,510,,ASG,Abu Sayyaf Group,2001,33,33,38,0,Philippines,840,,3,18.1
+277,977,510,,ASG,Abu Sayyaf Group,2002,38,38,38,0,Philippines,840,,3,18.1
+277,977,510,,ASG,Abu Sayyaf Group,2004,122,122,122,0,Philippines,840,,3,18.1
+277,977,510,,ASG,Abu Sayyaf Group,2010,25,25,30,0,Philippines,840,,3,18.1
+281,978,511,,JVP,People's Liberation Front,1989,250,250,567,0,Sri Lanka,780,,3,18.1
+285,979,512,,JSS/SB,People's Solidarity Association/Peace Force,1989,54,54,54,0,Bangladesh,771,,3,18.1
+285,979,512,,JSS/SB,People's Solidarity Association/Peace Force,1990,47,47,47,0,Bangladesh,771,,3,18.1
+285,979,512,,JSS/SB,People's Solidarity Association/Peace Force,1991,67,67,68,0,Bangladesh,771,,3,18.1
+285,979,512,,JSS/SB,People's Solidarity Association/Peace Force,1992,52,52,52,0,Bangladesh,771,,3,18.1
+285,979,512,,JSS/SB,People's Solidarity Association/Peace Force,1996,30,30,31,0,Bangladesh,771,,3,18.1
+287,980,513,,BLA,Balochistan Liberation Army,2010,31,31,38,0,Pakistan,770,,3,18.1
+303,981,514,,Taleban,Taleban,1996,42,12,42,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2004,53,51,69,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2005,114,114,149,0,"Afghanistan, Pakistan","700, 770",,3,18.1
+303,981,514,,Taleban,Taleban,2006,196,194,253,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2007,113,113,142,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2008,108,74,120,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2009,154,151,179,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2010,185,184,286,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2011,76,76,163,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2012,83,82,131,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2013,64,62,80,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2014,240,237,297,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2015,160,160,245,0,Afghanistan,700,,3,18.1
+303,981,514,,Taleban,Taleban,2016,149,149,285,0,"Afghanistan, Pakistan","700, 770",,3,18.1
+303,981,514,,Taleban,Taleban,2017,89,88,129,0,Afghanistan,700,,3,18.1
+304,982,515,,UIFSA,United Islamic Front for the Salvation of Afghanistan,2001,200,200,1000,0,Afghanistan,700,,3,18.1
+306,983,516,,ATTF,All Tripura Tiger Force,1993,25,25,25,0,India,750,,3,18.1
+306,983,516,,ATTF,All Tripura Tiger Force,1997,54,54,73,0,India,750,,3,18.1
+306,983,516,,ATTF,All Tripura Tiger Force,1998,29,29,29,0,India,750,,3,18.1
+306,983,516,,ATTF,All Tripura Tiger Force,2003,62,62,71,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,1996,36,36,39,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,1998,61,61,70,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,1999,48,45,51,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,2000,64,64,64,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,2001,48,48,48,0,"Bangladesh, India","750, 771",,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,2002,40,24,51,0,India,750,,3,18.1
+307,984,517,,NLFT,National Liberation Front of Tripura,2003,91,81,92,0,India,750,,3,18.1
+310,985,518,,Jondullah,God’s Army,2009,25,25,30,0,Iran,630,,2,18.1
+316,1340,871,,KNF,Kuki National Front,1997,25,20,25,0,India,750,,3,18.1
+319,986,519,,Sikh insurgents,Sikh insurgents,1989,140,140,1351,0,India,750,,3,18.1
+319,986,519,,Sikh insurgents,Sikh insurgents,1990,296,296,376,0,India,750,,3,18.1
+319,986,519,,Sikh insurgents,Sikh insurgents,1991,433,433,619,0,"India, Nepal","750, 790",,3,18.1
+319,986,519,,Sikh insurgents,Sikh insurgents,1992,445,442,498,0,India,750,,3,18.1
+319,986,519,,Sikh insurgents,Sikh insurgents,1993,34,34,34,0,India,750,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1989,145,145,204,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1990,683,683,713,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1991,147,147,164,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1992,318,315,321,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1994,25,25,80,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1995,197,197,217,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1996,197,197,197,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1998,60,60,61,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,1999,62,62,82,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,2000,35,35,43,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,2006,78,78,79,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,2007,46,46,121,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,2008,185,185,198,0,Sri Lanka,780,,3,18.1
+320,987,520,,LTTE,Liberation Tigers of Tamil Eelam,2009,248,248,261,0,Sri Lanka,780,,3,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1989,74,74,77,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1990,61,61,75,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1991,49,49,58,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1992,216,205,273,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1993,404,404,1512,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1994,205,205,306,0,Turkey,640,,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1995,96,96,165,0,"Iraq, Turkey","640, 645",,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1998,66,66,66,0,"Iraq, Turkey","640, 645",,2,18.1
+323,988,521,,PKK,Kurdistan Worker’s Party,1999,30,30,35,0,"Iraq, Turkey","640, 645",,2,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1990,59,59,80,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1993,34,34,654,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1995,37,37,96,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1996,121,121,142,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1997,63,63,151,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1998,251,248,289,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,1999,251,247,451,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2000,685,673,686,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2001,240,240,742,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2002,363,363,363,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2003,245,181,352,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2004,156,156,162,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2005,247,242,284,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2006,190,190,201,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2007,38,38,39,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2008,39,39,41,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2009,30,30,40,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2010,25,25,25,0,India,750,,3,18.1
+325,989,522,,Kashmir insurgents,Kashmir insurgents,2017,25,25,25,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2000,85,74,85,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2001,36,32,48,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2004,64,51,78,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2006,36,36,47,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2007,180,172,190,0,India,750,,3,18.1
+326,990,523,,ULFA,United Liberation Front of Assam,2009,36,33,36,0,India,750,,3,18.1
+327,991,524,,GAM,Free Aceh Movement,1990,32,31,32,0,Indonesia,850,,3,18.1
+327,991,524,,GAM,Free Aceh Movement,2003,134,132,152,0,Indonesia,850,,3,18.1
+327,991,524,,GAM,Free Aceh Movement,2004,77,76,84,0,Indonesia,850,,3,18.1
+338,992,525,,Republic of Artsakh,Republic of Artsakh,1992,161,161,763,0,Azerbaijan,373,,1,18.1
+341,993,526,,al-Gama'a al-Islamiyya,Islamic Group,1995,40,40,60,0,Egypt,651,,2,18.1
+341,993,526,,al-Gama'a al-Islamiyya,Islamic Group,1996,64,64,68,0,Egypt,651,,2,18.1
+341,993,526,,al-Gama'a al-Islamiyya,Islamic Group,1997,77,77,93,0,Egypt,651,,2,18.1
+342,994,527,,Republic of Abkhazia,Republic of Abkhazia,1993,74,74,120,0,Georgia,372,,1,18.1
+342,994,527,,Republic of Abkhazia,Republic of Abkhazia,1995,52,52,58,0,Georgia,372,,1,18.1
+350,995,528,,Croatian Republic of Bosnia-Herzegovina,Croatian Republic of Bosnia-Herzegovina,1993,132,132,147,0,Bosnia-Herzegovina,346,,1,18.1
+350,995,528,,Croatian Republic of Bosnia-Herzegovina,Croatian Republic of Bosnia-Herzegovina,1995,37,37,40,0,Bosnia-Herzegovina,346,,1,18.1
+352,996,529,,Chechen Republic of Ichkeria,Chechen Republic of Ichkeria,1999,32,32,32,0,Russia (Soviet Union),365,,1,18.1
+352,996,529,,Chechen Republic of Ichkeria,Chechen Republic of Ichkeria,2003,59,32,68,0,Russia (Soviet Union),365,,1,18.1
+352,996,529,,Chechen Republic of Ichkeria,Chechen Republic of Ichkeria,2004,108,108,111,0,Russia (Soviet Union),365,,1,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2007,58,58,58,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2008,243,243,257,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2009,225,225,243,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2010,549,536,618,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2011,198,198,198,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2012,166,166,166,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2013,496,496,496,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2014,174,174,187,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2015,55,55,59,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2016,230,230,233,0,Pakistan,770,,3,18.1
+356,997,530,,TTP,Taleban Movement of Pakistan,2017,42,42,58,0,Pakistan,770,,3,18.1
+362,1373,902,,ABSU,All Bodo Student’s Union,1990,69,60,73,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,1992,83,83,114,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,1994,108,108,108,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,1995,39,39,39,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,1997,45,45,73,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,1998,60,60,88,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,2000,58,45,59,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,2001,46,44,46,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,2002,73,73,73,0,India,750,,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,2004,51,51,91,0,"Bhutan, India","750, 760",,3,18.1
+363,998,531,,NDFB,National Democratic Front for Bodoland,2009,33,27,35,0,India,750,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2004,146,146,147,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2005,286,285,299,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2006,329,329,329,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2007,320,320,323,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2008,180,180,180,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2009,120,118,131,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2010,136,136,137,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2011,116,116,135,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2012,113,111,134,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2013,60,60,60,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2014,32,25,41,0,Thailand,800,,3,18.1
+365,999,532,,Patani insurgents,Patani insurgents,2015,27,22,32,0,Thailand,800,,3,18.1
+367,1000,533,,Forces of the Caucasus Emirate,Forces of the Caucasus Emirate,2010,58,58,60,0,Russia (Soviet Union),365,,1,18.1
+367,1000,533,,Forces of the Caucasus Emirate,Forces of the Caucasus Emirate,2011,40,39,45,0,Russia (Soviet Union),365,,1,18.1
+367,1000,533,,Forces of the Caucasus Emirate,Forces of the Caucasus Emirate,2013,40,40,43,0,Russia (Soviet Union),365,,1,18.1
+368,1001,534,,DHD - BW,Dima Halam Daogah - Black Widow faction,2008,35,35,37,0,India,750,,3,18.1
+373,1002,535,,BLTF,Bodo Liberation Tiger Force,1996,37,37,43,0,India,750,,3,18.1
+373,1002,535,,BLTF,Bodo Liberation Tiger Force,1998,31,31,33,0,India,750,,3,18.1
+382,1003,536,,Gazotan Murdash,Followers of the Holy War,2004,41,38,50,0,Russia (Soviet Union),365,,1,18.1
+383,1004,537,,GICM,Moroccan Islamic Combatant Group,2004,191,191,191,0,Spain,230,,1,18.1
+384,1005,538,,Jamaat Jund al-Sahaba,Soldiers of the Prophet's Companions,2005,87,87,87,0,Iraq,645,,2,18.1
+384,1005,538,,Jamaat Jund al-Sahaba,Soldiers of the Prophet's Companions,2006,69,69,74,0,Iraq,645,,2,18.1
+385,1006,539,,Jemaah Islamiya,Islamic Community,2002,202,202,202,0,Indonesia,850,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,1998,25,25,25,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,1999,25,25,26,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2003,66,66,66,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2004,70,70,73,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2010,166,124,186,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2011,121,121,152,0,"Afghanistan, Pakistan","700, 770",,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2013,311,311,320,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2014,43,43,43,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2015,49,49,52,0,Pakistan,770,,3,18.1
+388,1007,540,,LeJ,Army of Jhangvi,2017,102,102,102,0,Pakistan,770,,3,18.1
+392,1008,541,,Ranvir Sena,Army of Ranvir,1997,74,74,74,0,India,750,,3,18.1
+392,1008,541,,Ranvir Sena,Army of Ranvir,1999,46,46,52,0,India,750,,3,18.1
+392,1008,541,,Ranvir Sena,Army of Ranvir,2000,35,35,35,0,India,750,,3,18.1
+393,1009,542,,Salafia Jihadia,Salafist Jihadists,2003,46,46,46,0,Morocco,600,,4,18.1
+395,1011,544,,Tawhid wal Jihad,Unity and Holy War,2004,34,34,34,0,Egypt,651,,2,18.1
+395,1011,544,,Tawhid wal Jihad,Unity and Holy War,2005,88,88,88,0,Egypt,651,,2,18.1
+396,1012,545,,UPDS,United People's Democratic Solidarity,2000,27,27,27,0,India,750,,3,18.1
+397,1013,546,,VHP,World Hindu Council,2002,405,382,638,0,India,750,,3,18.1
+399,1394,923,,Lashkar-e-Islam,Army of Islam,2012,29,29,29,0,Pakistan,770,,3,18.1
+422,1014,547,,AFDL,"Alliance of Democratic Forces for the Liberation of Congo-
+Kinshasa",1996,30110,28854,38404,0,DR Congo (Zaire),490,,4,18.1
+422,1014,547,,AFDL,"Alliance of Democratic Forces for the Liberation of Congo-
+Kinshasa",1997,5016,5016,32241,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,1998,2322,2178,8522,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,1999,1761,1761,1813,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,2000,286,250,584,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,2001,173,173,173,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,2002,646,646,690,0,DR Congo (Zaire),490,,4,18.1
+424,1015,548,,RCD,Congolese Rally for Democracy,2003,126,87,130,0,DR Congo (Zaire),490,,4,18.1
+425,1016,549,,RCD-ML ,Congolese Rally for Democracy-Liberation Movement,2001,45,45,45,0,DR Congo (Zaire),490,,4,18.1
+426,1017,550,,CNDP,National Congress for the Defence of the People,2007,46,46,47,0,DR Congo (Zaire),490,,4,18.1
+426,1017,550,,CNDP,National Congress for the Defence of the People,2008,111,111,194,0,DR Congo (Zaire),490,,4,18.1
+431,1422,951,,CNDD,National Council for the Defense of Democracy,1996,62,62,70,0,DR Congo (Zaire),490,,4,18.1
+432,1018,551,,Palipehutu-FNL,Party for the Liberation of the Hutu People-Forces for National Liberation,2002,96,96,98,0,"Burundi, DR Congo (Zaire)","490, 516",,4,18.1
+432,1018,551,,Palipehutu-FNL,Party for the Liberation of the Hutu People-Forces for National Liberation,2003,55,55,77,0,"Burundi, DR Congo (Zaire)","490, 516",,4,18.1
+432,1018,551,,Palipehutu-FNL,Party for the Liberation of the Hutu People-Forces for National Liberation,2004,210,210,210,0,"Burundi, DR Congo (Zaire)","490, 516",,4,18.1
+432,1018,551,,Palipehutu-FNL,Party for the Liberation of the Hutu People-Forces for National Liberation,2005,66,66,66,0,Burundi,516,,4,18.1
+432,1018,551,,Palipehutu-FNL,Party for the Liberation of the Hutu People-Forces for National Liberation,2006,36,34,39,0,Burundi,516,,4,18.1
+434,1019,552,,CNDD-FDD ,National Council for the Defense of Democracy-Forces for the Defense of Democracy,2001,58,53,64,0,Burundi,516,,4,18.1
+434,1019,552,,CNDD-FDD ,National Council for the Defense of Democracy-Forces for the Defense of Democracy,2002,97,95,97,0,Burundi,516,,4,18.1
+434,1019,552,,CNDD-FDD ,National Council for the Defense of Democracy-Forces for the Defense of Democracy,2003,90,90,116,0,"Burundi, DR Congo (Zaire)","490, 516",,4,18.1
+448,1437,966,,CSNPD,Committee of National Revival for Peace and Democracy,1994,124,0,200,0,Chad,483,,4,18.1
+451,1020,553,,FARF,Armed Forces of the Federal Republic,1997,34,34,34,0,Chad,483,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1989,120,120,120,0,Ethiopia,530,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1992,161,161,161,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1993,460,460,460,0,"DR Congo (Zaire), Sudan","490, 625",,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1995,147,147,210,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1996,210,210,237,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1997,146,146,746,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,1998,60,60,94,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,2002,25,25,80,0,Sudan,625,,4,18.1
+466,1021,554,,SPLM/A,Sudanese People’s Liberation Movement/Army,2004,53,33,56,0,"Central African Republic, Sudan","482, 625",,4,18.1
+468,1022,555,,JEM,Justice and Equality Movement,2003,69,69,69,0,Sudan,625,,4,18.1
+469,1023,556,,SLM/A,Sudan Liberation Movement/Army,2005,63,63,87,0,Sudan,625,,4,18.1
+471,1024,557,,SLM/A - MM,Sudan Liberation Movement/Army - Minni Minawi faction,2006,72,72,100,0,Sudan,625,,4,18.1
+486,1025,558,,UPA,Uganda People's Army,1990,40,40,40,0,Uganda,500,,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1989,26,26,36,0,Uganda,500,,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1990,63,63,63,0,Uganda,500,,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1991,102,102,102,0,Uganda,500,,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1995,275,275,285,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1996,586,586,666,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1997,452,452,452,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1998,105,105,105,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,1999,33,33,56,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2000,94,94,104,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2001,60,60,69,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2002,1054,1054,1077,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2003,635,635,922,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2004,957,916,1050,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2005,304,304,308,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2006,47,47,62,0,"DR Congo (Zaire), Sudan, Uganda","490, 500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2007,62,62,62,0,"Sudan, Uganda","500, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2008,732,732,1065,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2009,1352,1316,1422,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2010,434,424,462,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2011,145,145,145,0,"Central African Republic, DR Congo (Zaire), Sudan","482, 490, 625",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2012,64,64,65,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2013,45,45,49,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2014,37,37,38,0,"Central African Republic, DR Congo (Zaire)","482, 490",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2015,27,27,45,0,"Central African Republic, DR Congo (Zaire), South Sudan","482, 490, 626",,4,18.1
+488,1026,559,,LRA,Lord's Resistance Army,2017,26,26,28,0,"Central African Republic, DR Congo (Zaire)","482, 490",,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,1997,144,144,144,0,Uganda,500,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,1998,208,208,272,0,Uganda,500,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,1999,268,268,300,0,Uganda,500,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2000,84,84,90,0,Uganda,500,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2010,38,38,38,0,DR Congo (Zaire),490,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2013,83,83,83,0,DR Congo (Zaire),490,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2014,213,213,215,0,DR Congo (Zaire),490,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2015,236,188,255,0,DR Congo (Zaire),490,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2016,164,164,181,0,DR Congo (Zaire),490,,4,18.1
+489,1027,560,,ADF,Alliance of Democratic Forces,2017,34,34,34,0,DR Congo (Zaire),490,,4,18.1
+490,1471,999,,WNBF,West Nile Bank Front,1996,27,27,27,0,Uganda,500,,4,18.1
+497,1028,561,,ONLF,Ogaden National Liberation Front,2007,82,82,82,0,Ethiopia,530,,4,18.1
+498,1029,562,,Renamo,Mozambican National Resistance,1989,435,435,459,0,"Mozambique, Zambia, Zimbabwe (Rhodesia)","541, 551, 552",,4,18.1
+498,1029,562,,Renamo,Mozambican National Resistance,1990,228,228,294,0,"Mozambique, Zambia, Zimbabwe (Rhodesia)","541, 551, 552",,4,18.1
+498,1029,562,,Renamo,Mozambican National Resistance,1991,525,525,557,0,Mozambique,541,,4,18.1
+498,1029,562,,Renamo,Mozambican National Resistance,1992,212,212,328,0,Mozambique,541,,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1990,2011,2011,2243,0,Liberia,450,,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1991,271,271,289,0,"Liberia, Sierra Leone","450, 451",,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1992,403,403,559,0,"Liberia, Sierra Leone","450, 451",,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1993,994,994,1218,0,"Ivory Coast, Liberia, Sierra Leone","437, 450, 451",,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1994,1357,1357,1818,0,"Ivory Coast, Liberia","437, 450",,4,18.1
+507,1031,564,,NPFL,National Patriotic Front of Liberia,1995,1006,1006,1006,0,"Ivory Coast, Liberia","437, 450",,4,18.1
+508,1032,565,,INPFL,Independent National Patriotic Front of Liberia,1990,84,84,84,0,Liberia,450,,4,18.1
+509,1033,566,,LURD,Liberians United for Reconciliation and Democracy,2002,120,120,120,0,"Liberia, Sierra Leone","450, 451",,4,18.1
+509,1033,566,,LURD,Liberians United for Reconciliation and Democracy,2003,418,418,418,0,Liberia,450,,4,18.1
+513,1488,1015,,ANC,African National Congress,1993,40,40,41,0,South Africa,560,,4,18.1
+522,1034,567,,FIAA,Islamic Arab Front of Azawad,1994,96,96,194,0,Mali,432,,4,18.1
+527,1035,568,,FPR,Rwandan Patriotic Front,1990,52,52,52,0,Rwanda,517,,4,18.1
+527,1035,568,,FPR,Rwandan Patriotic Front,1992,49,49,76,0,Rwanda,517,,4,18.1
+527,1035,568,,FPR,Rwandan Patriotic Front,1993,230,230,230,0,Rwanda,517,,4,18.1
+527,1035,568,,FPR,Rwandan Patriotic Front,1994,992,992,1622,0,"Burundi, Rwanda","516, 517",,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2004,66,66,66,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2005,31,31,46,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2006,46,46,48,0,"DR Congo (Zaire), Uganda","490, 500",,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2007,40,40,40,0,"DR Congo (Zaire), Tanzania","490, 510",,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2008,31,31,44,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2009,992,984,1039,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2010,70,47,77,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2012,187,183,227,0,DR Congo (Zaire),490,,4,18.1
+528,1036,569,,FDLR,Democratic Liberation Forces of Rwanda,2015,52,52,52,0,DR Congo (Zaire),490,,4,18.1
+529,1037,570,,MFDC,Movement of the Democratic Forces of the Casamance,1992,51,51,67,0,Senegal,433,,4,18.1
+529,1037,570,,MFDC,Movement of the Democratic Forces of the Casamance,1993,49,49,59,0,Senegal,433,,4,18.1
+529,1037,570,,MFDC,Movement of the Democratic Forces of the Casamance,1995,25,25,29,0,Senegal,433,,4,18.1
+529,1037,570,,MFDC,Movement of the Democratic Forces of the Casamance,1997,39,39,43,0,Senegal,433,,4,18.1
+529,1037,570,,MFDC,Movement of the Democratic Forces of the Casamance,1998,57,57,57,0,Senegal,433,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1991,604,604,615,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1992,289,289,319,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1993,202,202,209,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1994,1390,1390,1967,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1995,1645,1645,2560,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1996,350,350,588,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1997,125,125,245,0,Sierra Leone,451,,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1998,650,650,673,0,"Guinea, Sierra Leone","438, 451",,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,1999,232,232,232,0,"Guinea, Sierra Leone","438, 451",,4,18.1
+532,1038,571,,RUF,Revolutionary United Front,2000,476,476,476,0,"Guinea, Sierra Leone","438, 451",,4,18.1
+533,1503,1030,,AFRC,Armed Forces Revolutionary Council,1998,1132,1132,1164,0,"Guinea, Sierra Leone","438, 451",,4,18.1
+533,1503,1030,,AFRC,Armed Forces Revolutionary Council,1999,933,933,3829,0,Sierra Leone,451,,4,18.1
+534,1504,1031,,Kamajors,Kamajors,1995,37,37,37,0,Sierra Leone,451,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,1993,26,26,26,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,1997,355,160,1117,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,1998,129,129,629,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,1999,125,125,179,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,2000,245,245,248,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,2001,32,32,32,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,2002,526,524,543,0,Algeria,615,,4,18.1
+538,1039,572,,GIA,Armed Islamic Group,2003,34,34,34,0,Algeria,615,,4,18.1
+539,1040,573,,AQIM,al-Qaida Organization in the Islamic Maghreb,2004,87,87,95,0,Algeria,615,,4,18.1
+539,1040,573,,AQIM,al-Qaida Organization in the Islamic Maghreb,2006,37,37,39,0,Algeria,615,,4,18.1
+539,1040,573,,AQIM,al-Qaida Organization in the Islamic Maghreb,2009,38,36,42,0,"Algeria, Mali, Mauritania","432, 435, 615",,4,18.1
+539,1040,573,,AQIM,al-Qaida Organization in the Islamic Maghreb,2016,39,39,45,0,"Burkina Faso, Ivory Coast, Mali","432, 437, 439",,4,18.1
+545,1041,574,,Cobras,Cobras,1997,39,39,39,0,Congo,484,,4,18.1
+548,1042,575,,Ntsiloulous,Ntsiloulous,1998,58,58,94,0,Congo,484,,4,18.1
+548,1042,575,,Ntsiloulous,Ntsiloulous,2002,58,58,80,0,Congo,484,,4,18.1
+556,1043,576,,MPCI,Patriotic Movement of Ivory Coast,2002,103,103,103,0,Ivory Coast,437,,4,18.1
+556,1043,576,,MPCI,Patriotic Movement of Ivory Coast,2003,50,50,100,0,Ivory Coast,437,,4,18.1
+557,1044,577,,MPIGO,Ivorian Movement for the Greater West,2003,65,65,67,0,Ivory Coast,437,,4,18.1
+558,1522,1049,,FRCI,Republican Forces of Ivory Coast,2011,49,49,49,0,Ivory Coast,437,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1989,63,63,307,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1990,51,51,157,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1993,343,343,1941,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1994,35,35,365,0,"Angola, Namibia","540, 565",,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1995,47,47,488,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1998,64,64,607,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,1999,393,393,508,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,2000,267,267,641,0,"Angola, Namibia, Zambia","540, 551, 565",,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,2001,1029,1029,1230,0,Angola,540,,4,18.1
+567,1045,578,,UNITA,National Union for the Total Independence of Angola,2002,55,51,120,0,"Angola, Namibia","540, 565",,4,18.1
+586,1047,580,,AWB,Afrikaner Resistance Movement,1994,39,39,39,0,South Africa,560,,4,18.1
+588,1048,581,,Bakassi boys,Bakassi boys,2000,31,31,31,0,Nigeria,475,,4,18.1
+588,1048,581,,Bakassi boys,Bakassi boys,2005,32,32,35,0,Nigeria,475,,4,18.1
+603,1049,582,,FAPC,People's Armed Forces of Congo,2004,28,28,28,0,DR Congo (Zaire),490,,4,18.1
+606,1050,583,,FNI,Nationalist and Integrationist Front,2002,348,348,348,0,DR Congo (Zaire),490,,4,18.1
+606,1050,583,,FNI,Nationalist and Integrationist Front,2003,1732,1409,2337,0,DR Congo (Zaire),490,,4,18.1
+606,1050,583,,FNI,Nationalist and Integrationist Front,2004,200,100,200,0,DR Congo (Zaire),490,,4,18.1
+606,1050,583,,FNI,Nationalist and Integrationist Front,2005,55,55,55,0,DR Congo (Zaire),490,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,1995,158,153,447,0,Burundi,516,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,1996,600,571,1085,0,Burundi,516,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,1997,453,453,568,0,Burundi,516,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,1998,428,283,655,0,Burundi,516,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,1999,263,258,388,0,Burundi,516,,4,18.1
+619,1051,584,,Hutu rebels,Hutu rebels,2000,234,234,285,0,Burundi,516,,4,18.1
+623,1052,585,,"Interahamwe, ex-FAR",ex-Armed Forces of Rwanda,1994,77,77,203,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2001,140,140,140,0,Sudan,625,,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2002,28,28,188,0,"Chad, Sudan","483, 625",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2003,1064,1064,12733,0,Sudan,625,,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2004,693,693,15215,0,"Chad, Sudan","483, 625",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2005,350,350,505,0,"Chad, Sudan","483, 625",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2006,899,895,1473,0,"Chad, Sudan","483, 625",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2007,303,303,514,0,"Central African Republic, Chad, Sudan","482, 483, 625",,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2008,60,60,99,0,Sudan,625,,4,18.1
+630,1053,586,,Janjaweed ,Janjaweed,2010,41,41,70,0,Sudan,625,,4,18.1
+639,1054,587,,LPC,Liberia Peace Council,1993,53,53,53,0,Liberia,450,,4,18.1
+639,1054,587,,LPC,Liberia Peace Council,1994,1165,1165,1512,0,Liberia,450,,4,18.1
+639,1054,587,,LPC,Liberia Peace Council,1995,1003,1003,1003,0,Liberia,450,,4,18.1
+645,1055,588,,Mayi Mayi - Chinja Chinja,Mayi Mayi - Chinja Chinja,2004,130,75,130,0,DR Congo (Zaire),490,,4,18.1
+645,1055,588,,Mayi Mayi - Chinja Chinja,Mayi Mayi - Chinja Chinja,2005,37,28,37,0,DR Congo (Zaire),490,,4,18.1
+648,1056,589,,Mayi Mayi,Mayi Mayi,1999,167,167,167,0,DR Congo (Zaire),490,,4,18.1
+648,1056,589,,Mayi Mayi,Mayi Mayi,2000,63,63,63,0,DR Congo (Zaire),490,,4,18.1
+648,1056,589,,Mayi Mayi,Mayi Mayi,2002,74,74,74,0,DR Congo (Zaire),490,,4,18.1
+648,1056,589,,Mayi Mayi,Mayi Mayi,2007,31,31,31,0,DR Congo (Zaire),490,,4,18.1
+649,1057,590,,MFDC - FN,Movement of the Democratic Forces of the Casamance - Northern Front,2002,25,25,26,0,Senegal,433,,4,18.1
+659,1058,591,,Mayi Mayi - Ngilima ,Mayi Mayi - Ngilima ,1996,50,50,60,0,DR Congo (Zaire),490,,4,18.1
+665,1059,592,,PAC,Pan-Africanist Congress,1993,47,47,47,0,South Africa,560,,4,18.1
+672,1060,593,,Rastas,Rastas,2005,139,139,171,0,DR Congo (Zaire),490,,4,18.1
+672,1060,593,,Rastas,Rastas,2007,29,18,33,0,DR Congo (Zaire),490,,4,18.1
+674,1061,594,,RCD - LN,Congolese Rally for Democracy - Laurent Nkunda faction,2004,139,139,270,0,DR Congo (Zaire),490,,4,18.1
+678,1062,595,,RRA,Rahanweyn Resistance Army,1999,37,37,37,0,Somalia,520,,4,18.1
+679,1063,596,,RTC,Clandestine Chadian Resistance,1989,170,170,170,0,Chad,483,,4,18.1
+686,1064,597,,SSDF,Southern Sudan Defence Force,1991,2000,2000,2000,0,Sudan,625,,4,18.1
+686,1064,597,,SSDF,Southern Sudan Defence Force,1992,271,271,271,0,Sudan,625,,4,18.1
+686,1064,597,,SSDF,Southern Sudan Defence Force,1993,36,36,90,0,Sudan,625,,4,18.1
+695,1065,598,,ULIMO - J,United Liberation Movement for Democracy in Liberia - Roosevelt Johnson faction,1995,52,52,52,0,Liberia,450,,4,18.1
+695,1065,598,,ULIMO - J,United Liberation Movement for Democracy in Liberia - Roosevelt Johnson faction,1996,1025,1025,1025,0,Liberia,450,,4,18.1
+696,1066,599,,ULIMO - K,United Liberation Movement for Democracy in Liberia - Alhaji Kromah faction,1994,1148,1148,1148,0,Liberia,450,,4,18.1
+696,1066,599,,ULIMO - K,United Liberation Movement for Democracy in Liberia - Alhaji Kromah faction,1995,211,211,250,0,Liberia,450,,4,18.1
+696,1066,599,,ULIMO - K,United Liberation Movement for Democracy in Liberia - Alhaji Kromah faction,1996,71,71,71,0,"Guinea, Liberia","438, 450",,4,18.1
+697,1067,600,,ULIMO,United Liberation Movement for Democracy in Liberia,1993,1272,1272,1272,0,"Liberia, Sierra Leone","450, 451",,4,18.1
+704,1068,601,,SLDF,Sabaot Land Defence Force,2007,53,53,107,0,Kenya,501,,4,18.1
+704,1068,601,,SLDF,Sabaot Land Defence Force,2008,51,51,51,0,Kenya,501,,4,18.1
+714,1069,602,,Mungiki,Mungiki,2007,40,40,40,0,Kenya,501,,4,18.1
+714,1069,602,,Mungiki,Mungiki,2008,29,29,32,0,Kenya,501,,4,18.1
+714,1069,602,,Mungiki,Mungiki,2009,37,37,67,0,Kenya,501,,4,18.1
+715,1070,603,,MPGK ,Patriotic Movement of the Ghanda Koye,1994,246,246,271,0,Mali,432,,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2008,43,34,47,0,Somalia,520,,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2010,88,86,95,0,"Somalia, Uganda","500, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2011,44,35,56,0,"Kenya, Somalia","501, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2012,112,100,153,0,"Kenya, Somalia","501, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2013,185,145,209,0,"Kenya, Somalia","501, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2014,274,209,325,0,"Djibouti, Kenya, Somalia","501, 520, 522",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2015,207,198,207,0,"Kenya, Somalia","501, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2016,109,99,123,0,"Kenya, Somalia","501, 520",,4,18.1
+717,1071,604,,Al-Shabaab,Al-Shabaab,2017,122,113,134,0,"Kenya, Somalia","501, 520",,4,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1994,39,39,39,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1995,37,37,38,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1996,39,28,47,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1997,35,35,41,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1998,39,39,39,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,1999,79,79,81,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2000,106,106,125,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2001,145,145,280,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2002,202,117,260,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2003,153,152,161,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2004,130,130,149,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2005,57,57,62,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2006,59,59,73,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2008,27,27,27,0,Colombia,100,,5,18.1
+743,1072,605,,FARC,Revolutionary Armed Forces of Colombia,2009,30,30,49,0,Colombia,100,,5,18.1
+744,1073,606,,ELN,National Liberation Army,1998,88,88,88,0,Colombia,100,,5,18.1
+744,1073,606,,ELN,National Liberation Army,2000,28,28,29,0,Colombia,100,,5,18.1
+744,1073,606,,ELN,National Liberation Army,2003,30,29,30,0,Colombia,100,,5,18.1
+750,1074,607,,Sendero Luminoso,Shining Path,1989,90,90,116,0,Peru,135,,5,18.1
+750,1074,607,,Sendero Luminoso,Shining Path,1990,123,123,177,0,Peru,135,,5,18.1
+750,1074,607,,Sendero Luminoso,Shining Path,1991,146,146,802,0,Peru,135,,5,18.1
+750,1074,607,,Sendero Luminoso,Shining Path,1992,139,139,895,0,Peru,135,,5,18.1
+750,1074,607,,Sendero Luminoso,Shining Path,1993,107,107,364,0,Peru,135,,5,18.1
+769,1075,608,,al-Qaida ,The Base,2001,2753,2753,2753,0,United States of America,2,,5,18.1
+769,1075,608,,al-Qaida ,The Base,2003,26,26,43,0,Saudi Arabia,670,,2,18.1
+769,1075,608,,al-Qaida ,The Base,2004,33,33,35,0,Saudi Arabia,670,,2,18.1
+769,1075,608,,al-Qaida ,The Base,2005,52,52,54,0,"Pakistan, United Kingdom","200, 770",,"3, 1",18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1989,28,28,28,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1990,58,58,58,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1995,62,62,62,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1996,159,159,163,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1997,214,212,246,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1998,379,379,426,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,1999,478,473,533,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2000,551,549,656,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2001,603,590,640,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2002,334,267,708,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2003,149,149,160,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2004,142,131,163,0,Colombia,100,,5,18.1
+771,1077,610,,AUC,United Self-Defence forces of Colombia,2005,38,38,38,0,Colombia,100,,5,18.1
+774,1078,611,,Medellín Cartel,Medellín Cartel,1989,114,114,121,0,Colombia,100,,5,18.1
+774,1078,611,,Medellín Cartel,Medellín Cartel,1993,40,40,40,0,Colombia,100,,5,18.1
+778,1079,612,,Mara Salvatrucha (Honduras),n/a,2004,28,28,31,0,Honduras,91,,5,18.1
+779,1080,613,,Paz y Justicia,Peace and Justice,1997,45,45,45,0,Mexico,70,,5,18.1
+882,1081,614,,Ampatuan militia,Ampatuan militia,2009,57,57,57,0,Philippines,840,,3,18.1
+883,1082,615,,DHD,Dima Halam Daogah,2005,79,54,84,0,India,750,,3,18.1
+884,1083,616,,KRA,Kuki Revolutionary Army,2004,34,34,43,0,India,750,,3,18.1
+885,1084,617,,HPC,Hmar People's Convention,2003,28,28,28,0,India,750,,3,18.1
+886,1085,618,,AAH,The League of the Righteous,2009,35,35,35,0,Iraq,645,,2,18.1
+896,1086,619,,PARECO,Coalition of Congolese Patriotic Resistance,2008,41,41,41,0,DR Congo (Zaire),490,,4,18.1
+974,1087,620,,SPM/SNA ,Somali Patriotic Movement/Somali National Alliance,1992,90,90,90,0,Somalia,520,,4,18.1
+1043,1088,621,,RCD - CP ,Congolese Rally for Democracy - Christian Pay Pay faction,2004,30,30,30,0,DR Congo (Zaire),490,,4,18.1
+1045,1089,622,,Buxton gang,Buxton gang,2008,29,29,30,0,Guyana,110,,5,18.1
+1046,1090,623,,Fedayeen Islam,Partisans of Islam,2008,54,54,54,0,Pakistan,770,,3,18.1
+1047,1091,624,,Indian Mujahideen,Indian Mujahideen,2005,78,78,79,0,India,750,,3,18.1
+1047,1091,624,,Indian Mujahideen,Indian Mujahideen,2006,205,205,210,0,India,750,,3,18.1
+1047,1091,624,,Indian Mujahideen,Indian Mujahideen,2008,136,22,136,0,India,750,,3,18.1
+1047,1091,624,,Indian Mujahideen,Indian Mujahideen,2011,26,26,26,0,India,750,,3,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2010,92,87,103,0,Nigeria,475,,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2011,82,78,192,0,Nigeria,475,,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2012,457,279,515,0,Nigeria,475,,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2013,839,813,1028,0,"Cameroon, Nigeria","471, 475",,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2014,5124,5023,6487,0,"Cameroon, Chad, Nigeria","471, 475, 483",,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2015,1282,1269,1681,0,"Cameroon, Chad, Niger, Nigeria","436, 471, 475, 483",,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2016,193,193,210,0,"Cameroon, Nigeria","471, 475",,4,18.1
+1051,2332,1850,,Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,People Committed to Propagating the Prophet's Teachings and Jihad,2017,909,909,979,0,"Cameroon, Niger, Nigeria","436, 471, 475",,4,18.1
+1066,1092,625,,NDFB - RD,National Democratic Front for Bodoland -  Ranjan Daimary faction,2010,32,30,32,0,India,750,,3,18.1
+1070,1093,626,,Lashkar-e-Taiba,Army of the Pure,2003,54,54,54,0,India,750,,3,18.1
+1070,1093,626,,Lashkar-e-Taiba,Army of the Pure,2007,68,0,68,0,India,750,,3,18.1
+1070,1093,626,,Lashkar-e-Taiba,Army of the Pure,2008,148,148,148,0,India,750,,3,18.1
+1076,1094,627,,UPC,"Union of Congolese Patriots
+",2002,1894,1768,2541,0,DR Congo (Zaire),490,,4,18.1
+1076,1094,627,,UPC,"Union of Congolese Patriots
+",2003,475,475,525,0,DR Congo (Zaire),490,,4,18.1
+1077,1095,628,,FRPI,Patriotic Force of Resistance in Ituri,2002,164,164,164,0,DR Congo (Zaire),490,,4,18.1
+1077,1095,628,,FRPI,Patriotic Force of Resistance in Ituri,2004,29,29,152,0,DR Congo (Zaire),490,,4,18.1
+1077,1095,628,,FRPI,Patriotic Force of Resistance in Ituri,2012,31,31,31,0,DR Congo (Zaire),490,,4,18.1
+1088,1096,629,,Los Zetas,The Zetas,2010,86,86,86,0,Mexico,70,,5,18.1
+1088,1096,629,,Los Zetas,The Zetas,2011,268,268,281,0,"Guatemala, Mexico","70, 90",,5,18.1
+1104,1097,630,,Laskar Jihad,Warriors of Jihad,2000,98,98,98,0,Indonesia,850,,3,18.1
+1114,1098,631,,Mayi Mayi Complet,Mayi Mayi Complet,2010,27,27,27,0,DR Congo (Zaire),490,,4,18.1
+1116,2390,1908,,LDF,Lofa Defence Force,1993,269,269,269,0,Liberia,450,,4,18.1
+1117,2391,1909,,IFP,Inkatha Freedom Party,1993,67,67,68,0,South Africa,560,,4,18.1
+1128,2402,1920,,ALiR,Army for the Liberation of Rwanda ,1996,1171,650,5214,0,"DR Congo (Zaire), Rwanda","490, 517",,4,18.1
+1128,2402,1920,,ALiR,Army for the Liberation of Rwanda ,1997,809,805,2313,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",,4,18.1
+1128,2402,1920,,ALiR,Army for the Liberation of Rwanda ,1998,1079,1077,1141,0,"Burundi, DR Congo (Zaire), Rwanda","490, 516, 517",,4,18.1
+1128,2402,1920,,ALiR,Army for the Liberation of Rwanda ,1999,51,43,61,0,"DR Congo (Zaire), Rwanda, Uganda","490, 500, 517",,4,18.1
+1128,2402,1920,,ALiR,Army for the Liberation of Rwanda ,2000,73,72,73,0,DR Congo (Zaire),490,,4,18.1
+1131,2405,1923,,AJPSN,"Alliance of Young Patriots for national revival
+ ",2011,52,52,54,0,Ivory Coast,437,,4,18.1
+1159,2433,1951,,Seleka,Union,2013,43,43,43,0,Central African Republic,482,,4,18.1
+1160,2434,1952,,M23,March 23 Movement,2013,32,32,32,0,DR Congo (Zaire),490,,4,18.1
+1185,2459,1977,,PCPA,People's Committee against Police Atrocities ,2010,146,146,146,0,India,750,,3,18.1
+1186,2460,1978,,PFT,Popular Front of Tajikistan,1992,50,50,50,0,Tajikistan,702,,3,18.1
+1187,2461,1979,,PLFI,People's Liberation Front of India,2012,105,102,105,0,India,750,,3,18.1
+1193,2467,1985,,FNDIC,Federation of Niger Delta Ijaw Communities,2003,53,53,79,0,Nigeria,475,,4,18.1
+1198,2472,1990,,Mayi Mayi Simba,Mayi Mayi Simba,2012,34,34,104,0,DR Congo (Zaire),490,,4,18.1
+1199,2473,1991,,Raia Mutomboki,Raia Mutomboki,2012,43,43,43,0,DR Congo (Zaire),490,,4,18.1
+1218,2491,2009,,JMB,Jamaat-ul-Mujahideen Bangladesh ,2004,25,23,53,0,Bangladesh,771,,3,18.1
+1645,2918,2393,,FDPC,Democratic Front for the People of Central Africa,2015,39,39,39,0,Central African Republic,482,,4,18.1
+2034,3307,2751,,TAK,Kurdistan Freedom Falcons ,2016,37,37,37,0,Turkey,640,,2,18.1
+2933,4203,3620,,Al-Khobar,Al-Khobar,2007,31,31,31,0,Philippines,840,,3,18.1
+3037,4307,3722,,NDC,Ndumba Defense of Congo ,2013,92,92,92,0,DR Congo (Zaire),490,,4,18.1
+3040,4310,3725,,Nyatura,Nyatura,2013,37,37,37,0,DR Congo (Zaire),490,,4,18.1
+3047,4317,3732,,TTP-Islahi,Taleban Movement of Pakistan - Islahi faction,2012,42,42,42,0,Pakistan,770,,3,18.1
+3192,4462,3870,,UBA,United Baloch Army,2014,43,43,43,0,Pakistan,770,,3,18.1
+3481,4751,4150,,Signed-in-Blood Battalion,Signed-in-Blood Battalion,2013,26,26,26,0,Algeria,615,,4,18.1
+3554,4824,4219,,FPR-BL,Popular Front for Reconstruction - Baba Lade faction,2014,99,99,99,0,Central African Republic,482,,4,18.1
+3845,5111,4505,"423, 653","MLC, RCD-N","Congolese Rally for Democracy-National, Movement for the Liberation of Congo",2002,185,173,185,0,DR Congo (Zaire),490,,4,18.1
+3846,5112,4506,"606, 1077, 789","FNI, FRPI, RCD-K-ML ","Congolese Rally for Democracy-Kisangani-Liberation Movement, Nationalist and Integrationist Front, Patriotic Force of Resistance in Ituri",2003,160,80,160,0,DR Congo (Zaire),490,,4,18.1
+3847,5113,4507,"606, 1077","FNI, FRPI","Nationalist and Integrationist Front, Patriotic Force of Resistance in Ituri",2003,325,265,415,0,DR Congo (Zaire),490,,4,18.1
+3848,5114,4508,"1077, 789","FRPI, RCD-K-ML ","Congolese Rally for Democracy-Kisangani-Liberation Movement, Patriotic Force of Resistance in Ituri",2002,1200,1200,3000,0,DR Congo (Zaire),490,,4,18.1
+3851,5117,4511,"423, 1076, 653","MLC, RCD-N, UPC","Congolese Rally for Democracy-National, Movement for the Liberation of Congo, Union of Congolese Patriots
+",2002,50,50,50,0,DR Congo (Zaire),490,,4,18.1
+3859,5125,4519,"603, 606","FAPC, FNI","Nationalist and Integrationist Front, People's Armed Forces of Congo",2003,33,33,33,0,DR Congo (Zaire),490,,4,18.1
+3861,11868,11258,"623, 1044","Interahamwe, ex-FAR, MAGRIVI ","ex-Armed Forces of Rwanda, Farmers Mutual Society of Virunga",1996,315,209,984,0,DR Congo (Zaire),490,,4,18.1
+3864,5129,4523,"371, 339","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",1992,3580,3580,3720,0,"Bosnia-Herzegovina, Serbia (Yugoslavia)","345, 346",,1,18.1
+3864,5129,4523,"371, 339","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",1993,218,218,298,0,Bosnia-Herzegovina,346,,1,18.1
+3864,5129,4523,"371, 339","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",1994,296,296,398,0,Bosnia-Herzegovina,346,,1,18.1
+3864,5129,4523,"371, 339","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina","Serbian irregulars, Serbian Republic of Bosnia-Herzegovina",1995,8360,8360,8472,0,"Bosnia-Herzegovina, Serbia (Yugoslavia)","345, 346",,1,18.1
+3967,12046,11403,,Kata Katanga,Kata Katanga,2013,173,173,174,0,DR Congo (Zaire),490,,4,18.1
+4007,12382,11706,,FPRC,Popular Front for the Rebirth of the Central African Republic,2013,464,464,465,0,Central African Republic,482,,4,18.1
+4007,12382,11706,,FPRC,Popular Front for the Rebirth of the Central African Republic,2014,672,664,709,0,Central African Republic,482,,4,18.1
+4007,12382,11706,,FPRC,Popular Front for the Rebirth of the Central African Republic,2015,153,153,153,0,Central African Republic,482,,4,18.1
+4007,12382,11706,,FPRC,Popular Front for the Rebirth of the Central African Republic,2016,44,44,44,0,Central African Republic,482,,4,18.1
+4149,4316,3731,"1199, 4148","Mayi Mayi Kifuafua, Raia Mutomboki","Mayi Mayi Kifuafua, Raia Mutomboki",2012,241,241,241,0,DR Congo (Zaire),490,,4,18.1
+4163,14377,13432,,PYD,Democratic Union Party,2013,28,28,28,0,Syria,652,,2,18.1
+4163,14377,13432,,PYD,Democratic Union Party,2014,85,85,95,0,Syria,652,,2,18.1
+4201,12379,11705,,anti-Balaka,anti-Balaka,2013,685,648,708,0,Central African Republic,482,,4,18.1
+4201,12379,11705,,anti-Balaka,anti-Balaka,2014,1005,955,1050,0,Central African Republic,482,,4,18.1
+4201,12379,11705,,anti-Balaka,anti-Balaka,2015,57,57,57,0,Central African Republic,482,,4,18.1
+4201,12379,11705,,anti-Balaka,anti-Balaka,2017,177,141,191,0,Central African Republic,482,,4,18.1
+4226,12414,11732,,SPLM/A In Opposition,Sudan People´s Liberation Army/Movement In Opposition,2013,103,103,128,0,South Sudan,626,,4,18.1
+4226,12414,11732,,SPLM/A In Opposition,Sudan People´s Liberation Army/Movement In Opposition,2014,582,582,676,0,South Sudan,626,,4,18.1
+4226,12414,11732,,SPLM/A In Opposition,Sudan People´s Liberation Army/Movement In Opposition,2016,41,41,41,0,South Sudan,626,,4,18.1
+4233,12420,11736,,ADP,Arab Democratic Party,2013,47,47,47,0,Lebanon,660,,2,18.1
+4340,12515,11820,,UDA,Ulster Defence Association,1993,32,32,32,0,United Kingdom,200,,1,18.1
+4456,14200,13299,,Syrian insurgents,Syrian insurgents,2012,93,93,156,0,Syria,652,,2,18.1
+4456,14200,13299,,Syrian insurgents,Syrian insurgents,2013,405,240,452,0,Syria,652,,2,18.1
+4456,14200,13299,,Syrian insurgents,Syrian insurgents,2014,73,73,74,0,Syria,652,,2,18.1
+4456,14200,13299,,Syrian insurgents,Syrian insurgents,2015,111,111,127,0,Syria,652,,2,18.1
+4456,14200,13299,,Syrian insurgents,Syrian insurgents,2016,29,29,30,0,Syria,652,,2,18.1
+5546,13782,13005,,Al-Umma,The Nation,1998,58,58,58,0,India,750,,3,18.1
+5659,13943,13132,,al-Mahdi Army,al-Mahdi Army,2006,54,28,147,0,Iraq,645,,2,18.1
+5659,13943,13132,,al-Mahdi Army,al-Mahdi Army,2007,70,67,83,0,Iraq,645,,2,18.1
+5826,14097,13230,,NDFB-S, National Democratic Front of Bodoland-Songbijit,2014,135,16,178,0,India,750,,3,18.1
+5895,14189,13293,,Jaish-ul-Islam,Army of Islam,2014,35,35,35,0,Pakistan,770,,3,18.1
+5997,14315,13382,,Mayi Mayi - Makabe,Mayi Mayi - Makabe Kalenga Ngwele,2002,25,25,25,0,DR Congo (Zaire),490,,4,18.1
+5997,14315,13382,,Mayi Mayi - Makabe,Mayi Mayi - Makabe Kalenga Ngwele,2003,25,25,25,0,DR Congo (Zaire),490,,4,18.1
+5999,14329,13388,,UPC (Ali Darass Fulani supporters),Union for Peace in the Central African Republic,2014,171,171,191,0,Central African Republic,482,,4,18.1
+5999,14329,13388,,UPC (Ali Darass Fulani supporters),Union for Peace in the Central African Republic,2015,83,83,83,0,Central African Republic,482,,4,18.1
+5999,14329,13388,,UPC (Ali Darass Fulani supporters),Union for Peace in the Central African Republic,2016,274,274,282,0,Central African Republic,482,,4,18.1
+5999,14329,13388,,UPC (Ali Darass Fulani supporters),Union for Peace in the Central African Republic,2017,278,254,366,0,Central African Republic,482,,4,18.1
+6185,14525,13529,,Elements (Luba militia),Elements,2015,34,34,34,0,DR Congo (Zaire),490,,4,18.1
+6186,14527,13531,,Perci (Batwa militia),Perci,2015,47,47,47,0,DR Congo (Zaire),490,,4,18.1
+6354,14737,13690,,MPC (Al Khatim rebels),Patriotic Movement for the Central African Republic ,2017,55,55,55,0,Central African Republic,482,,4,18.1
+6506,14830,13757,,Bloque Central Bolívar,Bloque Central Bolívar,2002,26,26,26,0,Colombia,100,,5,18.1
+6579,14915,13812,,MAS,Death to Kidnappers,1991,39,39,39,0,Colombia,100,,5,18.1
+6587,14924,13818,,Mayi Mayi Mazembe,Mayi Mayi Mazembe,2016,73,73,73,0,DR Congo (Zaire),490,,4,18.1
+6587,14924,13818,,Mayi Mayi Mazembe,Mayi Mayi Mazembe,2017,59,55,62,0,DR Congo (Zaire),490,,4,18.1
+6590,15123,9237,,Kamuina Nsapu,Kamuina Nsapu,2017,201,199,205,0,DR Congo (Zaire),490,,4,18.1
+6641,15002,13870,,3R,"Return, Reclamation, Rehabilitation",2016,50,50,50,0,Central African Republic,482,,4,18.1
+6641,15002,13870,,3R,"Return, Reclamation, Rehabilitation",2017,88,88,88,0,Central African Republic,482,,4,18.1
+6648,15176,13999,,Ansaroul Islam,Ansaroul Islam,2017,30,4,30,0,"Burkina Faso, Mali","432, 439",,4,18.1
+6683,15121,13959,"6491, 6587","Mayi Mayi Mazembe, NDC-R","Mayi Mayi Mazembe, Reformed Nduma Defence of Congo",2017,27,27,27,0,DR Congo (Zaire),490,,4,18.1
+6692,15167,13992,,ARSA,Arakan Rohingya Salvation Army,2017,78,78,80,0,Myanmar (Burma),775,,3,18.1
+6699,15078,13925,"4007, 6354","FPRC, MPC (Al Khatim rebels)","Patriotic Movement for the Central African Republic , Popular Front for the Rebirth of the Central African Republic",2016,37,37,37,0,Central African Republic,482,,4,18.1
+6739,15134,13967,,Bana Mura,Bana Mura,2017,174,174,174,0,DR Congo (Zaire),490,,4,18.1
+6769,15161,13987,,Dozos (Mali),Dozos (Mali),2017,25,25,35,0,Mali,432,,4,18.1
+6802,15209,14080,"6801, 489","ADF, Mayi Mayi Mayangose",,2014,119,99,239,0,DR Congo (Zaire),490,,4,18.1
+6807,15216,14085,"489, 6806","ADF, Vuba militia",,2016,31,31,31,0,DR Congo (Zaire),490,,4,18.1
+6845,15435,14245,,Anti-Balaka - Mokom,Anti-Balaka - Maxime Mokom,2016,25,25,25,0,Central African Republic,482,,4,18.1
+6920,15390,14208,,CMC,Coalition for movements of change,2017,33,33,35,0,DR Congo (Zaire),490,,4,18.1
+6968,15434,14244,"6845, 4007, 6354, 6000","Anti-Balaka - Mokom, FPRC, MPC (Al Khatim rebels), RPRC","Anti-Balaka - Maxime Mokom, Patriotic Movement for the Central African Republic , Patriotic Rally for Renewal in the CAR or Gathering for Reconciliation among Central Africans , Popular Front for the Rebirth of the Central African Republic",2017,69,69,78,0,Central African Republic,482,,4,18.1

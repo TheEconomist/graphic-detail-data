@@ -1,0 +1,17 @@
+participant_country,participant_country_id,participant_maddison_code,participant_region,participant_deaths,conflict_name,conflict_start_year,conflict_end_year,COW_id,UCDP_id,state_conflict_type,year,year_deaths_share,year_deaths
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2016,0.116653224,27190
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2017,0.040470388,9433
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2011,0.004135848,964
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2012,0.165090697,38480
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2013,0.293898337,68503
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2014,0.234022927,54547
+Syria,652,SYR,Middle East,233084,Government of Syria vs. Syrian insurgents,2011,2017,,299,Interstate,2015,0.145728579,33967
+Syria,652,SYR,Middle East,123,Government of Syria vs. PYD,2012,2015,,13042,Interstate,2012,0.203252033,25
+Syria,652,SYR,Middle East,123,Government of Syria vs. PYD,2012,2015,,13042,Interstate,2013,0.341463415,42
+Syria,652,SYR,Middle East,123,Government of Syria vs. PYD,2012,2015,,13042,Interstate,2015,0.455284553,56
+Syria,652,SYR,Middle East,37188,Government of Syria vs. IS,2013,2017,,13604,Interstate,2016,0.345918038,12864
+Syria,652,SYR,Middle East,37188,Government of Syria vs. IS,2013,2017,,13604,Interstate,2017,0.295686781,10996
+Syria,652,SYR,Middle East,37188,Government of Syria vs. IS,2013,2017,,13604,Interstate,2013,0.014628375,544
+Syria,652,SYR,Middle East,37188,Government of Syria vs. IS,2013,2017,,13604,Interstate,2014,0.043535549,1619
+Syria,652,SYR,Middle East,37188,Government of Syria vs. IS,2013,2017,,13604,Interstate,2015,0.300231257,11165
+Syria,652,SYR,Middle East,158,Government of Syria vs. SDF,2016,2016,,13809,Interstate,2016,1,158
