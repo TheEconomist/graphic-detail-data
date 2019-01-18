@@ -55,4 +55,8 @@ Our aim was to create a dataframe containing ideological ratings for each party,
 
 - This method is not analytical, but allowed us to create a meaningful two-dimensional representation of a four-dimensional relationship.
 
-The code that generated this plot (apart from our few manual tweaks) is viewable in `populism-chart.html` and `main.js`. It should run well in any modern browser, but has been tested in Chrome and Firefox. (To run it in Chrome, you will need to use a basic HTTP server, like Python's SimpleHTTPServer: navigate to this directory in your terminal, then run `python -m SimpleHTTPServer 8080`; then navigate to `http://localhost:8080/populism-chart.html`.)
+The code that generated this plot (apart from our few manual tweaks) is viewable in `populism-chart.html` and `main.js`. It should run well in any modern browser, but has been tested in Chrome and Firefox. For technical reasons, to run it in Chrome you will need to use a basic HTTP server, like Python's basic http server:
+
+- navigate to this directory in your terminal
+- run `python -m SimpleHTTPServer 8080` (or `python3 -m http.server 8080`)
+- then navigate to `http://localhost:8080/populism-chart.html`.
