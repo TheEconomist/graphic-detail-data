@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Populists in Europe</title>
+  </head>
+
+  <body>
+    <h1>Populists in Europe</h1>
+    <svg id="chart">
+      <g id="links"></g>
+      <g id="nodes"></g>
+    </svg>
+    <div id="tooltip"></div>
+    <!-- <img src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif" /> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.3/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+
+    <script src="./main.js"></script>
+
+    <style>
+      #tooltip {
+        position: absolute;
+        padding: 2px;
+        background: white;
+        pointer-events: none;
+      }
+    </style>
+  </body>
+</html>
