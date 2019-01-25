@@ -1,0 +1,597 @@
+,manager,predicted_points_per_season_added,previous_club_names,previous_club_ids,previous_club_countries,current_club_name,current_club_id,currently_employed
+0,Lucien Favre,3.7621382332703597,"['Hertha', 'Borussia Mönchengladbach', 'Nice', 'Borussia Dortmund']","[44, 18, 417, 16]","['Germany', 'Germany', 'France', 'Germany']",Borussia Dortmund,16.0,1
+1,Rudi Garcia,3.3995431878909397,"['Le Mans', 'Lille', 'Roma', 'Marseille']","[1164, 1082, 12, 244]","['France', 'France', 'Italy', 'France']",Marseille,244.0,1
+2,Diego Simeone,3.2675924295798797,"['Catania', 'Atlético Madrid']","[1627, 13]","['Italy', 'Spain']",Atlético Madrid,13.0,1
+3,Maurizio Sarri,3.0427550536579706,"['Empoli', 'Napoli', 'Chelsea']","[749, 6195, 631]","['Italy', 'Italy', 'England']",Chelsea,631.0,1
+4,Marcelino,2.85306459430475,"['Recreativo', 'Racing Santander', 'Zaragoza', 'Racing Santander', 'Sevilla', 'Villarreal', 'Valencia']","[2867, 630, 142, 630, 368, 1050, 1049]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain']",Valencia,1049.0,1
+5,Jürgen Klopp,2.8468134061121404,"['Mainz', 'Borussia Dortmund', 'Liverpool']","[39, 16, 31]","['Germany', 'Germany', 'England']",Liverpool,31.0,1
+6,Thomas Tuchel,2.7864092070672797,"['Mainz', 'Borussia Dortmund', 'Paris Saint-Germain']","[39, 16, 583]","['Germany', 'Germany', 'France']",Paris Saint-Germain,583.0,1
+7,Ralph Hasenhüttl,2.68633608172177,"['Ingolstadt', 'RB Leipzig', 'Southampton']","[4795, 23826, 180]","['Germany', 'Germany', 'England']",Southampton,180.0,1
+8,Luciano Spalletti,2.62467881148286,"['Udinese', 'Roma', 'Roma', 'Inter Milan']","[410, 12, 12, 46]","['Italy', 'Italy', 'Italy', 'Italy']",Inter Milan,46.0,1
+9,René Girard,2.55408263702906,"['Montpellier', 'Lille', 'Nantes']","[969, 1082, 995]","['France', 'France', 'France']",,,0
+10,Gian Piero Gasperini,2.5015296301210097,"['Genoa', 'Inter Milan', 'Palermo', 'Palermo', 'Genoa', 'Atalanta']","[252, 46, 458, 458, 252, 800]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",Atalanta,800.0,1
+11,Mauricio Pochettino,2.3242387505380897,"['Espanyol', 'Southampton', 'Tottenham']","[714, 180, 148]","['Spain', 'England', 'England']",Tottenham,148.0,1
+12,Antonio Conte,2.3236126894735,"['Atalanta', 'Juventus', 'Juventus', 'Chelsea']","[800, 506, 506, 631]","['Italy', 'Italy', 'Italy', 'England']",,,0
+13,Ralf Rangnick,2.0411638475614597,"['Schalke', 'Hoffenheim', 'Schalke', 'RB Leipzig']","[33, 533, 33, 23826]","['Germany', 'Germany', 'Germany', 'Germany']",RB Leipzig,23826.0,1
+14,Sir Alex Ferguson,2.0242687004297,['Manchester United'],[985],['England'],,,0
+15,Julian Nagelsmann,1.9282607471616102,['Hoffenheim'],[533],['Germany'],Hoffenheim,533.0,1
+16,Christophe Galtier,1.86957054657451,"['Saint-Étienne', 'Lille']","[618, 1082]","['France', 'France']",Lille,1082.0,1
+17,Pep Guardiola,1.84813097514205,"['Barcelona', 'Bayern Munich', 'Manchester City']","[131, 27, 281]","['Spain', 'Germany', 'England']",Manchester City,281.0,1
+18,Francesco Guidolin,1.60986059022926,"['Palermo', 'Monaco', 'Palermo', 'Palermo', 'Palermo', 'Parma', 'Udinese', 'Swansea']","[458, 162, 458, 458, 458, 130, 410, 2288]","['Italy', 'France', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'England']",,,0
+19,Bruno Génésio,1.5840880605873502,['Lyon'],[1041],['France'],Lyon,1041.0,1
+20,Manuel Pellegrini,1.58146942406462,"['Villarreal', 'Real Madrid', 'Málaga', 'Manchester City', 'West Ham']","[1050, 418, 1084, 281, 379]","['Spain', 'Spain', 'Spain', 'England', 'England']",West Ham,379.0,1
+21,Nuno Espírito Santo,1.5457859625259298,"['Valencia', 'Wolves']","[1049, 543]","['Spain', 'England']",Wolves,543.0,1
+22,Sam Allardyce,1.52432485010146,"['Bolton', 'Newcastle', 'Blackburn', 'West Ham', 'Sunderland', 'Crystal Palace', 'Everton']","[355, 762, 164, 379, 289, 873, 29]","['England', 'England', 'England', 'England', 'England', 'England', 'England']",,,0
+23,Simone Inzaghi,1.47466946910833,['Lazio'],[398],['Italy'],Lazio,398.0,1
+24,Leonardo Jardim,1.46644538191874,['Monaco'],[162],['France'],,,0
+25,Unai Emery,1.4531478170181298,"['Almería', 'Valencia', 'Sevilla', 'Paris Saint-Germain', 'Arsenal']","[3302, 1049, 368, 583, 11]","['Spain', 'Spain', 'Spain', 'France', 'England']",Arsenal,11.0,1
+26,Martin O'Neill,1.41941476672126,"['Aston Villa', 'Sunderland']","[405, 289]","['England', 'England']",,,0
+27,Eddie Howe,1.4118387811768898,['Bournemouth'],[989],['England'],Bournemouth,989.0,1
+28,Pablo Machín,1.3980107323762598,"['Girona', 'Sevilla']","[12321, 368]","['Spain', 'Spain']",Sevilla,368.0,1
+29,Pepe Bordalás,1.37781684293084,['Getafe'],[3709],['Spain'],Getafe,3709.0,1
+30,Cesare Prandelli,1.27773417271743,"['Fiorentina', 'Valencia', 'Genoa']","[430, 1049, 252]","['Italy', 'Spain', 'Italy']",Genoa,252.0,1
+31,Tony Pulis,1.26758031807808,"['Stoke', 'Crystal Palace', 'West Bromwich Albion']","[512, 873, 984]","['England', 'England', 'England']",,,0
+32,Sascha Lewandowski,1.2507499070418602,['Bayer Leverkusen'],[15],['Germany'],,,0
+33,Antonio Tapia,1.2064691111123,"['Málaga', 'Málaga']","[1084, 1084]","['Spain', 'Spain']",,,0
+34,Paco López,1.16673505890742,['Levante'],[3368],['Spain'],Levante,3368.0,1
+35,Claude Puel,1.16596401309208,"['Lille', 'Lyon', 'Nice', 'Southampton', 'Leicester']","[1082, 1041, 417, 180, 1003]","['France', 'France', 'France', 'England', 'England']",Leicester,1003.0,1
+36,Gregorio Manzano,1.13821596151051,"['Málaga', 'Mallorca', 'Sevilla', 'Atlético Madrid', 'Mallorca']","[1084, 237, 368, 13, 237]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain']",,,0
+37,Mirko Slomka,1.13242192690306,"['Schalke', 'Hannover', 'Hamburg']","[33, 42, 41]","['Germany', 'Germany', 'Germany']",,,0
+38,Brendan Rodgers,1.12195737720476,"['Swansea', 'Liverpool']","[2288, 31]","['England', 'England']",,,0
+39,Christian Streich,1.11378287227168,['Freiburg'],[60],['Germany'],Freiburg,60.0,1
+40,Felix Magath,1.10756426963819,"['Bayern Munich', 'Wolfsburg', 'Schalke', 'Wolfsburg', 'Fulham']","[27, 82, 33, 82, 931]","['Germany', 'Germany', 'Germany', 'Germany', 'England']",,,0
+41,Javier Aguirre,1.08115981612304,"['Osasuna', 'Atlético Madrid', 'Zaragoza', 'Espanyol']","[331, 13, 142, 714]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+42,Massimiliano Allegri,1.00628821555022,"['Cagliari', 'AC Milan', 'Juventus']","[1390, 5, 506]","['Italy', 'Italy', 'Italy']",Juventus,506.0,1
+43,Walter Mazzarri,1.0013891724978,"['Reggina', 'Sampdoria', 'Napoli', 'Inter Milan', 'Watford', 'Torino']","[1386, 1038, 6195, 46, 1010, 416]","['Italy', 'Italy', 'Italy', 'Italy', 'England', 'Italy']",Torino,416.0,1
+44,Eusebio Di Francesco,0.990143226987162,"['Lecce', 'Sassuolo', 'Sassuolo', 'Roma']","[1005, 6574, 6574, 12]","['Italy', 'Italy', 'Italy', 'Italy']",Roma,12.0,1
+45,Philippe Montanier,0.9684301467610641,"['Valenciennes', 'Real Sociedad', 'Rennes']","[1423, 681, 273]","['France', 'Spain', 'France']",,,0
+46,Pablo Correa,0.9265982452029179,"['Nancy', 'Évian Thonon Gaillard', 'Nancy']","[1159, 14171, 1159]","['France', 'France', 'France']",,,0
+47,Jupp Heynckes,0.904016390125239,"['Schalke', 'Borussia Mönchengladbach', 'Bayer Leverkusen', 'Bayern Munich', 'Bayern Munich']","[33, 18, 15, 27, 27]","['Germany', 'Germany', 'Germany', 'Germany', 'Germany']",,,0
+48,Abelardo,0.8959254562157459,"['Sporting Gijón', 'Alavés']","[2448, 1108]","['Spain', 'Spain']",Alavés,1108.0,1
+49,Hubert Fournier,0.891034570174513,"['Reims', 'Lyon']","[1421, 1041]","['France', 'France']",,,0
+50,Luigi Cagni,0.857669926472965,"['Empoli', 'Empoli']","[749, 749]","['Italy', 'Italy']",,,0
+51,Christian Gourcuff,0.8575915836953392,"['Lorient', 'Rennes']","[1158, 273]","['France', 'France']",,,0
+52,José Mourinho,0.8436370887913941,"['Chelsea', 'Inter Milan', 'Real Madrid', 'Chelsea', 'Manchester United']","[631, 46, 418, 631, 985]","['England', 'Italy', 'Spain', 'England', 'England']",,,0
+53,Sérgio Conceição,0.8338917392274849,['Nantes'],[995],['France'],,,0
+54,Jorge Sampaoli,0.8264378384578721,['Sevilla'],[368],['Spain'],,,0
+55,Siniša Mihajlovi?,0.8239129839879841,"['Bologna', 'Catania', 'Fiorentina', 'Sampdoria', 'AC Milan', 'Torino']","[1025, 1627, 430, 1038, 5, 416]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+56,Dieter Hecking,0.808107603033943,"['Aachen', 'Hannover', 'Nürnberg', 'Wolfsburg', 'Borussia Mönchengladbach']","[8, 42, 4, 82, 18]","['Germany', 'Germany', 'Germany', 'Germany', 'Germany']",Borussia Mönchengladbach,18.0,1
+57,Fernando Vázquez,0.801080913051275,"['Celta Vigo', 'Deportivo La Coruña']","[940, 897]","['Spain', 'Spain']",,,0
+58,Quique Setién,0.76926342109208,"['Las Palmas', 'Real Betis']","[472, 150]","['Spain', 'Spain']",Real Betis,150.0,1
+59,Eric Gerets,0.759263420052558,"['Wolfsburg', 'Marseille']","[82, 244]","['Germany', 'France']",,,0
+60,Laurent Blanc,0.7044686372383709,"['Bordeaux', 'Paris Saint-Germain']","[40, 583]","['France', 'France']",,,0
+61,Claudio Ranieri,0.6931318725711121,"['Valencia', 'Parma', 'Juventus', 'Roma', 'Inter Milan', 'Monaco', 'Leicester', 'Nantes', 'Fulham']","[1049, 130, 506, 12, 46, 162, 1003, 995, 931]","['Spain', 'Italy', 'Italy', 'Italy', 'Italy', 'France', 'England', 'France', 'England']",Fulham,931.0,1
+62,Steve Coppell,0.653592118896234,['Reading'],[1032],['England'],,,0
+63,Roy Hodgson,0.647190415479306,"['Fulham', 'Liverpool', 'West Bromwich Albion', 'Crystal Palace']","[931, 31, 984, 873]","['England', 'England', 'England', 'England']",Crystal Palace,873.0,1
+64,Francis Gillot,0.641678843140033,"['Lens', 'Sochaux', 'Bordeaux']","[826, 750, 40]","['France', 'France', 'France']",,,0
+65,Edoardo Reja,0.621742985839673,"['Napoli', 'Lazio', 'Lazio', 'Atalanta']","[6195, 398, 398, 800]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+66,Jean-Louis Gasset,0.5978451880813249,"['Montpellier', 'Saint-Étienne']","[969, 618]","['France', 'France']",Saint-Étienne,618.0,1
+67,Eusebio,0.589543627253451,"['Real Sociedad', 'Girona']","[681, 12321]","['Spain', 'Spain']",Girona,12321.0,1
+68,Tito Vilanova,0.581855700728045,"['Barcelona', 'Barcelona', 'Barcelona']","[131, 131, 131]","['Spain', 'Spain', 'Spain']",,,0
+69,Pál Dárdai,0.540588956530039,['Hertha'],[44],['Germany'],Hertha,44.0,1
+70,Sabri Lamouchi,0.538063471024121,['Rennes'],[273],['France'],,,0
+71,Sergio,0.519064279815052,"['Espanyol', 'Valladolid']","[714, 366]","['Spain', 'Spain']",Valladolid,366.0,1
+72,Florian Kohfeldt,0.5154701557014171,['Werder Bremen'],[86],['Germany'],Werder Bremen,86.0,1
+73,Eric Sikora,0.513454170652074,['Lens'],[826],['France'],,,0
+74,Sean Dyche,0.49865410201957105,['Burnley'],[1132],['England'],Burnley,1132.0,1
+75,Tayfun Korkut,0.49759440367711105,"['Hannover', 'Stuttgart']","[42, 79]","['Germany', 'Germany']",,,0
+76,Christian Gross,0.44726013085968896,['Stuttgart'],[79],['Germany'],,,0
+77,Nando Yosu,0.44642866664067105,"['Racing Santander', 'Racing Santander']","[630, 630]","['Spain', 'Spain']",,,0
+78,Guus Hiddink,0.43882373660732205,['Chelsea'],[631],['England'],,,0
+79,Juan Carlos Oliva,0.434363546907331,['Alavés'],[1108],['Spain'],,,0
+80,Frédéric Antonetti,0.42940437774312296,"['Nice', 'Rennes', 'Lille']","[417, 273, 1082]","['France', 'France', 'France']",,,0
+81,Roger Schmidt,0.42552492880138504,['Bayer Leverkusen'],[15],['Germany'],,,0
+82,Sven-Göran Eriksson,0.413037069366939,['Manchester City'],[281],['England'],,,0
+83,Joaquín Caparrós,0.40949728961543,"['Sevilla', 'Deportivo La Coruña', 'Athletic Bilbao', 'Mallorca', 'Levante', 'Granada', 'Osasuna', 'Sevilla']","[368, 897, 621, 237, 3368, 16795, 331, 368]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain']",,,0
+84,Chris Hughton,0.405940480745327,"['Newcastle', 'Norwich', 'Brighton']","[762, 1123, 1237]","['England', 'England', 'England']",Brighton,1237.0,1
+85,Franco Colomba,0.398686576151326,"['Livorno', 'Cagliari', 'Bologna', 'Parma']","[1210, 1390, 1025, 130]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+86,Ernesto Valverde,0.39466096694297204,"['Athletic Bilbao', 'Espanyol', 'Villarreal', 'Valencia', 'Athletic Bilbao', 'Barcelona']","[621, 714, 1050, 1049, 621, 131]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain']",Barcelona,131.0,1
+87,Adi Hütter,0.39121519125496795,['Eintracht Frankfurt'],[24],['Germany'],Eintracht Frankfurt,24.0,1
+88,Patrick Gabriel,0.39058615248373607,['Nancy'],[1159],['France'],,,0
+89,Nigel Pearson,0.38988226980752505,['Leicester'],[1003],['England'],,,0
+90,Gianluca Festa,0.38726521676237,['Cagliari'],[1390],['Italy'],,,0
+91,Julien Stéphan,0.371026953705999,['Rennes'],[273],['France'],Rennes,273.0,1
+92,Roberto D'Aversa,0.36351763495693395,['Parma'],[130],['Italy'],Parma,130.0,1
+93,Huub Stevens,0.36091403286370893,"['Hamburg', 'Schalke', 'Stuttgart', 'Stuttgart', 'Hoffenheim']","[41, 33, 79, 79, 533]","['Germany', 'Germany', 'Germany', 'Germany', 'Germany']",,,0
+94,Massimo Carrera,0.358288195479267,['Juventus'],[506],['Italy'],,,0
+95,Bernard Blaquart,0.347629302190485,['Nîmes'],[1160],['France'],Nîmes,1160.0,1
+96,Willy Sagnol,0.336806806885366,['Bordeaux'],[40],['France'],,,0
+97,Steve Clarke,0.332545490314699,['West Bromwich Albion'],[984],['England'],,,0
+98,Michel Der Zakarian,0.326667731721349,"['Nantes', 'Nantes', 'Montpellier']","[995, 995, 969]","['France', 'France', 'France']",Montpellier,969.0,1
+99,Ghislain Printant,0.32507580515268,['Bastia'],[595],['France'],,,0
+100,Maurizio Pellegrino,0.32443875625933194,['Catania'],[1627],['Italy'],,,0
+101,Massimo Silva,0.322972933268422,['Ascoli'],[408],['Italy'],,,0
+102,Imanol Alguacil,0.32267830986688,['Real Sociedad'],[681],['Spain'],,,0
+103,Paulo Sousa,0.321085687657845,['Fiorentina'],[430],['Italy'],,,0
+104,Néstor Gorosito,0.31977467572940005,['Xerez'],[134],['Spain'],,,0
+105,David Guion,0.318070972955663,['Reims'],[1421],['France'],Reims,1421.0,1
+106,Maurizio D'Angelo,0.302406730979087,['Chievo'],[862],['Italy'],,,0
+107,Javier Clemente,0.295703135468927,"['Athletic Bilbao', 'Murcia', 'Valladolid', 'Sporting Gijón']","[621, 171, 366, 2448]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+108,Marco Giampaolo,0.29390827055291197,"['Cagliari', 'Cagliari', 'Siena', 'Catania', 'Cesena', 'Empoli', 'Sampdoria']","[1390, 1390, 1387, 1627, 1429, 749, 1038]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",Sampdoria,1038.0,1
+109,Maik Walpurgis,0.289542798730614,['Ingolstadt'],[4795],['Germany'],,,0
+110,Martín Lasarte,0.276732424379041,['Real Sociedad'],[681],['Spain'],,,0
+111,Javi Gracia,0.270767918433254,"['Osasuna', 'Málaga', 'Watford']","[331, 1084, 1010]","['Spain', 'Spain', 'England']",Watford,1010.0,1
+112,Jacques Santini,0.26946939538596304,"['Tottenham', 'Auxerre']","[148, 290]","['England', 'France']",,,0
+113,Delio Rossi,0.254006753158585,"['Atalanta', 'Lazio', 'Palermo', 'Palermo', 'Fiorentina', 'Sampdoria', 'Bologna']","[800, 398, 458, 458, 430, 1038, 1025]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+114,José Luis Mendilibar,0.251661070579085,"['Athletic Bilbao', 'Valladolid', 'Osasuna', 'Levante', 'Eibar']","[621, 366, 331, 3368, 1533]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain']",Eibar,1533.0,1
+115,Sami Hyypiä,0.24153391486378897,['Bayer Leverkusen'],[15],['Germany'],,,0
+116,Ivo Pulga,0.23358766527425698,"['Cagliari', 'Cagliari']","[1390, 1390]","['Italy', 'Italy']",,,0
+117,Niko Kovac,0.22278253081087998,"['Eintracht Frankfurt', 'Bayern Munich']","[24, 27]","['Germany', 'Germany']",Bayern Munich,27.0,1
+118,Christian Titz,0.21150961903803303,['Hamburg'],[41],['Germany'],,,0
+119,Eduardo Berizzo,0.20091030994456,"['Celta Vigo', 'Sevilla', 'Athletic Bilbao']","[940, 368, 621]","['Spain', 'Spain', 'Spain']",,,0
+120,Ian Holloway,0.19915389728488103,"['Blackpool', 'Crystal Palace']","[1181, 873]","['England', 'England']",,,0
+121,Juan Ignacio Martínez,0.189206924207823,"['Levante', 'Valladolid', 'Almería']","[3368, 366, 3302]","['Spain', 'Spain', 'Spain']",,,0
+122,David Moyes,0.18917763376116398,"['Everton', 'Manchester United', 'Real Sociedad', 'Sunderland', 'West Ham']","[29, 985, 681, 289, 379]","['England', 'England', 'Spain', 'England', 'England']",,,0
+123,Giovanni Galeone,0.1840613035695,['Udinese'],[410],['Italy'],,,0
+124,Leonardo,0.179801587974492,['Inter Milan'],[46],['Italy'],,,0
+125,Thomas Doll,0.17487540946015198,"['Hamburg', 'Borussia Dortmund']","[41, 16]","['Germany', 'Germany']",,,0
+126,Ernst Middendorp,0.17432604714490696,['Arminia Bielefeld'],[10],['Germany'],,,0
+127,José Ramón Sandoval,0.17054787383905304,"['Rayo Vallecano', 'Granada']","[367, 16795]","['Spain', 'Spain']",,,0
+128,Pietro Carmignani,0.16923513395156,['Parma'],[130],['Italy'],,,0
+129,Igor Tudor,0.16094646991171696,['Udinese'],[410],['Italy'],,,0
+130,Petrik Sander,0.153204539016124,['Cottbus'],[25],['Germany'],,,0
+131,Garry Monk,0.146986916063518,['Swansea'],[2288],['England'],,,0
+132,Massimo Rastelli,0.134797486007069,['Cagliari'],[1390],['Italy'],,,0
+133,Jens Keller,0.134758143277728,"['Stuttgart', 'Schalke']","[79, 33]","['Germany', 'Germany']",,,0
+134,Walter Zenga,0.133144558672589,"['Catania', 'Palermo', 'Sampdoria', 'Crotone']","[1627, 458, 1038, 4083]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+135,Manolo Jiménez,0.125268507905553,"['Sevilla', 'Zaragoza']","[368, 142]","['Spain', 'Spain']",,,0
+136,Pepe Murcia,0.12492069472717998,['Atlético Madrid'],[13],['Spain'],,,0
+137,Mario Luna,0.120035955729145,['Alavés'],[1108],['Spain'],,,0
+138,Juan Esnáider,0.114219013040704,['Getafe'],[3709],['Spain'],,,0
+139,Eric Bedouet,0.11329125333442999,['Bordeaux'],[40],['France'],Bordeaux,40.0,1
+140,Frank Schaefer,0.10942440437533998,['Köln'],[3],['Germany'],,,0
+141,Craig Shakespeare,0.102994357601595,['Leicester'],[1003],['England'],,,0
+142,Luis Enrique,0.10233874840579199,"['Roma', 'Celta Vigo', 'Barcelona']","[12, 940, 131]","['Italy', 'Spain', 'Spain']",,,0
+143,Domenico Tedesco,0.10215642345387801,['Schalke'],[33],['Germany'],Schalke,33.0,1
+144,Giuseppe Papadopulo,0.0750333569089522,"['Lazio', 'Palermo', 'Bologna']","[398, 458, 1025]","['Italy', 'Italy', 'Italy']",,,0
+145,Ulrich Ramé,0.0724170507803109,['Bordeaux'],[40],['France'],,,0
+146,Viktor Skripnik,0.0713435974965707,['Werder Bremen'],[86],['Germany'],,,0
+147,Ander Garitano,0.0685266989782793,['Zaragoza'],[142],['Spain'],,,0
+148,Juanjo González,0.0684345940599878,['Racing Santander'],[630],['Spain'],,,0
+149,Matthias Sammer,0.0604513622892194,['Stuttgart'],[79],['Germany'],,,0
+150,Fabio Capello,0.0503670958132923,"['Juventus', 'Real Madrid']","[506, 418]","['Italy', 'Spain']",,,0
+151,Malky Mackay,0.0473044282553694,['Cardiff'],[603],['England'],,,0
+152,Giuseppe Pillon,0.0448526757841706,"['Chievo', 'Reggina']","[862, 1386]","['Italy', 'Italy']",,,0
+153,Antonio Álvarez,0.0387263277945794,['Sevilla'],[368],['Spain'],,,0
+154,Guillermo Barros Schelotto,0.0381008952975478,['Palermo'],[458],['Italy'],,,0
+155,Óscar García,0.0348881968055023,['Saint-Étienne'],[618],['France'],,,0
+156,Fabrizio Castori,0.034717757072302,"['Carpi', 'Carpi']","[4102, 4102]","['Italy', 'Italy']",,,0
+157,Paul Sturrock,0.0332299599172496,['Southampton'],[180],['England'],,,0
+158,Hristo Stoichkov,0.0232370722461528,['Celta Vigo'],[940],['Spain'],,,0
+159,René Marsiglia,0.0151834838159351,['Nice'],[417],['France'],,,0
+160,Ricardo Gomes,0.0138944084287615,"['Bordeaux', 'Monaco']","[40, 162]","['France', 'France']",,,0
+161,Slaven Bilic,0.00897986628287049,['West Ham'],[379],['England'],,,0
+162,Voro,0.00838908956346835,['Valencia'],[1049],['Spain'],,,0
+163,Juande Ramos,0.00676638814733422,"['Sevilla', 'Tottenham', 'Real Madrid', 'Málaga']","[368, 148, 418, 1084]","['Spain', 'England', 'Spain', 'Spain']",,,0
+164,Carlos Carvalhal,-0.0119251331220605,['Swansea'],[2288],['England'],,,0
+165,Nevio Orlandi,-0.0122859984048456,"['Reggina', 'Reggina']","[1386, 1386]","['Italy', 'Italy']",,,0
+166,Hugo Sánchez,-0.0139794129834602,['Almería'],[3302],['Spain'],,,0
+167,Olivier Pantaloni,-0.0152019420466176,['Ajaccio'],[1147],['France'],,,0
+168,Roberto Donadoni,-0.0191839179867873,"['Livorno', 'Napoli', 'Cagliari', 'Parma', 'Bologna']","[1210, 6195, 1390, 130, 1025]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+169,Patrick Vieira,-0.0193531063183363,['Nice'],[417],['France'],Nice,417.0,1
+170,Marco Silva,-0.0358792322941076,"['Hull', 'Watford', 'Everton']","[3008, 1010, 29]","['England', 'England', 'England']",Everton,29.0,1
+171,Martin Schmidt,-0.0481775568508375,"['Mainz', 'Wolfsburg']","[39, 82]","['Germany', 'Germany']",,,0
+172,Kurt Jara,-0.0506384302556155,['Kaiserslautern'],[2],['Germany'],,,0
+173,Élie Baup,-0.0525516861031182,"['Saint-Étienne', 'Toulouse', 'Nantes', 'Marseille']","[618, 415, 995, 244]","['France', 'France', 'France', 'France']",,,0
+174,Francisco Chaparro Jara,-0.055133843384442,"['Real Betis', 'Real Betis']","[150, 150]","['Spain', 'Spain']",,,0
+175,Andrea Manzo,-0.0556335010394698,['Parma'],[130],['Italy'],,,0
+176,Gennaro Gattuso,-0.0573760925434095,['AC Milan'],[5],['Italy'],AC Milan,5.0,1
+177,Devis Mangia,-0.061918475758978,['Palermo'],[458],['Italy'],,,0
+178,Martin Jol,-0.0722321732125957,"['Tottenham', 'Hamburg', 'Fulham']","[148, 41, 931]","['England', 'Germany', 'England']",,,0
+179,Ivan Hasek,-0.0739990849332465,['Saint-Étienne'],[618],['France'],,,0
+180,Santiago Solari,-0.0782471121283405,['Real Madrid'],[418],['Spain'],Real Madrid,418.0,1
+181,Constantin Galca,-0.0829803475154747,['Espanyol'],[714],['Spain'],,,0
+182,Manolo Márquez,-0.0884833612336594,['Las Palmas'],[472],['Spain'],,,0
+183,Miguel Ángel Portugal,-0.0937358119596694,"['Racing Santander', 'Racing Santander']","[630, 630]","['Spain', 'Spain']",,,0
+184,Hans Meyer,-0.0969481886614894,"['Nürnberg', 'Borussia Mönchengladbach']","[4, 18]","['Germany', 'Germany']",,,0
+185,Renzo Gobbo,-0.0986706240869675,['Palermo'],[458],['Italy'],,,0
+186,Gustavo Poyet,-0.102199315684834,"['Sunderland', 'Real Betis', 'Bordeaux']","[289, 150, 40]","['England', 'Spain', 'France']",,,0
+187,Ronald Koeman,-0.105862876398406,"['Valencia', 'Southampton', 'Everton']","[1049, 180, 29]","['Spain', 'England', 'England']",,,0
+188,Dirk Schuster,-0.108465099499884,"['Darmstadt', 'Augsburg']","[105, 167]","['Germany', 'Germany']",,,0
+189,Giovanni Tedesco,-0.10992919877889899,['Palermo'],[458],['Italy'],,,0
+190,Juan Carlos Unzué,-0.12251357120197098,['Celta Vigo'],[940],['Spain'],,,0
+191,Iñaki Tejada,-0.12352794909586301,['Sporting Gijón'],[2448],['Spain'],,,0
+192,Michael Wiesinger,-0.124314634480739,['Nürnberg'],[4],['Germany'],,,0
+193,Giovanni Bosi,-0.12461192959343,['Palermo'],[458],['Italy'],,,0
+194,Alex Dupont,-0.126312218886138,"['Brest', 'Ajaccio']","[3911, 1147]","['France', 'France']",,,0
+195,Roy Keane,-0.13001379157471601,['Sunderland'],[289],['England'],,,0
+196,Pierre Dréossi,-0.130677909283459,['Rennes'],[273],['France'],,,0
+197,Bernd Schuster,-0.13273433598880197,"['Levante', 'Getafe', 'Real Madrid', 'Málaga']","[3368, 3709, 418, 1084]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+198,Luigi Simoni,-0.134739770792602,['Siena'],[1387],['Italy'],,,0
+199,Yves Bertucci,-0.13606782920555902,['Le Mans'],[1164],['France'],,,0
+200,Alan Curbishley,-0.13838357523364098,"['Charlton', 'West Ham']","[358, 379]","['England', 'England']",,,0
+201,Cosmin Contra,-0.14018413794910198,['Getafe'],[3709],['Spain'],,,0
+202,Antonio Mohamed,-0.14094841937232097,['Celta Vigo'],[940],['Spain'],,,0
+203,Xavier Gravelaine,-0.14130189342630803,['Istres'],[2580],['France'],,,0
+204,José Pasqualetti,-0.14464399685558402,"['Ajaccio', 'Sedan']","[1147, 1081]","['France', 'France']",,,0
+205,Jocelyn Gourvennec,-0.14528147842452802,"['Guingamp', 'Bordeaux', 'Guingamp']","[855, 40, 855]","['France', 'France', 'France']",Guingamp,855.0,1
+206,Josep María Nogués,-0.153564687261076,['Real Betis'],[150],['Spain'],,,0
+207,Llompart,-0.155930048930288,['Mallorca'],[237],['Spain'],,,0
+208,Jürgen Kohler,-0.158692377866676,['Duisburg'],[52],['Germany'],,,0
+209,Jordi Roura,-0.16422846316950698,"['Barcelona', 'Barcelona']","[131, 131]","['Spain', 'Spain']",,,0
+210,Manuel Zambrano,-0.164520206208239,['Recreativo'],[2867],['Spain'],,,0
+211,Renzo Ulivieri,-0.164737309006611,['Reggina'],[1386],['Italy'],,,0
+212,Frédéric Hantz,-0.16887367419059002,"['Le Mans', 'Sochaux', 'Le Havre', 'Bastia', 'Montpellier', 'Metz']","[1164, 750, 738, 595, 969, 347]","['France', 'France', 'France', 'France', 'France', 'France']",,,0
+213,Mauricio Pellegrino,-0.171635366021883,"['Valencia', 'Alavés', 'Southampton', 'Leganés']","[1049, 1108, 180, 1244]","['Spain', 'Spain', 'England', 'Spain']",Leganés,1244.0,1
+214,Pacheta,-0.172917588135736,['Numancia'],[2296],['Spain'],,,0
+215,Ottmar Hitzfeld,-0.17445393227485298,['Bayern Munich'],[27],['Germany'],,,0
+216,Mario Somma,-0.17868281334865302,['Empoli'],[749],['Italy'],,,0
+217,Alexander Nouri,-0.181847216746827,['Werder Bremen'],[86],['Germany'],,,0
+218,Jean-Luc Vasseur,-0.18422344628369297,['Reims'],[1421],['France'],,,0
+219,Markus Weinzierl,-0.19141661486846898,"['Augsburg', 'Schalke', 'Stuttgart']","[167, 33, 79]","['Germany', 'Germany', 'Germany']",Stuttgart,79.0,1
+220,Alan Pardew,-0.19406704302769198,"['West Ham', 'Charlton', 'Newcastle', 'Crystal Palace', 'West Bromwich Albion']","[379, 358, 762, 873, 984]","['England', 'England', 'England', 'England', 'England']",,,0
+221,Sergije Kresic,-0.196188566607434,['Numancia'],[2296],['Spain'],,,0
+222,Davide Ballardini,-0.19631045771891104,"['Cagliari', 'Cagliari', 'Palermo', 'Lazio', 'Genoa', 'Cagliari', 'Genoa', 'Bologna', 'Palermo', 'Palermo', 'Genoa']","[1390, 1390, 458, 398, 252, 1390, 252, 1025, 458, 458, 252]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+223,José Anigo,-0.197829877765326,['Marseille'],[244],['France'],,,0
+224,Lorenzo D'Anna,-0.198370796918794,['Chievo'],[862],['Italy'],,,0
+225,Christophe Pélissier,-0.20438546818823103,['Amiens'],[1416],['France'],Amiens,1416.0,1
+226,Giuseppe Iachini,-0.20489049520036604,"['Chievo', 'Brescia', 'Brescia', 'Siena', 'Palermo', 'Palermo', 'Udinese', 'Sassuolo', 'Empoli']","[862, 19, 19, 1387, 458, 458, 410, 6574, 749]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",Empoli,749.0,1
+227,Stéphane Moulin,-0.208079296184529,['Angers'],[1420],['France'],Angers,1420.0,1
+228,José Ángel Moreno,-0.20875986731236,['Levante'],[3368],['Spain'],,,0
+229,Gian Piero Ventura,-0.210081211009221,"['Messina', 'Bari', 'Torino', 'Chievo']","[1104, 332, 416, 862]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+230,Jörg Berger,-0.21183737206950304,['Hansa Rostock'],[30],['Germany'],,,0
+231,Rui Almeida,-0.214657672288405,['Bastia'],[595],['France'],,,0
+232,Bojan Prasnikar,-0.21633267944715198,['Cottbus'],[25],['Germany'],,,0
+233,Neil Adams,-0.21729531297804103,['Norwich'],[1123],['England'],,,0
+234,Sergi Barjuán,-0.217572390899167,['Almería'],[3302],['Spain'],,,0
+235,Giovanni Stroppa,-0.22071202176212198,['Pescara'],[2921],['Italy'],,,0
+236,Bruno Bolchi,-0.2218004211004,['Messina'],[1104],['Italy'],,,0
+237,Roberto Mancini,-0.223452635581415,"['Inter Milan', 'Manchester City', 'Inter Milan']","[46, 281, 46]","['Italy', 'England', 'Italy']",,,0
+238,Máximo Hernández,-0.224796093808922,['Numancia'],[2296],['Spain'],,,0
+239,Horst Köppel,-0.23231228004773002,['Borussia Mönchengladbach'],[18],['Germany'],,,0
+240,Andreas Bergmann,-0.232732901648907,['Hannover'],[42],['Germany'],,,0
+241,Patrick Remy,-0.233848835443144,['Caen'],[1162],['France'],,,0
+242,Hannes Wolf,-0.236133366484082,['Stuttgart'],[79],['Germany'],,,0
+243,Glenn Roeder,-0.23631579088735397,['Newcastle'],[762],['England'],,,0
+244,Angelo Castellazzi,-0.239210942735195,['AC Milan'],[5],['Italy'],,,0
+245,Leo Franco,-0.239441495526265,['Huesca'],[5358],['Spain'],,,0
+246,Frank Kramer,-0.23980752576733702,['Greuther Fürth'],[65],['Germany'],,,0
+247,Claude Robin,-0.240013080039025,['Troyes'],[1095],['France'],,,0
+248,Nigel Adkins,-0.24283181736259804,"['Southampton', 'Reading']","[180, 1032]","['England', 'England']",,,0
+249,Fabio Liverani,-0.24764615060023398,['Genoa'],[252],['Italy'],,,0
+250,Vanderlei Luxemburgo,-0.24764668739618,['Real Madrid'],[418],['Spain'],,,0
+251,Éric Roy,-0.24971732653446801,['Nice'],[417],['France'],,,0
+252,Jürgen Kramny,-0.253425491976546,['Stuttgart'],[79],['Germany'],,,0
+253,Torsten Frings,-0.25374304929657704,['Darmstadt'],[105],['Germany'],,,0
+254,Falko Götz,-0.25654682370520604,['Hertha'],[44],['Germany'],,,0
+255,Stefano Colantuono,-0.260914527755369,"['Atalanta', 'Palermo', 'Palermo', 'Atalanta', 'Udinese']","[800, 458, 458, 800, 410]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+256,Kasper Hjulmand,-0.26121219961064995,['Mainz'],[39],['Germany'],,,0
+257,Ewald Lienen,-0.261278387058345,['Hannover'],[42],['Germany'],,,0
+258,Jesualdo Ferreira,-0.26155930059945004,['Málaga'],[1084],['Spain'],,,0
+259,Jean-Guy Wallemme,-0.265535452632978,"['Lens', 'Auxerre']","[826, 290]","['France', 'France']",,,0
+260,Otto Rehhagel,-0.26951783072157,['Hertha'],[44],['Germany'],,,0
+261,Fabri,-0.275745060816583,['Granada'],[16795],['Spain'],,,0
+262,Domingos Paciência,-0.276733945784647,['Deportivo La Coruña'],[897],['Spain'],,,0
+263,Bernard Casoni,-0.277890837479024,"['Évian Thonon Gaillard', 'Lorient']","[14171, 1158]","['France', 'France']",,,0
+264,Julio Velázquez,-0.28142868878526694,['Udinese'],[410],['Italy'],,,0
+265,Kevin Keegan,-0.283117284676987,"['Manchester City', 'Newcastle']","[281, 762]","['England', 'England']",,,0
+266,Hervé Renard,-0.28587411622885195,"['Sochaux', 'Lille']","[750, 1082]","['France', 'France']",,,0
+267,Alain Casanova,-0.28917670529056,"['Toulouse', 'Toulouse']","[415, 415]","['France', 'France']",Toulouse,415.0,1
+268,Hanspeter Latour,-0.29602321638241397,['Köln'],[3],['Germany'],,,0
+269,Serge Romano,-0.29633502937794604,['Sedan'],[1081],['France'],,,0
+270,Tony Mowbray,-0.298042187154283,['West Bromwich Albion'],[984],['England'],,,0
+271,Patrice Garande,-0.298333159501267,['Caen'],[1162],['France'],,,0
+272,Daniele Arrigoni,-0.300655424837654,"['Cagliari', 'Cagliari', 'Livorno', 'Bologna', 'Cesena']","[1390, 1390, 1210, 1025, 1429]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+273,Diego Bortoluzzi,-0.301522154451502,"['Treviso', 'Palermo']","[2251, 458]","['Italy', 'Italy']",,,0
+274,Guy Roux,-0.303314949519943,"['Auxerre', 'Lens']","[290, 826]","['France', 'France']",,,0
+275,Aurelio Andreazzoli,-0.30522545717141,['Empoli'],[749],['Italy'],,,0
+276,Eugenio Corini,-0.307883988870682,"['Chievo', 'Chievo', 'Palermo']","[862, 862, 458]","['Italy', 'Italy', 'Italy']",,,0
+277,Miguel Cardoso,-0.311014907644264,"['Nantes', 'Celta Vigo']","[995, 940]","['France', 'Spain']",Celta Vigo,940.0,1
+278,Javier Calleja,-0.312044884792682,['Villarreal'],[1050],['Spain'],,,0
+279,Luis Zubeldía,-0.31243081660209904,['Alavés'],[1108],['Spain'],,,0
+280,Miguel Ángel Lotina,-0.31643616306267797,"['Espanyol', 'Real Sociedad', 'Deportivo La Coruña', 'Villarreal']","[714, 681, 897, 1050]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+281,Markus Babbel,-0.324634289694578,"['Stuttgart', 'Hertha', 'Hoffenheim']","[79, 44, 533]","['Germany', 'Germany', 'Germany']",,,0
+282,Rudi Völler,-0.328321664171751,['Roma'],[12],['Italy'],,,0
+283,Juanma Lillo,-0.33096195260391603,['Almería'],[3302],['Spain'],,,0
+284,Gernot Rohr,-0.33225358463399896,['Nice'],[417],['France'],,,0
+285,Gérard Houllier,-0.33395159397731106,"['Lyon', 'Aston Villa']","[1041, 405]","['France', 'England']",,,0
+286,Patrice Carteron,-0.33917193730061407,['Dijon'],[2969],['France'],,,0
+287,Sandro Schwarz,-0.340408746455992,['Mainz'],[39],['Germany'],Mainz,39.0,1
+288,Frank Pagelsdorf,-0.34196601926249803,['Hansa Rostock'],[30],['Germany'],,,0
+289,Roberto Olabe,-0.34318094957578493,['Almería'],[3302],['Spain'],,,0
+290,Roberto Rizzo,-0.34421367700671396,['Lecce'],[1005],['Italy'],,,0
+291,Luis García,-0.344335716333035,"['Levante', 'Getafe', 'Villarreal']","[3368, 3709, 1050]","['Spain', 'Spain', 'Spain']",Villarreal,1050.0,1
+292,Serse Cosmi,-0.346522914674192,"['Udinese', 'Livorno', 'Palermo', 'Lecce', 'Siena']","[410, 1210, 458, 1005, 1387]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+293,Loris Dominissini,-0.348194452855738,['Udinese'],[410],['Italy'],,,0
+294,José Mari Amorrortu,-0.34910575708602803,['Real Sociedad'],[681],['Spain'],,,0
+295,Les Reed,-0.351670298583851,['Charlton'],[358],['England'],,,0
+296,Arsène Wenger,-0.352987574473814,['Arsenal'],[11],['England'],,,0
+297,Cristiano Bergodi,-0.3561310064785829,['Pescara'],[2921],['Italy'],,,0
+298,Claude Makélélé,-0.361953707350128,['Bastia'],[595],['France'],,,0
+299,Esteban Vigo,-0.36293359970406897,['Hércules'],[7971],['Spain'],,,0
+300,Joe Kinnear,-0.36552703812310205,['Newcastle'],[762],['England'],,,0
+301,Juan Antonio Pizzi,-0.367115191102238,['Valencia'],[1049],['Spain'],,,0
+302,Marco Kurz,-0.36755733236862803,"['Kaiserslautern', 'Hoffenheim']","[2, 533]","['Germany', 'Germany']",,,0
+303,Pascal Baills,-0.36916126614600897,['Montpellier'],[969],['France'],,,0
+304,Laurent Banide,-0.37402192788234295,"['Monaco', 'Monaco']","[162, 162]","['France', 'France']",,,0
+305,Aurelio Gay,-0.375211404338398,['Zaragoza'],[142],['Spain'],,,0
+306,Frank Rijkaard,-0.375458427732734,['Barcelona'],[131],['Spain'],,,0
+307,Harry Redknapp,-0.37603264560254296,"['Portsmouth', 'Southampton', 'Portsmouth', 'Tottenham', 'QPR']","[1020, 180, 1020, 148, 1039]","['England', 'England', 'England', 'England', 'England']",,,0
+308,Michael Skibbe,-0.377416192055609,"['Bayer Leverkusen', 'Eintracht Frankfurt', 'Hertha']","[15, 24, 44]","['Germany', 'Germany', 'Germany']",,,0
+309,José Mari Bakero,-0.37772658358514793,['Real Sociedad'],[681],['Spain'],,,0
+310,Bernd Hollerbach,-0.38145850191325104,['Hamburg'],[41],['Germany'],,,0
+311,Anquela,-0.38365621957970003,['Granada'],[16795],['Spain'],,,0
+312,Manolo Preciado †,-0.3838835534736071,"['Racing Santander', 'Sporting Gijón']","[630, 2448]","['Spain', 'Spain']",,,0
+313,Paul Clement,-0.3854295549406529,['Swansea'],[2288],['England'],,,0
+314,Enrique Martín,-0.386143616533492,['Osasuna'],[331],['Spain'],,,0
+315,Chris Hutchings,-0.387090972639583,['Wigan'],[1071],['England'],,,0
+316,Sir Bobby Robson,-0.38734636561385205,['Newcastle'],[762],['England'],,,0
+317,Albert Ferrer,-0.390638092483002,['Córdoba'],[993],['Spain'],,,0
+318,Thierry Laurey,-0.39131752029946,"['Ajaccio GFCO', 'Strasbourg']","[3558, 667]","['France', 'France']",Strasbourg,667.0,1
+319,Fabien Mercadal,-0.395576967095817,['Caen'],[1162],['France'],Caen,1162.0,1
+320,Heiko Herrlich,-0.39610468282180705,"['Bochum', 'Bayer Leverkusen']","[80, 15]","['Germany', 'Germany']",Bayer Leverkusen,15.0,1
+321,Klaus Toppmöller,-0.396864351344718,['Hamburg'],[41],['Germany'],,,0
+322,Yvon Pouliquen,-0.398846974817903,['Metz'],[347],['France'],,,0
+323,Phil Brown,-0.398981846887146,['Hull'],[3008],['England'],,,0
+324,Arnaud Cormier,-0.39902000440685204,['Le Mans'],[1164],['France'],,,0
+325,Rafael Benítez,-0.39908228435653603,"['Liverpool', 'Inter Milan', 'Chelsea', 'Napoli', 'Real Madrid', 'Newcastle']","[31, 46, 631, 6195, 418, 762]","['England', 'Italy', 'England', 'Italy', 'Spain', 'England']",Newcastle,762.0,1
+326,Francisco,-0.4023087301304021,['Numancia'],[2296],['Spain'],,,0
+327,Alan Shearer,-0.403328595406007,['Newcastle'],[762],['England'],,,0
+328,Roberto Stellone,-0.406415799496937,['Frosinone'],[8970],['Italy'],,,0
+329,Pablo Franco,-0.408714195265206,['Getafe'],[3709],['Spain'],,,0
+330,Bob Bradley,-0.41491571173871006,['Swansea'],[2288],['England'],,,0
+331,Jean Fernandez,-0.41519519995758297,"['Metz', 'Auxerre', 'Nancy', 'Montpellier']","[347, 290, 1159, 969]","['France', 'France', 'France', 'France']",,,0
+332,Paco Flores,-0.41646639197762697,['Gimnàstic'],[5648],['Spain'],,,0
+333,Manolo Villanova,-0.41737082138422793,['Zaragoza'],[142],['Spain'],,,0
+334,Benito Floro,-0.418031625173656,['Mallorca'],[237],['Spain'],,,0
+335,Olivier Dall'Oglio,-0.4206194987131911,['Dijon'],[2969],['France'],Dijon,2969.0,1
+336,Brian McDermott,-0.42227060349909096,['Reading'],[1032],['England'],,,0
+337,Cristóbal Parralo,-0.42319880648203606,['Deportivo La Coruña'],[897],['Spain'],,,0
+338,Eric Hély,-0.427832886688136,['Sochaux'],[750],['France'],,,0
+339,Ole Gunnar Solskjaer,-0.43017415929154706,"['Cardiff', 'Manchester United']","[603, 985]",['England'],Manchester United,985.0,1
+340,Ezio Rossi,-0.432347343385445,['Treviso'],[2251],['Italy'],,,0
+341,Edmund Becker,-0.437061733417592,['Karlsruher'],[48],['Germany'],,,0
+342,Wolfgang Wolf,-0.437209826523365,"['Nürnberg', 'Kaiserslautern']","[4, 2]","['Germany', 'Germany']",,,0
+343,Paolo Di Canio,-0.4377475845197821,['Sunderland'],[289],['England'],,,0
+344,André Schubert,-0.44146994807808704,['Borussia Mönchengladbach'],[18],['Germany'],,,0
+345,Joe Zinnbauer,-0.44409039817945206,['Hamburg'],[41],['Germany'],,,0
+346,Mariano García Remón,-0.44811876171829,['Real Madrid'],[418],['Spain'],,,0
+347,Mané,-0.44871255084756895,"['Athletic Bilbao', 'Espanyol']","[621, 714]","['Spain', 'Spain']",,,0
+348,Roberto Di Matteo,-0.451200606392862,"['West Bromwich Albion', 'Chelsea', 'Schalke']","[984, 631, 33]","['England', 'England', 'Germany']",,,0
+349,Alex Neil,-0.46147042130713106,['Norwich'],[1123],['England'],,,0
+350,Sergio Buso,-0.46166662068872705,['Fiorentina'],[430],['Italy'],,,0
+351,Aidy Boothroyd,-0.463063738369477,['Watford'],[1010],['England'],,,0
+352,Juan Carlos Mandiá,-0.465569006537185,['Racing Santander'],[630],['Spain'],,,0
+353,Michel Estevan,-0.46606071941429794,['Arles'],[11300],['France'],,,0
+354,Rolland Courbis,-0.46630620699307107,"['Ajaccio', 'Montpellier', 'Rennes']","[1147, 969, 273]","['France', 'France', 'France']",,,0
+355,Luis Fernandez,-0.475196223856937,['Real Betis'],[150],['Spain'],,,0
+356,Julien Sablé,-0.47740990180831605,['Saint-Étienne'],[618],['France'],,,0
+357,José Francisco Molina,-0.477970968503661,['Villarreal'],[1050],['Spain'],,,0
+358,Víctor Espárrago,-0.479155777336001,['Cádiz'],[2687],['Spain'],,,0
+359,Onésimo,-0.48270251448777296,['Valladolid'],[366],['Spain'],,,0
+360,Olivier Guégan,-0.48372884567222496,['Reims'],[1421],['France'],,,0
+361,Mike Phelan,-0.4864450095874339,['Hull'],[3008],['England'],,,0
+362,Tintín Márquez,-0.48666316017651,['Espanyol'],[714],['Spain'],,,0
+363,Jürgen Röber,-0.48853124184252394,['Borussia Dortmund'],[16],['Germany'],,,0
+364,José Antonio Camacho,-0.48984245948413296,"['Real Madrid', 'Osasuna']","[418, 331]","['Spain', 'Spain']",,,0
+365,Andries Jonker,-0.489861624572087,['Wolfsburg'],[82],['Germany'],,,0
+366,Chuchi Cos,-0.4921936389924829,['Alavés'],[1108],['Spain'],,,0
+367,Jacky Duguépéroux,-0.494063190587661,['Strasbourg'],[667],['France'],,,0
+368,Roberto Martínez,-0.496403121323712,"['Wigan', 'Everton']","[1071, 29]","['England', 'England']",,,0
+369,Giuseppe Sannino,-0.497948467856426,"['Siena', 'Palermo', 'Palermo', 'Chievo', 'Carpi']","[1387, 458, 458, 862, 4102]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+370,Pepe Mel,-0.498009980243714,"['Real Betis', 'West Bromwich Albion', 'Real Betis', 'Deportivo La Coruña']","[150, 984, 150, 897]","['Spain', 'England', 'Spain', 'Spain']",,,0
+371,Alan Irvine,-0.499238244505409,['West Bromwich Albion'],[984],['England'],,,0
+372,Gertjan Verbeek,-0.500110339766926,['Nürnberg'],[4],['Germany'],,,0
+373,Stefan Ruthenbeck,-0.503431369864444,['Köln'],[3],['Germany'],,,0
+374,Gonzalo Arconada,-0.504326058981742,"['Real Sociedad', 'Almería']","[681, 3302]","['Spain', 'Spain']",,,0
+375,Gerardo Martino,-0.505838432272146,['Barcelona'],[131],['Spain'],,,0
+376,Luiz Felipe Scolari,-0.505989212545151,['Chelsea'],[631],['England'],,,0
+377,Asier Garitano,-0.5063425078346709,"['Leganés', 'Real Sociedad']","[1244, 681]","['Spain', 'Spain']",Real Sociedad,681.0,1
+378,Paul Lambert,-0.510942321011089,"['Norwich', 'Aston Villa', 'Stoke']","[1123, 405, 512]","['England', 'England', 'England']",,,0
+379,Michael Laudrup,-0.5110270936588089,"['Getafe', 'Mallorca', 'Swansea']","[3709, 237, 2288]","['Spain', 'Spain', 'England']",,,0
+380,Georges Eo,-0.51120982663395,['Nantes'],[995],['France'],,,0
+381,Krasimir Balakov,-0.5131053276983111,['Kaiserslautern'],[2],['Germany'],,,0
+382,Laurent Roussey,-0.5141681149541,['Saint-Étienne'],[618],['France'],,,0
+383,Leonardo Semplici,-0.52040048147117,['SPAL'],[2722],['Italy'],SPAL,2722.0,1
+384,Billy Davies,-0.523629077782806,['Derby'],[22],['England'],,,0
+385,Clarence Seedorf,-0.524096341833733,"['AC Milan', 'Deportivo La Coruña']","[5, 897]","['Italy', 'Spain']",,,0
+386,Erick Mombaerts,-0.525332871696789,['Toulouse'],[415],['France'],,,0
+387,Marco Pezzaiuoli,-0.529876643695706,['Hoffenheim'],[533],['Germany'],,,0
+388,Owen Coyle,-0.531384080543795,"['Burnley', 'Bolton']","[1132, 355]","['England', 'England']",,,0
+389,Christoph Daum,-0.5375981099174639,"['Köln', 'Eintracht Frankfurt']","[3, 24]","['Germany', 'Germany']",,,0
+390,Félix Sarriugarte,-0.541988241184609,['Athletic Bilbao'],[621],['Spain'],,,0
+391,Giancarlo Camolese,-0.5422784468330021,"['Livorno', 'Torino']","[1210, 416]","['Italy', 'Italy']",,,0
+392,Valérien Ismaël,-0.542585598278603,['Wolfsburg'],[82],['Germany'],,,0
+393,Aitor Karanka,-0.542868936804739,['Middlesbrough'],[641],['England'],,,0
+394,Robin Dutt,-0.546947980354346,"['Freiburg', 'Bayer Leverkusen', 'Werder Bremen']","[60, 15, 86]","['Germany', 'Germany', 'Germany']",,,0
+395,Giovanni Trapattoni,-0.5526157356793411,['Stuttgart'],[79],['Germany'],,,0
+396,Nedo Sonetti,-0.5580722262041279,"['Cagliari', 'Ascoli', 'Cagliari']","[1390, 408, 1390]","['Italy', 'Italy', 'Italy']",,,0
+397,Fran Escribá,-0.5593834497876129,"['Elche', 'Getafe', 'Villarreal']","[1531, 3709, 1050]","['Spain', 'Spain', 'Spain']",,,0
+398,Fred Rutten,-0.560379633640301,['Schalke'],[33],['Germany'],,,0
+399,Daniel Sanchez,-0.56091274420488,['Valenciennes'],[1423],['France'],,,0
+400,Ricky Sbragia,-0.5613244564602711,['Sunderland'],[289],['England'],,,0
+401,Emiliano Mondonico,-0.563163012878986,"['Fiorentina', 'Novara']","[430, 6692]","['Italy', 'Italy']",,,0
+402,Stefano Pioli,-0.5640832865369579,"['Parma', 'Chievo', 'Bologna', 'Lazio', 'Inter Milan', 'Fiorentina']","[130, 862, 1025, 398, 46, 430]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",Fiorentina,430.0,1
+403,Petar Vasiljevic,-0.5652368375764051,['Osasuna'],[331],['Spain'],,,0
+404,Landry Chauvin,-0.569774997119104,['Brest'],[3911],['France'],,,0
+405,Mark Hughes,-0.5705634225366351,"['Blackburn', 'Manchester City', 'Fulham', 'QPR', 'Stoke', 'Southampton']","[164, 281, 931, 1039, 512, 180]","['England', 'England', 'England', 'England', 'England', 'England']",,,0
+406,Daniel Jeandupeux,-0.5741660353329039,['Le Mans'],[1164],['France'],,,0
+407,Marcel Koller,-0.5745028434442819,['Bochum'],[80],['Germany'],,,0
+408,Antonio López Habas,-0.5808537901594399,['Valencia'],[1049],['Spain'],,,0
+409,Michael Köllner,-0.5819700910765501,['Nürnberg'],[4],['Germany'],Nürnberg,4.0,1
+410,Uwe Rapolder,-0.5864794695547609,"['Arminia Bielefeld', 'Köln']","[10, 3]","['Germany', 'Germany']",,,0
+411,Alexander Zorniger,-0.587555825656648,['Stuttgart'],[79],['Germany'],,,0
+412,Thierry Henry,-0.592225175618435,['Monaco'],[162],['France'],Monaco,162.0,1
+413,Philippe Hinschberger,-0.5930957874976329,['Metz'],[347],['France'],,,0
+414,Nigel Worthington,-0.596379161082234,['Norwich'],[1123],['England'],,,0
+415,Carlos Bianchi,-0.5972010428122211,['Atlético Madrid'],[13],['Spain'],,,0
+416,Marcelo Romero,-0.597813376572602,['Málaga'],[1084],['Spain'],,,0
+417,Domenico Caso,-0.598991036600715,['Lazio'],[398],['Italy'],,,0
+418,Steve Wigley,-0.5998383559221501,['Southampton'],[180],['England'],,,0
+419,Peter Bosz,-0.6028837905306421,['Borussia Dortmund'],[16],['Germany'],,,0
+420,Víctor Sánchez,-0.603946276951735,"['Deportivo La Coruña', 'Real Betis']","[897, 150]","['Spain', 'Spain']",,,0
+421,Didier Ollé-Nicolle,-0.607919350057797,['Nice'],[417],['France'],,,0
+422,Manuel Baum,-0.6132619061441179,['Augsburg'],[167],['Germany'],Augsburg,167.0,1
+423,Brian Laws,-0.617068004947702,['Burnley'],[1132],['England'],,,0
+424,René Meulensteen,-0.6216978311329929,['Fulham'],[931],['England'],,,0
+425,Gianluca Atzori,-0.623461915883547,['Catania'],[1627],['Italy'],,,0
+426,Massimo Ficcadenti,-0.6265923274649979,"['Reggina', 'Cesena', 'Cagliari', 'Cagliari']","[1386, 1429, 1390, 1390]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+427,Thorsten Fink,-0.628237499488287,['Hamburg'],[41],['Germany'],,,0
+428,Paul Ince,-0.630384704448442,['Blackburn'],[164],['England'],,,0
+429,Zinédine Zidane,-0.632002001612808,['Real Madrid'],[418],['Spain'],,,0
+430,Peter Stöger,-0.6334566669496601,"['Köln', 'Borussia Dortmund']","[3, 16]","['Germany', 'Germany']",,,0
+431,Slavisa Jokanovic,-0.6352721259543149,['Fulham'],[931],['England'],,,0
+432,Tim Sherwood,-0.639357388073884,"['Tottenham', 'Aston Villa']","[148, 405]","['England', 'England']",,,0
+433,Fabrizio Ravanelli,-0.648244504394062,['Ajaccio'],[1147],['France'],,,0
+434,Marcus Sorg,-0.650584724240192,['Freiburg'],[60],['Germany'],,,0
+435,Paul Jewell,-0.650644715941501,"['Wigan', 'Derby']","[1071, 22]","['England', 'England']",,,0
+436,Jagoba Arrasate,-0.651032006554945,['Real Sociedad'],[681],['Spain'],,,0
+437,Juri Schlünz,-0.652259390169968,['Hansa Rostock'],[30],['Germany'],,,0
+438,Paulo Duarte,-0.653604366194093,['Le Mans'],[1164],['France'],,,0
+439,Loïc Amisse,-0.656425514145684,['Nantes'],[995],['France'],,,0
+440,Vahid Halilhodzic,-0.658626812708664,"['Paris Saint-Germain', 'Nantes']","[583, 995]","['France', 'France']",Nantes,995.0,1
+441,Vladimir Petkovic,-0.658694347063244,['Lazio'],[398],['Italy'],,,0
+442,Gennaro Ruotolo,-0.6606696314794339,"['Livorno', 'Livorno']","[1210, 1210]","['Italy', 'Italy']",,,0
+443,Moreno Longo,-0.6623775491369539,['Frosinone'],[8970],['Italy'],,,0
+444,Jean-Louis Garcia,-0.663041675893278,['Troyes'],[1095],['France'],,,0
+445,Luis César Sampedro,-0.66559021969833,['Gimnàstic'],[5648],['Spain'],,,0
+446,Mohamed Bradja,-0.6656927384307789,['Troyes'],[1095],['France'],,,0
+447,Andrea Mandorlini,-0.679119035932793,"['Atalanta', 'Siena', 'Hellas Verona', 'Genoa']","[800, 1387, 276, 252]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+448,Carlo Mazzone,-0.6828611896334539,"['Bologna', 'Livorno']","[1025, 1210]","['Italy', 'Italy']",,,0
+449,Markus Kauczinski,-0.6845004293564338,['Ingolstadt'],[4795],['Germany'],,,0
+450,Jean-Marc Nobilo,-0.691669875054872,['Le Havre'],[738],['France'],,,0
+451,Ariel Jacobs,-0.69555914272465,['Valenciennes'],[1423],['France'],,,0
+452,Attilio Tesser,-0.695822562766984,"['Cagliari', 'Ascoli', 'Novara', 'Novara']","[1390, 408, 6692, 6692]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+453,Rubi,-0.697120833665926,"['Levante', 'Sporting Gijón', 'Espanyol']","[3368, 2448, 714]","['Spain', 'Spain', 'Spain']",Espanyol,714.0,1
+454,Pasquale Marino,-0.698214908896971,"['Catania', 'Udinese', 'Udinese', 'Parma', 'Genoa']","[1627, 410, 410, 130, 252]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+455,César Ferrando,-0.699586105666187,['Atlético Madrid'],[13],['Spain'],,,0
+456,David Wagner,-0.7045182731587609,['Huddersfield'],[1110],['England'],Huddersfield,1110.0,1
+457,Víctor Fernández,-0.7070676473134291,"['Zaragoza', 'Deportivo La Coruña']","[142, 897]","['Spain', 'Spain']",,,0
+458,Fernando Orsi,-0.7098777477181191,"['Livorno', 'Livorno']","[1210, 1210]","['Italy', 'Italy']",,,0
+459,Martín Monteagudo,-0.7099438935146409,['Albacete'],[1532],['Spain'],,,0
+460,Michael Henke,-0.714445241315427,['Kaiserslautern'],[2],['Germany'],,,0
+461,Sammy Lee,-0.7193850815893901,['Bolton'],[355],['England'],,,0
+462,Rudi Bommer,-0.725137637346572,['Duisburg'],[52],['Germany'],,,0
+463,Abel Resino,-0.735038385423083,"['Levante', 'Atlético Madrid', 'Granada', 'Celta Vigo', 'Granada']","[3368, 13, 16795, 940, 16795]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain']",,,0
+464,Lorenzo Serra Ferrer,-0.736734148769715,['Real Betis'],[150],['Spain'],,,0
+465,Julen Lopetegui,-0.737445693994672,['Real Madrid'],[418],['Spain'],,,0
+466,Holger Stanislawski,-0.7412883252687891,"['St Pauli', 'Hoffenheim']","[35, 533]","['Germany', 'Germany']",,,0
+467,Thomas Schneider,-0.7415107554537042,['Stuttgart'],[79],['Germany'],,,0
+468,Bruno Labbadia,-0.742798502427691,"['Bayer Leverkusen', 'Hamburg', 'Stuttgart', 'Hamburg', 'Wolfsburg']","[15, 41, 79, 41, 82]","['Germany', 'Germany', 'Germany', 'Germany', 'Germany']",Wolfsburg,82.0,1
+469,David O'Leary,-0.7428870659757081,['Aston Villa'],[405],['England'],,,0
+470,Paul Le Guen,-0.7464005766584051,"['Lyon', 'Paris Saint-Germain']","[1041, 583]","['France', 'France']",,,0
+471,Lawrie Sanchez,-0.7490511729631579,['Fulham'],[931],['England'],,,0
+472,José Antonio Romero,-0.751824817304706,['Córdoba'],[993],['Spain'],,,0
+473,Zdenek Zeman,-0.756670901136602,"['Lecce', 'Roma', 'Cagliari', 'Cagliari', 'Pescara']","[1005, 12, 1390, 1390, 2921]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+474,Paul Hart,-0.758752607359395,['Portsmouth'],[1020],['England'],,,0
+475,Gabriel Calderón,-0.763066100938214,['Real Betis'],[150],['Spain'],,,0
+476,André Villas-Boas,-0.768467163149372,"['Chelsea', 'Tottenham']","[631, 148]","['England', 'England']",,,0
+477,Alex McLeish,-0.777193833550244,"['Birmingham', 'Aston Villa']","[337, 405]","['England', 'England']",,,0
+478,Thomas von Heesen,-0.7786678833861329,"['Arminia Bielefeld', 'Nürnberg']","[10, 4]","['Germany', 'Germany']",,,0
+479,Juan Ramón López Caro,-0.7793557385683051,"['Real Madrid', 'Levante']","[418, 3368]","['Spain', 'Spain']",,,0
+480,Terry Connor,-0.7822517094009829,['Wolves'],[543],['England'],,,0
+481,Paco Herrera,-0.7926708901180392,"['Celta Vigo', 'Las Palmas']","[940, 472]","['Spain', 'Spain']",,,0
+482,Neil Warnock,-0.803621828158381,"['Sheffield United', 'QPR', 'Crystal Palace', 'Cardiff']","[350, 1039, 873, 603]","['England', 'England', 'England', 'England']",Cardiff,603.0,1
+483,Avram Grant,-0.804889423966631,"['Chelsea', 'Portsmouth', 'West Ham']","[631, 1020, 379]","['England', 'England', 'England']",,,0
+484,Jürgen Klinsmann,-0.805379414810785,['Bayern Munich'],[27],['Germany'],,,0
+485,Holger Fach,-0.809492290620536,"['Borussia Mönchengladbach', 'Wolfsburg']","[18, 82]","['Germany', 'Germany']",,,0
+486,Angelo Gregucci,-0.81890958402254,"['Lecce', 'Atalanta']","[1005, 800]","['Italy', 'Italy']",,,0
+487,Sylvain Ripoll,-0.825510556122179,['Lorient'],[1158],['France'],,,0
+488,Domenico Di Carlo,-0.8380246677786299,"['Parma', 'Chievo', 'Sampdoria', 'Chievo', 'Livorno', 'Cesena', 'Chievo']","[130, 862, 1038, 862, 1210, 1429, 862]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",Chievo,862.0,1
+489,Vincenzo Montella,-0.8473826082085321,"['Roma', 'Catania', 'Fiorentina', 'Sampdoria', 'AC Milan', 'Sevilla']","[12, 1627, 430, 1038, 5, 368]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Spain']",,,0
+490,Dick Advocaat,-0.850229494858302,"['Borussia Mönchengladbach', 'Sunderland']","[18, 289]","['Germany', 'England']",,,0
+491,Chris Coleman,-0.8506617294997869,['Fulham'],[931],['England'],,,0
+492,André Breitenreiter,-0.854587158562883,"['Paderborn', 'Schalke', 'Hannover']","[127, 33, 42]","['Germany', 'Germany', 'Germany']",Hannover,42.0,1
+493,Alain Perrin,-0.8670979927393492,"['Portsmouth', 'Sochaux', 'Lyon', 'Saint-Étienne']","[1020, 750, 1041, 618]","['England', 'France', 'France', 'France']",,,0
+494,John Carver,-0.871892820604102,['Newcastle'],[762],['England'],,,0
+495,Ciro Ferrara,-0.8765527341856171,"['Juventus', 'Sampdoria']","[506, 1038]","['Italy', 'Italy']",,,0
+496,Álvaro Cervera,-0.8765557299548459,['Racing Santander'],[630],['Spain'],,,0
+497,Torsten Lieberknecht,-0.8800969972410841,['Braunschweig'],[23],['Germany'],,,0
+498,Jean Tigana,-0.8889127324177779,['Bordeaux'],[40],['France'],,,0
+499,Mike Büskens,-0.89300915484296,['Greuther Fürth'],[65],['Germany'],,,0
+500,Laurent Guyot,-0.895022536031961,['Boulogne'],[7042],['France'],,,0
+501,Francisco Rodríguez,-0.901323980529948,"['Almería', 'Huesca']","[3302, 5358]","['Spain', 'Spain']",Huesca,5358.0,1
+502,Alberto Malesani,-0.903210736763082,"['Udinese', 'Empoli', 'Siena', 'Bologna', 'Genoa', 'Genoa', 'Palermo', 'Sassuolo']","[410, 749, 1387, 1025, 252, 252, 458, 6574]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+503,Serge Le Dizet,-0.90451972411081,['Nantes'],[995],['France'],,,0
+504,Bruno Giordano,-0.912137247038535,"['Messina', 'Messina']","[1104, 1104]","['Italy', 'Italy']",,,0
+505,Gary Megson,-0.919835815745925,"['West Bromwich Albion', 'Bolton']","[984, 355]","['England', 'England']",,,0
+506,Albert Cartier,-0.928244641357942,['Metz'],[347],['France'],,,0
+507,Frank de Boer,-0.9295485194155251,"['Inter Milan', 'Crystal Palace']","[46, 873]","['Italy', 'England']",,,0
+508,Dominique Bijotat,-0.930335657122187,"['Ajaccio', 'Sochaux']","[1147, 750]","['France', 'France']",,,0
+509,Giovanni Martusciello,-0.947922162222203,['Empoli'],[749],['Italy'],,,0
+510,Staale Solbakken,-0.9484976382825899,['Köln'],[3],['Germany'],,,0
+511,Rolando Maran,-0.951870681064502,"['Catania', 'Catania', 'Chievo', 'Cagliari']","[1627, 1627, 862, 1390]","['Italy', 'Italy', 'Italy', 'Italy']",Cagliari,1390.0,1
+512,Pascal Dupraz,-0.956685270356368,"['Évian Thonon Gaillard', 'Toulouse']","[14171, 415]","['France', 'France']",,,0
+513,Juan Carlos Garrido,-0.960855527516688,"['Villarreal', 'Real Betis']","[1050, 150]","['Spain', 'Spain']",,,0
+514,Markus Gisdol,-0.967991210210051,"['Hoffenheim', 'Hamburg']","[533, 41]","['Germany', 'Germany']",,,0
+515,Marco Baroni,-0.9748279321716359,"['Siena', 'Benevento', 'Frosinone']","[1387, 4171, 8970]","['Italy', 'Italy', 'Italy']",Frosinone,8970.0,1
+516,Roberto De Zerbi,-0.9778206605484241,"['Palermo', 'Benevento', 'Sassuolo']","[458, 4171, 6574]","['Italy', 'Italy', 'Italy']",Sassuolo,6574.0,1
+517,José González,-0.985061833796422,"['Albacete', 'Granada', 'Málaga']","[1532, 16795, 1084]","['Spain', 'Spain', 'Spain']",,,0
+518,László Bölöni,-0.9862586346377379,"['Rennes', 'Monaco', 'Lens']","[273, 162, 826]","['France', 'France', 'France']",,,0
+519,Pierpaolo Bisoli,-0.9986683533098442,"['Cagliari', 'Bologna', 'Cesena']","[1390, 1025, 1429]","['Italy', 'Italy', 'Italy']",,,0
+520,Marcelo Bielsa,-1.01171718712569,"['Athletic Bilbao', 'Marseille', 'Lille']","[621, 244, 1082]","['Spain', 'France', 'France']",,,0
+521,Stuart Pearce,-1.01275952621197,['Manchester City'],[281],['England'],,,0
+522,Dino Zoff,-1.0269040995085401,['Fiorentina'],[430],['Italy'],,,0
+523,Paco Jémez,-1.02753705942593,"['Rayo Vallecano', 'Granada', 'Las Palmas']","[367, 16795, 472]","['Spain', 'Spain', 'Spain']",,,0
+524,Bruno Conti,-1.03045185833901,['Roma'],[12],['Italy'],,,0
+525,Gianfranco Zola,-1.04494110897491,"['West Ham', 'Cagliari']","[379, 1390]","['England', 'Italy']",,,0
+526,Dominique Arribagé,-1.0466251758401999,['Toulouse'],[415],['France'],,,0
+527,François Ciccolini,-1.0490492254296,"['Bastia', 'Bastia']","[595, 595]","['France', 'France']",,,0
+528,Manolo Hierro,-1.0531883770597499,['Málaga'],[1084],['Spain'],,,0
+529,Miroslav Djukic,-1.05434165619037,"['Hércules', 'Valladolid', 'Valencia', 'Córdoba']","[7971, 366, 1049, 993]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+530,Gary Neville,-1.0624177123156702,['Valencia'],[1049],['Spain'],,,0
+531,Zvonimir Soldo,-1.07634662494825,['Köln'],[3],['Germany'],,,0
+532,Davide Nicola,-1.08961812739757,"['Livorno', 'Livorno', 'Crotone', 'Udinese']","[1210, 1210, 4083, 410]","['Italy', 'Italy', 'Italy', 'Italy']",Udinese,410.0,1
+533,Luigi Delneri,-1.10387095788272,"['Roma', 'Palermo', 'Chievo', 'Atalanta', 'Sampdoria', 'Juventus', 'Genoa', 'Hellas Verona', 'Udinese']","[12, 458, 862, 800, 1038, 506, 252, 276, 410]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+534,Klaus Augenthaler,-1.1172934219750101,"['Bayer Leverkusen', 'Wolfsburg']","[15, 82]","['Germany', 'Germany']",,,0
+535,Bryan Robson,-1.11755063386294,['West Bromwich Albion'],[984],['England'],,,0
+536,Francis De Taddeo,-1.1237510063890201,['Metz'],[347],['France'],,,0
+537,Michel Pavon,-1.13420819814148,['Bordeaux'],[40],['France'],,,0
+538,Armin Veh,-1.13480002694007,"['Stuttgart', 'Wolfsburg', 'Hamburg', 'Eintracht Frankfurt', 'Stuttgart', 'Eintracht Frankfurt']","[79, 82, 41, 24, 79, 24]","['Germany', 'Germany', 'Germany', 'Germany', 'Germany', 'Germany']",,,0
+539,Rémi Garde,-1.13579556536999,"['Lyon', 'Aston Villa']","[1041, 405]","['France', 'England']",,,0
+540,Sir Kenny Dalglish,-1.14168354453168,['Liverpool'],[31],['England'],,,0
+541,Bortolo Mutti,-1.1558389319363602,"['Messina', 'Atalanta', 'Bari', 'Palermo']","[1104, 800, 332, 458]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+542,Gaizka Garitano,-1.15664163744996,"['Eibar', 'Deportivo La Coruña', 'Athletic Bilbao']","[1533, 897, 621]","['Spain', 'Spain', 'Spain']",Athletic Bilbao,621.0,1
+543,Fabio Pecchia,-1.1693862668371,['Hellas Verona'],[276],['Italy'],,,0
+544,Ivan Juric,-1.16944772826297,"['Genoa', 'Genoa', 'Genoa']","[252, 252, 252]","['Italy', 'Italy', 'Italy']",,,0
+545,Quique Sánchez Flores,-1.17222458617051,"['Getafe', 'Valencia', 'Atlético Madrid', 'Getafe', 'Watford', 'Espanyol']","[3709, 1049, 13, 3709, 1010, 714]","['Spain', 'Spain', 'Spain', 'Spain', 'England', 'Spain']",,,0
+546,Guy Lacombe,-1.1775013625561999,"['Sochaux', 'Paris Saint-Germain', 'Rennes', 'Monaco']","[750, 583, 273, 162]","['France', 'France', 'France', 'France']",,,0
+547,Iain Dowie,-1.1805403501799299,"['Crystal Palace', 'Charlton', 'Hull']","[873, 358, 3008]","['England', 'England', 'England']",,,0
+548,Alberto Cavasin,-1.1815453303701202,"['Brescia', 'Treviso', 'Messina', 'Sampdoria']","[19, 2251, 1104, 1038]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+549,Pako Ayestarán,-1.18360893689592,"['Valencia', 'Las Palmas']","[1049, 472]","['Spain', 'Spain']",,,0
+550,Thomas Schaaf,-1.1956880452254801,"['Werder Bremen', 'Eintracht Frankfurt', 'Hannover']","[86, 24, 42]","['Germany', 'Germany', 'Germany']",,,0
+551,Walter Novellino,-1.1991302888173898,"['Sampdoria', 'Torino', 'Torino', 'Palermo']","[1038, 416, 416, 458]","['Italy', 'Italy', 'Italy', 'Italy']",,,0
+552,Peter Neururer,-1.2209966027416599,"['Bochum', 'Hannover']","[80, 42]","['Germany', 'Germany']",,,0
+553,Faruk Hadzibegic,-1.22896279661546,['Arles'],[11300],['France'],,,0
+554,Albert Emon,-1.23525143889968,"['Marseille', 'Marseille', 'Ajaccio']","[244, 244, 1147]","['France', 'France', 'France']",,,0
+555,Luigi De Canio,-1.2366831545398,"['Siena', 'Lecce', 'Genoa', 'Catania', 'Udinese']","[1387, 1005, 252, 1627, 410]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+556,Jean-Pierre Papin,-1.2402849988656899,['Lens'],[826],['France'],,,0
+557,Bert van Marwijk,-1.2403701900830701,"['Borussia Dortmund', 'Hamburg']","[16, 41]","['Germany', 'Germany']",,,0
+558,Diego López,-1.25711251484155,"['Cagliari', 'Palermo', 'Cagliari']","[1390, 458, 1390]","['Italy', 'Italy', 'Italy']",,,0
+559,Steve Bruce,-1.26414967125033,"['Birmingham', 'Wigan', 'Sunderland', 'Hull']","[337, 1071, 289, 3008]","['England', 'England', 'England', 'England']",,,0
+560,Laurent Fournier,-1.2743338800123,"['Paris Saint-Germain', 'Auxerre']","[583, 290]","['France', 'France']",,,0
+561,Cristian Bucchi,-1.2744825436646001,"['Pescara', 'Sassuolo']","[2921, 6574]","['Italy', 'Italy']",,,0
+562,Steve Kean,-1.2937990421585202,['Blackburn'],[164],['England'],,,0
+563,Jos Luhukay,-1.30653199440632,"['Borussia Mönchengladbach', 'Augsburg', 'Hertha']","[18, 167, 44]","['Germany', 'Germany', 'Germany']",,,0
+564,Víctor Muñoz,-1.32177892787652,"['Zaragoza', 'Recreativo', 'Getafe']","[142, 2867, 3709]","['Spain', 'Spain', 'Spain']",,,0
+565,Louis van Gaal,-1.3593124950912199,"['Bayern Munich', 'Manchester United']","[27, 985]","['Germany', 'England']",,,0
+566,Tony Adams,-1.3831422400494502,"['Portsmouth', 'Granada']","[1020, 16795]","['England', 'Spain']",,,0
+567,Mick McCarthy,-1.4317538834532197,"['Sunderland', 'Wolves']","[289, 543]","['England', 'England']",,,0
+568,José Luis Oltra,-1.43710088220359,"['Levante', 'Tenerife', 'Almería', 'Deportivo La Coruña']","[3368, 648, 3302, 897]","['Spain', 'Spain', 'Spain', 'Spain']",,,0
+569,Silvio Baldini,-1.4517369188563702,"['Parma', 'Lecce', 'Catania']","[130, 1005, 1627]","['Italy', 'Italy', 'Italy']",,,0
+570,Massimo Oddo,-1.4546760612553,"['Pescara', 'Udinese']","[2921, 410]","['Italy', 'Italy']",,,0
+571,Graeme Souness,-1.4555971520628703,"['Blackburn', 'Newcastle']","[164, 762]","['England', 'England']",,,0
+572,Norbert Meier,-1.4742960668896399,"['Duisburg', 'Fortuna Düsseldorf', 'Darmstadt']","[52, 38, 105]","['Germany', 'Germany', 'Germany']",,,0
+573,Míchel,-1.48108884998579,"['Getafe', 'Sevilla', 'Marseille', 'Rayo Vallecano', 'Málaga']","[3709, 368, 244, 367, 1084]","['Spain', 'Spain', 'France', 'Spain', 'Spain']",,,0
+574,Michael Oenning,-1.5079196209969699,"['Nürnberg', 'Hamburg']","[4, 41]","['Germany', 'Germany']",,,0
+575,Juan Muñiz,-1.55410555466671,"['Racing Santander', 'Málaga', 'Levante']","[630, 1084, 3368]","['Spain', 'Spain', 'Spain']",,,0
+576,Filippo Inzaghi,-1.57625249120338,"['AC Milan', 'Bologna']","[5, 1025]","['Italy', 'Italy']",Bologna,1025.0,1
+577,Volker Finke,-1.63161255916644,['Freiburg'],[60],['Germany'],,,0
+578,Gareth Southgate,-1.6491131548112,['Middlesbrough'],[641],['England'],,,0
+579,Friedhelm Funkel,-1.79752592494587,"['Eintracht Frankfurt', 'Hertha', 'Fortuna Düsseldorf']","[24, 44, 38]","['Germany', 'Germany', 'Germany']",Fortuna Düsseldorf,38.0,1
+580,Alberto Zaccheroni,-1.8349390621307298,"['Torino', 'Juventus']","[416, 506]","['Italy', 'Italy']",,,0
+581,Héctor Cúper,-1.8547762129688001,"['Mallorca', 'Real Betis', 'Parma', 'Racing Santander']","[237, 150, 130, 630]","['Spain', 'Spain', 'Italy', 'Spain']",,,0
+582,Lucas Alcaraz,-1.85696635700816,"['Racing Santander', 'Murcia', 'Recreativo', 'Granada', 'Levante', 'Granada']","[630, 171, 2867, 16795, 3368, 16795]","['Spain', 'Spain', 'Spain', 'Spain', 'Spain', 'Spain']",,,0
+583,Antoine Kombouaré,-1.8637820208392302,"['Strasbourg', 'Valenciennes', 'Paris Saint-Germain', 'Lens', 'Guingamp']","[667, 1423, 583, 826, 855]","['France', 'France', 'France', 'France', 'France']",,,0
+584,Javier Irureta,-1.9040298385327399,"['Deportivo La Coruña', 'Real Betis', 'Zaragoza']","[897, 150, 142]","['Spain', 'Spain', 'Spain']",,,0
+585,Joël Muller,-1.9085843399139801,"['Lens', 'Metz']","[826, 347]","['France', 'France']",,,0
+586,Mario Beretta,-1.95645846637304,"['Chievo', 'Parma', 'Siena', 'Siena', 'Lecce', 'Brescia', 'Cesena']","[862, 130, 1387, 1387, 1005, 19, 1429]","['Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy', 'Italy']",,,0
+587,Didier Deschamps,-1.9930824676674501,"['Monaco', 'Marseille']","[162, 244]","['France', 'France']",,,0
+588,Steve McClaren,-2.07970121669449,"['Middlesbrough', 'Wolfsburg', 'Newcastle']","[641, 82, 762]","['England', 'Germany', 'England']",,,0
+589,Giovanni De Biasi,-2.09325234957187,"['Brescia', 'Torino', 'Levante', 'Torino', 'Udinese', 'Alavés']","[19, 416, 3368, 416, 410, 1108]","['Italy', 'Italy', 'Spain', 'Italy', 'Italy', 'Spain']",,,0
+590,Michael Frontzeck,-2.12197495657473,"['Aachen', 'Arminia Bielefeld', 'Borussia Mönchengladbach', 'Hannover']","[8, 10, 18, 42]","['Germany', 'Germany', 'Germany', 'Germany']",,,0
+591,Andrea Stramaccioni,-2.33546032605428,"['Inter Milan', 'Udinese']","[46, 410]","['Italy', 'Italy']",,,0
+592,Jean-Marc Furlan,-2.43757474360779,"['Troyes', 'Strasbourg', 'Troyes']","[1095, 667, 1095]","['France', 'France', 'France']",,,0
+593,Cuco Ziganda,-2.71200394166054,"['Osasuna', 'Xerez', 'Athletic Bilbao']","[331, 134, 621]","['Spain', 'Spain', 'Spain']",,,0
+594,Carlo Ancelotti,-2.79510922541647,"['AC Milan', 'Chelsea', 'Paris Saint-Germain', 'Real Madrid', 'Bayern Munich', 'Napoli']","[5, 631, 583, 418, 27, 6195]","['Italy', 'England', 'France', 'Spain', 'Germany', 'Italy']",Napoli,6195.0,1
+595,Mehmed Bazdarevic,-2.7951823663386,"['Istres', 'Grenoble', 'Sochaux']","[2580, 1290, 750]","['France', 'France', 'France']",,,0
