@@ -1,0 +1,193 @@
+league_country,full_team_name,fixtures_team_name,TM_team_name,TM_team_id,FIFA_team_name,FIFA_team_id
+England,Arsenal,Arsenal,fc-arsenal,11,arsenal,1
+England,Aston Villa,Aston Villa,aston-villa,405,aston-villa,2
+England,Birmingham,Birmingham,birmingham-city,337,birmingham-city,88
+England,Blackburn,Blackburn,blackburn-rovers,164,blackburn-rovers,3
+England,Blackpool,Blackpool,fc-blackpool,1181,blackpool,1926
+England,Bolton,Bolton,bolton-wanderers,355,bolton-wanderers,4
+England,Bournemouth,Bournemouth,afc-bournemouth,989,bournemouth,1943
+England,Brighton,Brighton,brighton-amp-hove-albion,1237,brighton,1808
+England,Burnley,Burnley,fc-burnley,1132,burnley,1796
+England,Cardiff,Cardiff,cardiff-city,603,cardiff-city,1961
+England,Charlton,Charlton,charlton-athletic,358,charlton-athletic,89
+England,Chelsea,Chelsea,fc-chelsea,631,chelsea,5
+England,Crystal Palace,Crystal Palace,crystal-palace,873,crystal-palace,1799
+England,Derby,Derby,derby-county,22,derby-county,91
+England,Everton,Everton,fc-everton,29,everton,7
+England,Fulham,Fulham,fc-fulham,931,fulham,144
+England,Huddersfield,Huddersfield,huddersfield-town,1110,huddersfield,1939
+England,Hull,Hull,hull-city,3008,hull-city,1952
+England,Leicester,Leicester,leicester-city,1003,leicester-city,95
+England,Liverpool,Liverpool,fc-liverpool,31,liverpool,9
+England,Manchester City,Man City,manchester-city,281,manchester-city,10
+England,Manchester United,Man United,manchester-united,985,manchester-united,11
+England,Middlesbrough,Middlesbrough,fc-middlesbrough,641,middlesbrough,12
+England,Newcastle,Newcastle,newcastle-united,762,newcastle-united,13
+England,Norwich,Norwich,norwich-city,1123,norwich-city,1792
+England,Portsmouth,Portsmouth,fc-portsmouth,1020,portsmouth,1790
+England,QPR,QPR,queens-park-rangers,1039,qpr,15
+England,Reading,Reading,fc-reading,1032,reading-fc,1793
+England,Sheffield United,Sheffield United,sheffield-united,350,sheffield-united,1794
+England,Southampton,Southampton,fc-southampton,180,southampton,17
+England,Stoke,Stoke,stoke-city,512,stoke-city,1806
+England,Sunderland,Sunderland,afc-sunderland,289,sunderland,106
+England,Swansea,Swansea,swansea-city,2288,swansea-city,1960
+England,Tottenham,Tottenham,tottenham-hotspur,148,tottenham-hotspur,18
+England,Watford,Watford,fc-watford,1010,watford,1795
+England,West Bromwich Albion,West Brom,west-bromwich-albion,984,west-brom,109
+England,West Ham,West Ham,west-ham-united,379,west-ham-united,19
+England,Wigan,Wigan,wigan-athletic,1071,wigan-athletic,1917
+England,Wolves,Wolves,wolverhampton-wanderers,543,wolverhampton-wanderers,110
+France,Ajaccio,Ajaccio,ac-ajaccio,1147,ac-ajaccio,614
+France,Ajaccio GFCO,Ajaccio GFCO,gfc-ajaccio,3558,gfc-ajaccio,110316
+France,Amiens,Amiens,sc-amiens,1416,amiens-sc,1816
+France,Angers,Angers,sco-angers,1420,angers-sco,1530
+France,Arles,Arles,ac-arles-avignon,11300,arles-avignon,111989
+France,Auxerre,Auxerre,aj-auxerre,290,aj-auxerre,57
+France,Bastia,Bastia,sc-bastia,595,sc-bastia,58
+France,Bordeaux,Bordeaux,fc-girondins-bordeaux,40,bordeaux,59
+France,Boulogne,Boulogne,us-boulogne,7042,u-s-boulogne-cote-dopale,111376
+France,Brest,Brest,stade-brest-29,3911,stade-brest,378
+France,Caen,Caen,sm-caen,1162,sm-caen,210
+France,Dijon,Dijon,fco-dijon,2969,dijon-fco,110569
+France,Évian Thonon Gaillard,Evian Thonon Gaillard,fc-evian-thonon-gaillard,14171,evian-thonon-fc,111271
+France,Grenoble,Grenoble,grenoble-foot-38,1290,grenoble-foot-38,1805
+France,Guingamp,Guingamp,ea-guingamp,855,ea-guingamp,62
+France,Istres,Istres,fc-istres,2580,istres,1820
+France,Le Havre,Le Havre,ac-le-havre,738,le-havre-ac,1738
+France,Le Mans,Le Mans,fc-le-mans,1164,le-mans-uc-72,1739
+France,Lens,Lens,rc-lens,826,rc-lens,64
+France,Lille,Lille,osc-lille,1082,lille-osc,65
+France,Lorient,Lorient,fc-lorient,1158,lorient,217
+France,Lyon,Lyon,olympique-lyon,1041,olympique-lyonnais,66
+France,Marseille,Marseille,olympique-marseille,244,marseille,219
+France,Metz,Metz,fc-metz,347,fc-metz,68
+France,Monaco,Monaco,as-monaco,162,as-monaco,69
+France,Montpellier,Montpellier,hsc-montpellier,969,montpellier-hsc,70
+France,Nancy,Nancy,as-nancy-lorraine,1159,as-nancy-lorraine,1823
+France,Nantes,Nantes,fc-nantes,995,fc-nantes,71
+France,Nice,Nice,ogc-nizza,417,ogc-nice,72
+France,Nîmes,Nimes,olympique-nimes,1160,n%C3%AEmes-olympique,224
+France,Paris Saint-Germain,Paris SG,fc-paris-saint-germain,583,paris-saint-germain,73
+France,Reims,Reims,stade-reims,1421,stade-reims,379
+France,Rennes,Rennes,fc-stade-rennes,273,rennes,74
+France,Sedan,Sedan,cs-sedan-ardennes,1081,cs-sedan-ardennes,613
+France,Sochaux,Sochaux,fc-sochaux-montbeliard,750,sochaux,226
+France,Saint-Étienne,St Etienne,as-saint-etienne,618,as-saint-etienne,1819
+France,Strasbourg,Strasbourg,racing-strassburg,667,rc-strasbourg,76
+France,Toulouse,Toulouse,fc-toulouse,415,toulouse,1809
+France,Troyes,Troyes,es-troyes-ac,1095,es-troyes-ac,294
+France,Valenciennes,Valenciennes,fc-valenciennes,1423,valenciennes-fc,110456
+Germany,Aachen,Aachen,alemannia-aachen,8,alemannia-aachen,1826
+Germany,Augsburg,Augsburg,fc-augsburg,167,fc-augsburg,100409
+Germany,Bayern Munich,Bayern Munich,fc-bayern-munchen,27,bayern-munich,21
+Germany,Arminia Bielefeld,Bielefeld,arminia-bielefeld,10,arminia-bielefeld,159
+Germany,Bochum,Bochum,vfl-bochum,80,vfl-bochum,160
+Germany,Braunschweig,Braunschweig,eintracht-braunschweig,23,braunschweig,110500
+Germany,Cottbus,Cottbus,fc-energie-cottbus,25,fc-energie-cottbus,162
+Germany,Darmstadt,Darmstadt,sv-darmstadt-98,105,sv-darmstadt,110502
+Germany,Borussia Dortmund,Dortmund,borussia-dortmund,16,borussia-dortmund,22
+Germany,Duisburg,Duisburg,msv-duisburg,52,msv-duisburg,1825
+Germany,Eintracht Frankfurt,Ein Frankfurt,eintracht-frankfurt,24,eintracht-frankfurt,1824
+Germany,Köln,FC Koln,1-fc-koln,3,1-fc-k%C3%B6ln,31
+Germany,Fortuna Düsseldorf,Fortuna Dusseldorf,fortuna-dusseldorf,38,f-d%C3%BCsseldorf,110636
+Germany,Freiburg,Freiburg,sc-freiburg,60,sc-freiburg,25
+Germany,Greuther Fürth,Greuther Furth,spvgg-greuther-furth,65,greuther-f%C3%BCrth,165
+Germany,Hamburg,Hamburg,hamburger-sv,41,hamburger-sport-verein,28
+Germany,Hannover,Hannover,hannover-96,42,hannover-96,485
+Germany,Hansa Rostock,Hansa Rostock,fc-hansa-rostock,30,fc-hansa-rostock,27
+Germany,Hertha,Hertha,hertha-bsc,44,hertha-bsc-berlin,166
+Germany,Hoffenheim,Hoffenheim,tsg-1899-hoffenheim,533,1899-hoffenheim,10029
+Germany,Ingolstadt,Ingolstadt,fc-ingolstadt-04,4795,fc-ingolstadt,111239
+Germany,Kaiserslautern,Kaiserslautern,1-fc-kaiserslautern,2,fc-kaiserslautern,29
+Germany,Karlsruher,Karlsruhe,karlsruher-sc,48,karlsruher-sc,1832
+Germany,Bayer Leverkusen,Leverkusen,bayer-04-leverkusen,15,bayer-leverkusen,32
+Germany,Mainz,Mainz,1-fsv-mainz-05,39,mainz,169
+Germany,Borussia Mönchengladbach,M'gladbach,borussia-monchengladbach,18,monchengladbach,23
+Germany,Nürnberg,Nurnberg,1-fc-nurnberg,4,fc-n%C3%BCrnberg,171
+Germany,Paderborn,Paderborn,sc-paderborn-07,127,sc-paderborn,10030
+Germany,RB Leipzig,RB Leipzig,rasenballsport-leipzig,23826,rb-leipzig,112172
+Germany,Schalke,Schalke 04,fc-schalke-04,33,fc-schalke-04,34
+Germany,St Pauli,St Pauli,fc-st-pauli,35,fc-st-pauli,110329
+Germany,Stuttgart,Stuttgart,vfb-stuttgart,79,vfb-stuttgart,36
+Germany,Werder Bremen,Werder Bremen,sv-werder-bremen,86,sv-werder-bremen,38
+Germany,Wolfsburg,Wolfsburg,vfl-wolfsburg,82,vfl-wolfsburg,175
+Italy,Ascoli,Ascoli,ascoli-calcio,408,ascoli,1846
+Italy,Atalanta,Atalanta,atalanta-bergamo,800,atalanta-bc,39
+Italy,Bari,Bari,as-bari,332,bari,1848
+Italy,Benevento,Benevento,benevento-calcio,4171,benevento,112026
+Italy,Bologna,Bologna,fc-bologna,1025,bologna,189
+Italy,Brescia,Brescia,brescia-calcio,19,brescia,190
+Italy,Cagliari,Cagliari,cagliari-calcio,1390,cagliari,1842
+Italy,Carpi,Carpi,carpi-fc-1909,4102,carpi,112409
+Italy,Catania,Catania,catania-calcio,1627,catania,110364
+Italy,Cesena,Cesena,ac-cesena,1429,cesena,110915
+Italy,Chievo,Chievo,chievo-verona,862,chievo-verona,192
+Italy,Crotone,Crotone,fc-crotone,4083,crotone,110734
+Italy,Empoli,Empoli,fc-empoli,749,empoli,1746
+Italy,Fiorentina,Fiorentina,ac-florenz,430,fiorentina,110374
+Italy,Frosinone,Frosinone,frosinone-calcio,8970,frosinone,111657
+Italy,Genoa,Genoa,fc-genua-1893,252,genoa,110556
+Italy,Inter Milan,Inter,inter-mailand,46,inter-milan,44
+Italy,Juventus,Juventus,juventus-turin,506,juventus,45
+Italy,Lazio,Lazio,lazio-rom,398,lazio,46
+Italy,Lecce,Lecce,us-lecce,1005,lecce,347
+Italy,Livorno,Livorno,as-livorno,1210,livorno,1844
+Italy,Messina,Messina,acr-messina,1104,messina,1845
+Italy,AC Milan,Milan,ac-mailand,5,ac-milan,47
+Italy,Napoli,Napoli,ssc-neapel,6195,napoli,48
+Italy,Novara,Novara,novara-calcio-1908,6692,novara,112225
+Italy,Palermo,Palermo,us-palermo,458,palermo,1843
+Italy,Parma,Parma,fc-parma,130,parma,50
+Italy,Pescara,Pescara,delfino-pescara-1936,2921,pescara,200
+Italy,Reggina,Reggina,reggina-calcio,1386,reggina-calcio,203
+Italy,Roma,Roma,as-rom,12,as-roma,52
+Italy,Sampdoria,Sampdoria,uc-sampdoria,1038,sampdoria,1837
+Italy,Sassuolo,Sassuolo,us-sassuolo,6574,sassuolo,111974
+Italy,Siena,Siena,ac-siena,1387,siena,1838
+Italy,SPAL,Spal,spal-2013,2722,spal,112791
+Italy,Torino,Torino,fc-turin,416,torino,54
+Italy,Treviso,Treviso,fc-treviso,2251,treviso,2021
+Italy,Udinese,Udinese,udinese-calcio,410,udinese,55
+Italy,Hellas Verona,Verona,hellas-verona,276,hellas-verona,206
+Spain,Alavés,Alaves,deportivo-alaves,1108,deport-alav%C3%A9s,463
+Spain,Albacete,Albacete,albacete-balompie,1532,albacete,1854
+Spain,Almería,Almeria,ud-almeria,3302,u-d-almer%C3%ADa,1861
+Spain,Athletic Bilbao,Ath Bilbao,athletic-bilbao,621,athletic-de-bilbao,448
+Spain,Atlético Madrid,Ath Madrid,atletico-madrid,13,atl%C3%A9tico-madrid,240
+Spain,Barcelona,Barcelona,fc-barcelona,131,f-c-barcelona,241
+Spain,Real Betis,Betis,real-betis-sevilla,150,real-betis,449
+Spain,Cádiz,Cadiz,cadiz-cf,2687,c%C3%A1diz,1968
+Spain,Celta Vigo,Celta,celta-vigo,940,rc-celta-vigo,450
+Spain,Córdoba,Cordoba,fc-cordoba,993,c%C3%B3rdoba-cf,1867
+Spain,Eibar,Eibar,sd-eibar,1533,sd-eibar,467
+Spain,Elche,Elche,fc-elche,1531,elche-cf,468
+Spain,Espanyol,Espanol,espanyol-barcelona,714,r-c-d-espanyol,452
+Spain,Getafe,Getafe,fc-getafe,3709,getafe,1860
+Spain,Gimnàstic,Gimnastic,gimnastic-de-tarragona,5648,tarragona,15019
+Spain,Girona,Girona,fc-girona,12321,girona-fc,110062
+Spain,Granada,Granada,fc-granada,16795,granada-cf,110832
+Spain,Hércules,Hercules,hercules-alicante,7971,h%C3%A9rcules-c-f,100879
+Spain,Huesca,Huesca,sd-huesca,5358,sd-huesca,110839
+Spain,Deportivo La Coruña,La Coruna,deportivo-la-coruna,897,rc-deportivo-la-coruna,242
+Spain,Las Palmas,Las Palmas,ud-las-palmas,472,ud-las-palmas,472
+Spain,Leganés,Leganes,cd-leganes,1244,cd-legan%C3%A9s,100888
+Spain,Levante,Levante,ud-levante,3368,levante,1853
+Spain,Málaga,Malaga,fc-malaga,1084,m%C3%A1laga-cf,573
+Spain,Mallorca,Mallorca,rcd-mallorca,237,rcd-mallorca,453
+Spain,Murcia,Murcia,real-murcia,171,real-murcia,1855
+Spain,Numancia,Numancia,cd-numancia,2296,c-d-numancia,477
+Spain,Osasuna,Osasuna,ca-osasuna,331,osasuna,479
+Spain,Real Madrid,Real Madrid,real-madrid,418,real-madrid-c-f,243
+Spain,Recreativo,Recreativo,recreativo-huelva,2867,recreativo-de-huelva,571
+Spain,Racing Santander,Santander,racing-santander,630,racing-de-santander,456
+Spain,Sevilla,Sevilla,fc-sevilla,368,sevilla-f-c,481
+Spain,Real Sociedad,Sociedad,real-sociedad-san-sebastian,681,real-sociedad,457
+Spain,Sporting Gijón,Sp Gijon,sporting-gijon,2448,real-sporting,459
+Spain,Tenerife,Tenerife,cd-teneriffa,648,c-d-tenerife,260
+Spain,Valencia,Valencia,fc-valencia,1049,valencia,461
+Spain,Valladolid,Valladolid,real-valladolid,366,real-valladolid-c-f,462
+Spain,Rayo Vallecano,Vallecano,rayo-vallecano,367,rayo-vallecano,480
+Spain,Villarreal,Villarreal,fc-villarreal,1050,villarreal,483
+Spain,Xerez,Xerez,deportivo-xerez,134,xerez-c-d,1742
+Spain,Zaragoza,Zaragoza,real-saragossa,142,real-zaragoza,244
