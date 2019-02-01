@@ -81,10 +81,12 @@ East Jerusalem data as per previous data.
 West Bank: 
 1998-2017: data made available to _The Economist_ from Peace Now (original source, Israel Central Bureau of Statistics)
 2018: data made available to _The Economist_ from the Washington Institute for Near East Studies (original source, Israel interior ministry). Estimations made by _The Economist_ to unify data will 1998-2017 ICBS data. 
-2019-21: projection based on Peace Now data on publically-available construction plans and tenders
+2019-21: projection based on Peace Now data on publicly available construction plans and tenders.
 
-Aggregations of population by distance from the "green line" based upon individual settlements' distance from "green line" as calcaulted by Peace Now. 
+Aggregations of population by distance from the "green line" based upon individual settlements' distance from "green line" as calculated by Peace Now. 
 
+
+- ends -
 
 
 
