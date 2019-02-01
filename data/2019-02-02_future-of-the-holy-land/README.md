@@ -86,7 +86,7 @@ West Bank:
 Aggregations of population by distance from the "green line" based upon individual settlements' distance from "green line" as calculated by Peace Now. 
 
 
-- ends -
+:- ends -:
 
 
 
