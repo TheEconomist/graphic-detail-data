@@ -8,9 +8,10 @@ Data files can be downloaded and processed through the included R/Jupyter script
 
 ## Data files
 
-| File     | Description            | Source                             |
-| -------- | ---------------------- | ---------------------------------- |
-| agencies | Space launch providers | Jonathan McDowell; _The Economist_ |
+| File     | Description                          | Source                             |
+| -------- | ------------------------------------ | ---------------------------------- |
+| launches | Successful and failed space launches | Jonathan McDowell                  |
+| agencies | Space launch providers               | Jonathan McDowell; _The Economist_ |
 
 ## Codebook
 
@@ -22,7 +23,7 @@ Data files can be downloaded and processed through the included R/Jupyter script
 | JD          | [Julian Date][jd] of launch              |
 | launch_date | date of launch                           |
 | launch_year | year of launch                           |
-| type        | type of launch vehiccle                  |
+| type        | type of launch vehicle                   |
 | variant     | variant of launch vehicle                |
 | mission     |
 | agency      | launching agency                         |
