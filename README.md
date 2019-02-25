@@ -11,6 +11,8 @@ This repository holds the data for many of the Graphic Detail pages, published w
 | 2018-12-01 | [Europeans sour on elites and the EU, but agree on little else](https://www.economist.com/graphic-detail/2018/12/01/europeans-sour-on-elites-and-the-eu-but-agree-on-little-else) | [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2018-12-01_populism-europe) |
 | 2019-01-19 | [Managers in football matter much less than most fans think](https://www.economist.com/graphic-detail/2019/01/19/managers-in-football-matter-much-less-than-most-fans-think) | [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-01-19_football_managers) |
 | 2019-02-02 | [By expanding settlements, Israel faces stark choices about its future](https://www.economist.com/graphic-detail/2019/02/02/israels-growing-settlements-force-stark-choices-about-its-future) | [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-02-02_future-of-the-holy-land) |
+| 2019-23-02 | [A polarised electorate has little desire for the government's compromise](https://www.economist.com/graphic-detail/2019/02/23/british-voters-are-unimpressed-by-theresa-mays-brexit-deal) | [:link:](https://www.economist.com/graphic-detail/2019/02/23/british-voters-are-unimpressed-by-theresa-mays-brexit-deal) |
+
 
 ### Licence
 
