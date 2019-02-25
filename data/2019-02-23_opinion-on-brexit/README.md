@@ -6,10 +6,10 @@ The data for which was also used in the print article, "A polarised electorate h
 
 The "tern plot" (a triangular scatter chart) presents 2,500 individual profiles of the British electorate (representing 25% of the total). The profiles are generated from a statistical model built by *The Economist* using microdata from YouGov, a pollster, from the following survey question asked of 90,000 British adults between November 27th and December 9th 2018. 
 
-*The UK is currently scheduled to leave the EU on 29 March 2019. UK and EU negotiators recently completed an agreement on the terms of the UK’s exit from the EU, but this proposed deal has yet to be confirmed by the UK House of Commons. From most preferred to least preferred, how would you rank the following three options?*
-**No Deal:** leave the EU without a withdrawal agreement.
-**Proposed Deal:** leave the EU under the terms of the negotiated agreement.
-**Remain:** stop the exit process and remain in the EU.
+*The UK is currently scheduled to leave the EU on 29 March 2019. UK and EU negotiators recently completed an agreement on the terms of the UK’s exit from the EU, but this proposed deal has yet to be confirmed by the UK House of Commons. From most preferred to least preferred, how would you rank the following three options?*  
+**No Deal:** leave the EU without a withdrawal agreement.  
+**Proposed Deal:** leave the EU under the terms of the negotiated agreement.  
+**Remain:** stop the exit process and remain in the EU.  
 
 tern_plot.R contains code to plot the data in a triangular scatter plot
 
