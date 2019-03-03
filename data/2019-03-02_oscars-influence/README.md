@@ -30,7 +30,7 @@ Raw data are available at the [FTP site][ftpsite] mentioned above. Our count of 
 | `year_rank`    | rank among movies eligible for the Oscars in the same year                                     |
 | `annual_share` | this movie’s share of mentions among all movies eligible in the same year                      |
 
-\* This has historically been the year in which the movie first showed in a theater in Los Angeles for a particular length of time. For example, Casablanca showed in New York in late 1942, but Los Angeles only in early 1943; it was judged (and won) among pictures released in 1943. We have adjusted for this as best we could using the IMDb’s release data, also available at the [ftp site][ftpsite] in `release-dates.list.gz`, but ignored it in extreme cases (for example, Godzilla was not released in US theatres until its 50th anniversary, so we counted its original Japanese release).
+\* This has historically been the year in which the movie first showed in a theatre in Los Angeles for a particular length of time. For example, Casablanca showed in New York in late 1942, but Los Angeles only in early 1943; it was judged (and won) among pictures released in 1943. We have adjusted for this as best we could using the IMDb’s release data, also available at the [ftp site][ftpsite] in `release-dates.list.gz`, but ignored it in extreme cases (for example, Godzilla was not released in US theatres until its 50th anniversary, so we counted its original Japanese release).
 
 [print story]: https://www.economist.com/graphic-detail/2019/03/02/the-oscars-influence-has-waned
 [ftpsite]: ftp://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/
