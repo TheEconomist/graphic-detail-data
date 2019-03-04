@@ -1,8 +1,6 @@
 library(ggplot2)
 library(data.table)
 
-setwd("/Users/imac/Documents/Oscars2019/R/")
-
 moviecounts  <- fread('movie-counts.csv', header = T, stringsAsFactors = F)
 
 ggplot(moviecounts[year_rank <=100]) + 
