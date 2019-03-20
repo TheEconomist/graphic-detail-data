@@ -8,7 +8,7 @@ Set up script
 
 ``` r
 #Set-up for script
-path <- "N:/Data/Happiness/for public repo/"
+path <- "your.path_to.repo"
 setwd(path)
 options(scipen = 999)
 ```
@@ -55,7 +55,7 @@ Calcultate adult population for each country by year from the World Bank's World
 ``` r
 #Grab population from World Bank
 
-#Total popululation
+#Total population
 pop <- WDI(country = "all", indicator = "SP.POP.TOTL", start = 2005, end = 2020, extra = F)
 #Population aged 0-14
 pop.u15 <- WDI(country = "all", indicator = "SP.POP.0014.TO", start = 2005, end = 2020, extra = F)
