@@ -1,0 +1,191 @@
+---
+title: "Graphic detail: Happiness economics"
+#author: "The Economist Newspaper"
+#date: "20 March 2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a walk-through of the script required to reproduce the data and charts behind the Graphic detail article, "Dismal Science: An old paradox about growth and happiness lives on", published by The Economist on March 20th 2019. 
+Online version available at: <https://www.economist.com/graphic-detail/2019/03/21/economic-growth-does-not-guarantee-rising-happiness/> 
+
+## Set up script
+```{r}
+#Set-up for script
+path <- "N:/Data/Happiness/for public repo/"
+setwd(path)
+options(scipen = 999)
+
+```
+Load libraries
+```{r libs, echo=FALSE}
+#load libs
+libs <- c("tidyverse", "readxl", "countrycode", "WDI", "reshape2", "knitr")
+for (l in libs) { sapply(l, require, character.only=T)}
+
+```
+
+
+## Population data
+
+Calcultate adult population for each country by year from the World Bank's World Development Indicators (we'll need it later)
+
+```{r population}
+
+#Grab population from World Bank
+
+#Total popululation
+pop <- WDI(country = "all", indicator = "SP.POP.TOTL", start = 2005, end = 2020, extra = F)
+#Population aged 0-14
+pop.u15 <- WDI(country = "all", indicator = "SP.POP.0014.TO", start = 2005, end = 2020, extra = F)
+#Combine together, take one from other for adult population
+pop <- left_join(pop, pop.u15, by = c("iso2c", "country", "year")) %>% 
+  select(iso2c, country, year, pop.tot = SP.POP.TOTL, pop.u15 = SP.POP.0014.TO) %>% 
+  filter(!is.na(pop.tot)) %>% mutate(pop.adult = pop.tot - pop.u15)
+
+#Calculate 2018 population (assuming same rate of growth as 2017/2016)
+pop.18 <- full_join(filter(pop, year == 2016), filter(pop, year == 2017), by = c("iso2c", "country")) %>% 
+  mutate(year = 2018, pop.tot = round(pop.tot.y * (pop.tot.y/pop.tot.x), 0), 
+         pop.u15 = round(pop.u15.y * (pop.u15.y/pop.u15.x), 0), 
+         pop.adult = round(pop.adult.y * (pop.adult.y/pop.adult.x),0)) %>% 
+  select(iso2c, country, year, pop.tot, pop.u15, pop.adult)
+
+#Add Taiwan data (not included in WB WDI) 
+#Taiwan's data is taken from National Statistics ROC (https://eng.stat.gov.tw/ct.asp?xItem=41871&ctNode=6339&mp=5))
+pop.tw = data.frame(
+  iso2c='TW', year=c(2006:2018),
+  pop.tot=c(22958000^2/23037000, 22958000, 23037000, 23120000, 23162000, 23225000, 23316000,
+        23374000, 23434000, 23492000, 23540000, 23571000, 23571000^2/23540000),
+  pop.u15=c((4031000)^2/(3905000), 4031000, 3905000, 3778000, 3624000,3502000, 3412000, 3347000, 3277000,
+            3188000, 3142000, 3092000, (3092000)^2/(3142000)), stringsAsFactors = F) %>% 
+  mutate(pop.adult = pop.tot - pop.u15)
+
+#Bind 2018 population, Taiwan, and all other population data together
+pop <- bind_rows(pop, pop.18, pop.tw) %>% arrange(iso2c, year)
+kable(head(pop)); kable(tail(pop)); count(pop, year) %>% t %>% kable
+
+``` 
+
+
+## Happiness and GDP data
+
+Download and parse the self-reported the data from the World Happiness Report, 2019
+<http://worldhappiness.report/ed/2019/>
+
+Of all the variables we want just two: 
+Life Ladder: self-reported average happiness by country and year, on 0-10 scale (Cantril ladder)
+Log GDP per capita: GDP per person in 2011 (constant) PPP (purchasing-power parity), $
+
+
+```{r happiness data}
+download.file(url = "https://s3.amazonaws.com/happiness-report/2019/Chapter2OnlineData.xls", 
+              destfile = paste0(path, "WHR_2019_data.xls"), mode = "wb", method = "auto")
+raw.dat <- read_excel(path = "WHR_2019_data.xls", sheet = "Table2.1")
+
+#happiness and gdp by year
+dat <- raw.dat %>% select(name = `Country name`, year = Year, happy = `Life Ladder`, gdp.pc = `Log GDP per capita`) %>%
+  mutate(name = ifelse(name == "Taiwan Province of China", "Taiwan", name)) %>% 
+  mutate(name = ifelse(name == "Hong Kong S.A.R. of China", "Hong Kong", name)) %>% 
+  #Add in ISO2c code
+  mutate(iso2c = countrycode(name, origin="country.name", destination="iso2c")) %>% 
+  #Merge with population data
+  left_join(., select(pop, iso2c, year, pop.adult), by = c("iso2c", "year")) %>% 
+  #un-log GDP (take exp)
+  mutate(gdp.pc2 = exp(gdp.pc)) %>% 
+  select(iso2c, name, year, happy, log.gdp.pc = gdp.pc, gdp.pc = gdp.pc2, pop.adult) %>% 
+  arrange(iso2c, year) %>% 
+  filter(!is.na(iso2c)) #remove some NA regions (Kosovo)
+kable(head(dat)); kable(tail(dat)); count(dat, year) %>% t %>% kable
+
+```
+
+
+## Chart data
+
+Make data for scatter chart showing in the print version of the article. 
+We shall take average happiness and GDP per person for two periods: 2005-08 and 2016-18. We then match these two sets of data together, arrving at 125 country pairs of GDP and happiness, approximately a decade apart. 
+
+``` {r scatter data}
+
+#-------------- Make scatter data ------------------ 
+
+#early years average
+scat.dat1 <- dat %>% filter(year <= 2008) %>% 
+  group_by(name, iso2c) %>% summarise(happy = mean(happy), gdp.pc = mean(gdp.pc), pop = mean(pop.adult), obs = n(), year = 2008)
+
+#later years average
+scat.dat2 <- dat %>% filter(year >= 2016) %>% 
+  filter(iso2c %in% scat.dat1$iso2c) %>% 
+  group_by(name, iso2c) %>% summarise(happy = mean(happy), gdp.pc = mean(gdp.pc), pop = mean(pop.adult), obs = n(), year = 2018)
+
+#Bind data together, remove some odd countries
+scat.dat <- scat.dat1 %>% filter(iso2c %in% scat.dat2$iso2c) %>% 
+  bind_rows(., scat.dat2) %>% 
+  filter(!name %in% c("Cuba", "Guyana", "North Cyprus", "Kosovo", "Palestinian Territories")) %>% ungroup(.)
+
+#Quadrant classification
+quadrant <- scat.dat %>% filter(year == 2008) %>% select(iso2c, happy, gdp.pc) %>% 
+  left_join(., select(filter(scat.dat, year == 2018), iso2c, happy, gdp.pc), by = "iso2c") %>% 
+  rename(happy.2008 = happy.x, gdp.pc.2008 = gdp.pc.x, happy.2018 = happy.y, gdp.pc.2018 = gdp.pc.y) %>% 
+  mutate(happy.delta = happy.2018 - happy.2008, gdp.pc.delta = gdp.pc.2018 / gdp.pc.2008 * 100 - 100) %>% 
+  mutate(dir_gdp.pc = ifelse(gdp.pc.delta > 0, 'rise', 'fall'),
+         dir_happy = ifelse(happy.delta > 0, 'rise', 'fall'), 
+         quadrant = paste0(dir_gdp.pc,'-',dir_happy), 
+         paradox = ifelse(dir_gdp.pc == dir_happy, F, T)) %>% 
+  filter(!is.na(dir_happy) & !is.na(dir_gdp.pc)) 
+
+#Add quadrant classification to scatter data
+scat.dat %>% inner_join(., select(quadrant, iso2c, quadrant, paradox), by = "iso2c") %>% 
+  mutate(pop.break = cut(pop/10^6, c(0, 25, 100, 500, 10000), labels = c('<25m','25m-100m','100m-500m', '500m+'))) %>% 
+  mutate(pop.levels = as.numeric(pop.break)) -> scat.dat
+
+#Check our data
+str(scat.dat)
+#Check our quadrants worked
+scat.dat %>% filter(year == 2018) %>% count(quadrant, paradox) %>% kable
+#Check our population breaks worked
+scat.dat %>% filter(year == 2018) %>% count(pop.break, pop.levels) %>% kable
+
+```
+
+
+## Plot data
+
+
+```{r plot data}
+
+#Filter plot data -- for adult population >5m. Reduces number of countries from 125 to 85 pairs
+scat.dat %>% filter(year == 2018) %>% filter(pop > 5000000) %>% select(iso2c) -> iso2c.select
+nrow(iso2c.select)
+#And so our population selection looks like: 
+scat.dat %>% filter(year == 2018, iso2c %in% iso2c.select$iso2c) %>% count(pop.break) %>% kable
+
+#Make scatter chart with ggplot
+scat.plot <- scat.dat %>% 
+  filter(., year == 2018) %>%
+  filter(iso2c %in% iso2c.select$iso2c) %>% 
+  ggplot(., aes(x=gdp.pc/10^3, y=happy, group=name, color=paradox)) +
+  geom_point(mapping=aes(size=pop.levels), alpha=0.5) +
+  scale_colour_manual(values=c("blue", "red"), labels=c("same direction", "opposite directions"), 
+                      guide=guide_legend(title="Happiness and GDP per person:", title.position="top")) +
+  scale_radius(labels=c('5-25','25-100','100-5000','500+'), guide=guide_legend(title="Population, m", title.position="top")) +
+  scale_x_log10(breaks=c(1e2,1e3,1e4,1e5)/10^3,
+                minor_breaks=c(seq(1e2,1e3,1e2)/10^3, seq(1e3,1e4,1e3)/10^3, seq(1e4,1e5,1e4)/10^3, seq(1e5,1e6,1e5)/10^3)) +
+  #geom_text(data=filter(scat.dat, year==2018, iso2c %in% iso2c.select$iso2c), mapping=aes(label=name), hjust=0) +
+  geom_path(data=filter(scat.dat, iso2c %in% iso2c.select$iso2c)) +
+  theme_minimal() + theme(legend.position = 'top') + theme(aspect.ratio = 0.5) +
+  ggtitle("GDP per person v self-reported happiness", subtitle = "85 countries with adult population over 5m") + 
+  ylab("Happiness, 0-10 scale") + xlab("GDP per person, $'000, at purchasing-power parity, log scale") + 
+  ylim(3, 8) + geom_blank() 
+  
+
+```
+
+
+```{r scat.plot, echo=FALSE}
+plot(scat.plot)
+```
+

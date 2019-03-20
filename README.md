@@ -13,6 +13,9 @@ This repository holds the data for many of the Graphic Detail pages, published w
 | 2019-02-02 | [By expanding settlements, Israel faces stark choices about its future](https://www.economist.com/graphic-detail/2019/02/02/israels-growing-settlements-force-stark-choices-about-its-future) |  [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-02-02_future-of-the-holy-land) |
 | 2019-02-23 | [A polarised electorate has little desire for the government's compromise](https://www.economist.com/graphic-detail/2019/02/23/british-voters-are-unimpressed-by-theresa-mays-brexit-deal)    |  [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-02-23_opinion-on-brexit)       |
 | 2019-03-02 | [The Oscars’ influence has waned](https://www.economist.com/graphic-detail/2019/03/02/the-oscars-influence-has-waned)                                                                         | [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-03-02_oscars-influence)         |
+| 2019-03-24 | [Economic growth does not guarantee rising happiness](https://www.economist.com/graphic-detail/2019/03/21/economic-growth-does-not-guarantee-rising-happiness)                                                                         | [:link:](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-03-23_happiness-economics)         |
+
+
 
 ### Licence
 
