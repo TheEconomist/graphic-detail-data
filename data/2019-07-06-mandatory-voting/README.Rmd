@@ -1,0 +1,101 @@
+---
+title: "If everyone had voted, Hillary Clinton would probably be president"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This readme details (some of) the data used to produce _The Economist_'s graphic detail  piece "The silent near-majority: If everyone had voted, Hillary Clinton would probably be president" [published on](https://www.economist.com/graphic-detail/2019/07/06/if-everyone-had-voted-hillary-clinton-would-probably-be-president) July 7 2019. We do not release this code due to its proprietary nature, but do provide methodological details in [a post on our Medium blog](http://medium.economist.com/would-donald-trump-be-president-if-all-americans-actually-voted-95c4f960798).
+
+## Chart data
+
+The main image was generated using the included data file `state_level_estimates_with_probs.csv`. See the following data dictionary for a walk-through of different variables:
+
+### Data dictionary:
+
+| variable | description |
+| --- | --- |
+| `state_abb` | state abbreviation |
+| `rep_2016_actual` | Donald Trump's actual two-party vote share in the state | 
+| `dem_2016_actual` | Hillary Clinton's actual vote share in the state |
+| `dem_2016_pred` | Our prediction of Hillary Clinton's vote share under 2016 turnout |
+| `rep_2016_pred` | Our prediction of Donald trump's vote share under 2016 turnout |
+| `total_evs_2016` | The state's number of electoral votes in 2016 |
+| `dem_mandatory` | Our prediction of Hillary Clinton's vote share if everyone had voted in 2016 |
+| `rep_mandatory` | Our prediction of Donald Trump's vote share if everyone had voted in 2016 |
+| `winner_2016` | A dummy variable indicating which party won in 2016 |
+| `dem_ev_2016`| How many electoral votes Hillary Clinton actually won in 2016 |
+| `dem_evs_2016pred`| Our prediction of how many electoral votes Hillary Clinton would have won in 2016 under 2016 turnout |
+| `dem_evs_mandatory`| Our prediction of how many electoral votes Hillary Clinton would have won in 2016 under mandatory voting |
+| `dem_probability_mandatory` | Our predicted probability of Clinton winning the state under mandatory voting |
+| `dem_probability_2016pred` |  Our predicted probability of Clinton winning the state under 2016 turnout |
+
+
+### Template R analysis
+
+```{r}
+# load libraries
+library(tidyverse)
+
+# import data
+state_estimates <- read_csv('state_level_estimates_with_probs.csv')
+
+# take a look
+head(state_estimates)
+```
+
+## Underlying data
+
+The state-level estimates were generated from a much more fine-grained dataset of predicted voting behaviour for more than 29,000 different demographic groups in the US. These estimates are included in the `targets_with_turnout_and_predictions.csv` file and the variables are detailed below:
+
+### Data dictionary:
+
+| variable | description |
+| --- | --- |
+| `state` | An index for which state the group is in |
+| `sex` | The sex of the group | 
+| `age` | The age of the group | 
+| `race` | The race of the group |
+| `edu` | The educational attainment of the group |
+| `inc` | The income category of the group |
+| `voter_validated` | Whether or not the group voted in the 2016 election |
+| `n` | The predicted number of people in the group |
+| `state_name` | The name of the state |
+| `ICPSRCode` | The ICPSR code for the state |
+| `state_abb` | The state's abbreviation |
+| `region` | The region the group is in | 
+| `region_7` | An expanded region variable |
+| `abb` | Another state abbreviation (oops!) |
+| `cell_pred_trump_vote` | The share of the group we predict would vote for Donald Trump |
+| `cell_pred_clinton_vote` | The share of the group we predict would vote for Hillary Clinton | 
+| `state_clinton` | The share of state in which the group resides that voted for Hillary Clinton in 2016 |
+| `state_trump` | The share of state in which the group resides that voted for Donald Trump in 2016 |
+| `state_clinton_margin` | Hillary Clinton's vote margin in the state in which the group resides |
+| `state_median_income` | The median income of the state in which the voter resides |
+| `state_white_protestant` | The share of the state in which the voter lives that is white and protestant |
+| `state_black_pct` | The share of the state in which the voter lives that is African American |
+| `state_hispanic_pct` | The share of the state in which the voter lives that is Hispanic |
+| `state_obama` | The share of state in which the group resides that voted for Barack Obama in 2012 |
+| `state_romney` | The share of state in which the group resides that voted for Mitt Romney in 2012 |
+| `state_vap_turnout_2012` | The share of state in which the group resides that voted in the 2012 election |
+| `state_vap_turnout_2016` | The share of state in which the group resides that voted in the 2016 election |
+
+
+
+### Template R analysis
+
+```{r}
+# load libraries
+library(tidyverse)
+
+# import data
+underlying_data <- read_csv('targets_with_turnout_and_predictions.csv')
+
+# take a look
+head(underlying_data)
+```
+
+
+
