@@ -1,0 +1,10 @@
+studyid,country,study_method,foreign_birth,foreign_nationality,foreign_credentials,bluecollar,customer_contact,office_focus,ue_bestw,p_immig,n_country,min_rec,rr_best_n,lrr_best,or_best_lnse,rfieldwork_year,some_college,collegeplus,edmissing,menonly,femaleonly,rr_best_n_nodup,studyid2,rr_best_lnvar,call_back_ratio,MAIN.CATEGORY.RESPONSE.RATE
+booth_2010,Australia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Asian,NA,NA,NA,2010,NA,NA,NA,NA,NA,2000,NA,0.001857143,1.68,35
+Maurer_Fazio_2012,China,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Tibetan,NA,NA,NA,2011,NA,NA,NA,NA,NA,7308,NA,0.003084274,2.21,8.15
+Maurer_Fazio_2012,China,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Mongolian,NA,NA,NA,2011,NA,NA,NA,NA,NA,7188,NA,0.003135765,1.36,8.15
+Maurer_Fazio_2012,China,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Uighur,NA,NA,NA,2011,NA,NA,NA,NA,NA,6684,NA,0.003372214,1.83,8.15
+hou_et_al2019,China,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hui,NA,NA,NA,2017,NA,NA,NA,NA,NA,2220,NA,0.013653233,1.88,6.19
+hou_et_al2019,China,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Uighur,NA,NA,NA,2017,NA,NA,NA,NA,NA,2220,NA,0.013653233,3.77,6.19
+Galarza2012,Peru,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Indigenous_vs_White,NA,NA,NA,2012,NA,NA,NA,NA,NA,595,NA,0.017749356,1.8,15.9
+botton2019,United States,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Indigenous/Native American_vs_White (sometimes names sometimes other things),NA,NA,NA,2019,NA,NA,NA,NA,NA,13516,NA,0.000591891,1.01,20
+asali2020,Georgia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Azeri/Armani_vs_Georgian,NA,NA,NA,2009,NA,NA,NA,NA,NA,2200,NA,0.008367347,2.12,9.8
