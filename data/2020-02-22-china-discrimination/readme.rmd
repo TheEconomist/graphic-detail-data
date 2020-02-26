@@ -1,0 +1,295 @@
+---
+title: "Call me maybe"
+author: "By: The Economist"
+date: "22/02/2020"
+output: html_document
+---
+
+```{r globalsetup, include=FALSE}
+# This chunk enables us to avoid a few warnings and output in the document body.
+knitr::opts_chunk$set(echo = TRUE) 
+setwd(paste0(Sys.getenv("USERPROFILE"), "/Dropbox/Economist - GD - Racism in China"))
+library(readstata13)
+library(gdata)
+library(ggplot2)
+library("metafor")
+dmap_data <- read.dta13("dmap_rv7_v4_verysmall.dta")
+additional_studies <- read.csv("additional_studies.csv")
+
+# Restrict to correspondence studies
+dmap_data <- dmap_data[dmap_data$study_method == "Correspondence", ] 
+
+# Give groupings descriptive labels (rather than numeric)
+dmap_data$min_rec <- as.character(factor(dmap_data$min_rec, labels=c("African/Black", "European/White", "Middle-Eastern/N. African", "Latin Am./Hispanic", "Asian")))
+
+# Generate call-back ratio variable
+dmap_data$call_back_ratio <- exp(dmap_data$lrr_best) 
+```
+
+This document details the analysis for "Call me maybe".
+
+### Packages and data:
+```{r packages, eval = F}
+library(readstata13)
+library(gdata)
+library(ggplot2)
+library(metafor)
+
+# Load data from Quillian et al., 2019:
+dmap_data <- read.dta13("dmap_rv7_v4_verysmall.dta")
+
+# Restrict to correspondence studies
+dmap_data <- dmap_data[dmap_data$study_method == "Correspondence", ] 
+
+# Give groupings descriptive labels as designated by authors (rather than the corresponding numeric value):
+dmap_data$min_rec <- as.character(factor(dmap_data$min_rec, labels=c("African/Black", "European/White", "Middle-Eastern/N. African", "Latin Am./Hispanic", "Asian")))
+
+# Generate call-back ratio variable:
+dmap_data$call_back_ratio <- exp(dmap_data$lrr_best) 
+
+# Add data from other studies:
+additional_studies <- read.csv("additional_studies.csv")
+```
+
+### Sources for studies:
+* Quillian, Lincoln, et al. "Do some countries discriminate more than others? Evidence from 97 field experiments of racial discrimination in hiring." Sociological Science 6 (2019): 467-496. (DMAP)
+* Booth, A.L., Leigh, A. and Varganova, E. (2012), Does Ethnic Discrimination Vary Across Minority Groups? Evidence from a Field Experiment*. Oxford Bulletin of Economics and Statistics, 74: 547-573. doi:10.1111/j.1468-0084.2011.00664.x
+* Maurer-Fazio, M. Ethnic discrimination in China's internet job board labor market. IZA J Migration 1, 12 (2012). https://doi.org/10.1186/2193-9039-1-12
+* Yue Hou, Chuyu Liu, Charles Crabtree (2019). Anti-muslim bias in the Chinese labor market. Journal of Comparative Economics, ISSN 0147-5967, https://doi.org/10.1016/j.jce.2019.12.001.
+* Galarza, Francisco & Yamada, Gustavo. (2014). Labor Market Discrimination in Lima, Peru: Evidence from a Field Experiment. World Development. 58. 83-94. 10.1016/j.worlddev.2014.01.003. 
+* Patrick Button, Brigham Walker (2019). Employment Discrimination against Indigenous Peoples in the United States: Evidence from a Field Experiment. NBER Working Paper No. 25849 (Issued in May 2019).
+* Asali, Muhammad, Norberto Pignatti, and Sophiko Skhirtladze. "Employment discrimination in a former Soviet Union Republic: Evidence from a field experiment." Journal of Comparative Economics 46.4 (2018): 1294-1309.
+
+### Data merging and analysis:
+
+Our main variable is the "call-back ratio" (="call_back_ratio"). This compares the rate at which minority candidates were contacted after filing a job application to those of the majority (with the exception of Peru, where indigenous were compared to whites). Variable names are otherwise as in Quillian et al. (2019).
+
+We next merge and clean the data:
+```{r}
+# Adding a column to dmap_data to enable merging:
+dmap_data$MAIN.CATEGORY.RESPONSE.RATE <- NA
+pdat <- rbind(dmap_data, additional_studies)
+
+## The following few lines 
+# More accurate label for Native Americans in the United States (only one study)
+pdat$min_rec[pdat$studyid == "botton2019" & !is.na(pdat$studyid)] <- "Native American"
+pdat$min_rec <- as.character(pdat$min_rec)
+
+# Changing a few labels into their corresponding broader category:
+pdat$min_rec[is.na(pdat$min_rec)] <- "Unknown / Foreigner / Immigrant"
+pdat$min_rec[pdat$min_rec %in% c("Irish-to-German",
+                                               "White-to-Italian")] <- "European/White"
+pdat$min_rec[pdat$min_rec %in% c("Czech-to-Vietnamese",
+                                               "Irish-to-Asian",
+                                               "White-to-Chinese")] <- "Asian"
+```
+
+We thus have 144 studies in our full dataset. Note that many more studies were identified, but were not added because they did not consider ethnicity in a resume-experiment setting. 
+
+We next restrict our analysis to studies from the past 20 years which deal with discrimination based on ethnicity.  
+
+```{r, }
+# We first restrict to past 20 years:
+pdat <- pdat[pdat$rfieldwork_year >= 2000, ]
+
+# Subset of comparisons with minorities in majority-dominated countries:
+pdat <- pdat[!pdat$min_rec %in% c("White-to-indigenous", "European/White"), ]
+
+# Excluding one study from the meta-analysis which was we could not find anywhere:
+pdat <- pdat[!pdat$studyid == c("duguet2010"), ]
+
+# Restrict to studies of ethnicity (not e.g. religion):
+pdat <- pdat[!pdat$min_rec %in% c("Christian-to-Muslim",
+                             "White-to-Muslim (?)",
+                             "Unknown / Foreigner / Immigrant"), ]
+```
+
+We then construct a series of variables to summarize information by country and ethnic category (or "group"). This is not meant to imply that all members of the category belong to the same ethnic group, but rather to the same group of ethnicities. We also calculate the average call-back rate by country-ethnic grouping, weighting the studies their number of observations.
+
+```{r, }
+# Summarize by country and ethnic group ("g_c" = "group and country")
+pdat$g_c <- paste0(pdat$country, "_", pdat$min_rec)
+pdat$g_c_obs <- ave(pdat$rr_best_n_nodup, pdat$g_c, FUN = sum)
+
+weighted_average <- function(x, weight, group){
+  new_x <- x*weight / ave(weight, group, FUN = function(x) sum(x, na.rm = T))
+  
+  return(ave(new_x, group, FUN = function(p) sum(p, na.rm = T)))
+                             }
+
+pdat$group_country_ave_callback <- weighted_average(x = pdat$call_back_ratio, 
+                             weight = pdat$rr_best_n_nodup,
+                             group = pdat$g_c)
+
+pdat$g_c <- as.factor(pdat$g_c)
+
+```
+
+We next restrict our study to those country-ethnicity grouping categories which have at least 1000 observations (i.e. which have been studied to a reasonable extent). 
+
+```{r}
+# Subset to investigations of ethnicity & at least 1000 obs and drop unused factor levels
+pdat <- pdat[pdat$g_c_obs > 1000, ]
+
+```
+
+We then calculate variances for the studies for which this is not done already, and then calculate confidence intervals at the country-ethnic grouping level. For both, we rely on the methods used in Quillian et al. (2019).
+
+```{r}
+# Calculate variance of studies for which this is not done already. This required tracking down the base group response rates for all the added studies.
+pdat$new_var <- NA
+for(i in 1:nrow(pdat)){
+  base.reply.rate <- pdat[i, "MAIN.CATEGORY.RESPONSE.RATE"]*0.01 # Converted from percentage
+  r <- pdat[i, "call_back_ratio"]
+  n <- pdat[i, "rr_best_n_nodup"]
+  
+  base.maj <- base.min <- round(n/2, 0)
+  maj <- round(n/2.0)*base.reply.rate
+  min <- round(n/2.0)*base.reply.rate/r
+
+  var <- 1/maj - 1/base.maj + 1/min - 1/min
+
+  pdat$new_var[i] <- var
+}
+# Merging the previously and newly calculated variances
+pdat$rr_best_lnvar[is.na(pdat$rr_best_lnvar)] <- pdat$new_var[is.na(pdat$rr_best_lnvar)]
+
+
+# Calculating confidence intervals using a mixed effects model with a restricted-maximum likelihood estimator and Knapp and Hartung adjustments to standard errors. This replicates the specification in Quillian et al. (2019)
+res <- rma(log(call_back_ratio), rr_best_lnvar, data=pdat, method="REML", mods=~ g_c-1, knha=TRUE) 
+
+
+res_formatted <- data.frame( g_c = substr(rownames(res$b), 4, 1000), 
+                             lower_bound_95 = exp(res$ci.lb),
+                             upper_bound_95 = exp(res$ci.ub),
+                             refined_estimate = exp(res$beta))
+
+pdat$lower_bound_95 <- NA
+pdat$upper_bound_95 <- NA
+pdat$refined_estimate <- NA
+
+for(i in as.character(unique(res_formatted$g_c))){
+pdat$lower_bound_95[pdat$g_c == i] <- res_formatted$lower_bound_95[res_formatted$g_c == i]
+pdat$upper_bound_95[pdat$g_c == i] <- res_formatted$upper_bound_95[res_formatted$g_c == i]
+pdat$refined_estimate[pdat$g_c == i] <- res_formatted$refined_estimate[res_formatted$g_c == i]
+}
+```
+
+### Produce plots:
+
+We next define a custom function to produce the plots, this enables us to explore different visualisations quickly.
+```{r}
+# The following functions creates the plot. It has several options. The largest difference is between
+# observation-weighted vs inverse variance-weighted averages (with corresponding confidence interval), which can 
+# be selected via the plot.ci option. 
+
+library(ggplot2)
+gen_graph <- function(pdat, plot.averages = TRUE, 
+                      jitter = TRUE, 
+                      plot.history = FALSE, 
+                      plot.studies = TRUE,
+                      highlight = NULL,
+                      n.jitter.bins = 30,
+                      log.scale = F,
+                      plot.ci = F #
+                      ){ 
+
+# This function checks if a number is even 
+  even <- function(x) x%%2 == 0
+  
+# Dropping unused levels
+pdat$g_c <- drop.levels(pdat$g_c, reorder=FALSE)
+
+if(plot.ci){
+  pdat$g_c <- factor(pdat$g_c, levels = unique(pdat$g_c[order(pdat$refined_estimate)]))  
+} else {
+  pdat$g_c <- factor(pdat$g_c, levels = unique(pdat$g_c[order(pdat$group_country_ave_callback)]))  
+}
+
+# This creates numeric jitter position instead of relying on native (this way we can jitter based on study density)
+pdat$jitter_position <- as.numeric(pdat$g_c)
+pdat$jitter_group <- paste(pdat$g_c, "_", cut_interval(pdat$call_back_ratio, n = n.jitter.bins))
+largest_jitter_group <- max(table(pdat$jitter_group))
+
+if(even(largest_jitter_group)){largest_jitter_group <- largest_jitter_group+ 1}
+jitter_offsets <-  seq(from = -0.4, to = 0.4, length.out = largest_jitter_group)[order(abs(seq(from = -0.4, to = 0.4, length.out = largest_jitter_group)))]
+
+for(i in unique(pdat$jitter_group)){
+  pdat$jitter_position[pdat$jitter_group == i] <- pdat$jitter_position[pdat$jitter_group == i] + jitter_offsets[1:sum(pdat$jitter_group == i)]
+} 
+
+# This initializes the plot
+p <- ggplot(pdat, aes(y=g_c, x=group_country_ave_callback))
+
+# This adds confidence intervals, or if confidence intervals are not requested, averages (if they are requested)
+  if(plot.ci){
+    p <- p + geom_segment(aes(yend = g_c, x = lower_bound_95, xend = upper_bound_95), col = "black", size = 1)+geom_point(aes(x = refined_estimate), size = log(pdat$g_c_obs)/2, alpha = 1-1/log(pdat$g_c_obs))
+  } else {
+    if(plot.averages){
+p <- p + geom_segment(aes(yend = g_c, xend=0), alpha = 0.5, size = log(pdat$g_c_obs)/2.5, col = "skyblue")+
+     geom_point(size = log(pdat$g_c_obs)/2, alpha = 1-1/log(pdat$g_c_obs))
+  } 
+  }
+
+# This adds the different studies as dots if requested
+if(plot.studies){
+if(jitter){
+p <- p + geom_point(aes(x=call_back_ratio, y = jitter_position), size = 2+2*pdat$rr_best_n_nodup/max(pdat$rr_best_n_nodup), 
+                     alpha = 1-5/log(pdat$g_c_obs), col = "white",  
+                     fill = pdat$rfieldwork_year-2000, shape = 21)
+} else {
+p <- p + geom_point(aes(x=call_back_ratio), size = 2+2*pdat$rr_best_n_nodup/max(pdat$rr_best_n_nodup), 
+                     alpha = 1-5/log(pdat$g_c_obs), col = "white", 
+                     fill = as.numeric(pdat$rfieldwork_year-2000), shape = 21)  
+}
+  
+# This highlights some studies, if requested  
+if(!is.null(highlight)){
+  if(jitter){
+  p <- p + geom_point(data = pdat[pdat[, highlight], ], 
+                      aes(x=call_back_ratio, y=g_c), size = 1+2+2*pdat$rr_best_n_nodup[pdat[, highlight]]/max(pdat$rr_best_n_nodup[pdat[, highlight]]), 
+                     col = "black", 
+                     shape = 0)
+  } else {
+  p <- p + geom_point(data = pdat[pdat[, highlight], ], 
+                      aes(x=call_back_ratio, y=g_c), size = 1+2+2*pdat$rr_best_n_nodup[pdat[, highlight]]/max(pdat$rr_best_n_nodup[pdat[, highlight]]), 
+                     col = "black", 
+                     shape = 0)
+  }
+}
+}
+
+# This fixes the theme and labels
+p <- p + theme_minimal() +
+     xlab("Call-back Ratio\n(studies and observation-weighted mean)")+
+  ylab("")
+
+# (including a different lable if confidence intervals are requested)
+if(plot.ci){
+p <- p +  scale_y_discrete(limits = unique(pdat$g_c[order(pdat$refined_estimate)]))+ 
+  theme(axis.text.y = element_text(face = ifelse(grepl("China", unique(pdat$g_c[order(pdat$refined_estimate)])), 'bold', 'plain')))+ scale_fill_gradient(aesthetics = "fill")+theme(legend.position = "none")+xlab("Call-back Ratio\n(Inverse-variance weighted mean and 95 percent\nML Knapp and Hartung-adjusted confidence interval)")
+  
+} else {
+p <- p +  scale_y_discrete(limits = unique(pdat$g_c[order(pdat$group_country_ave_callback)]))+ 
+  theme(axis.text.y = element_text(face = ifelse(grepl("China", unique(pdat$g_c[order(pdat$group_country_ave_callback)])), 'bold', 'plain')))+ scale_fill_gradient(aesthetics = "fill")+theme(legend.position = "none")
+}
+
+# This changes the scale to log10 if desired. In the final graphic, we used log-odds.
+if(log.scale){
+  p <- p +scale_x_continuous(trans= "log10")
+}
+print(p)
+}
+```
+
+We can then produce the plot. In the graphic, we presented a sub-sample of the categories listed, aiming to include categories with many studies and many different countries.
+
+```{r}
+# Generate study graph:
+gen_graph(pdat = pdat)
+```
+
+Alternatively, this presents the meta-analysis with Knapp and Hartung-adjusted 95 percent confidence interval in a random effects model, and means weighted by the studies' inverse variance.
+```{r}
+gen_graph(pdat = pdat, plot.ci = T)
+```
