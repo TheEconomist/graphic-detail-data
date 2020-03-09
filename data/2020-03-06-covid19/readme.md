@@ -85,7 +85,7 @@ the IV and covid19 cases the DV (both logged):
     # Generate predictions for all countries
     pdat[, NoPopModPredictedLogCases := predict(NoPopModel, .SD)][, NoPopModPredictedCases := exp(NoPopModPredictedLogCases)][, NoPopModResidualLogCases := LogCases - NoPopModPredictedLogCases][, NoPopModResidualCases := cases - NoPopModPredictedCases]
 
-    ggplot(pdat[pdat$oecd, ], aes(y=cases, x=(inbound_tour_groups_Q3_2019_1_improved + outbound_tour_groups_Q3_2019_improved)/2))+
+    p <- ggplot(pdat[pdat$oecd, ], aes(y=cases, x=(inbound_tour_groups_Q3_2019_1_improved + outbound_tour_groups_Q3_2019_improved)/2))+
       geom_smooth(method = "lm")+
       scale_x_continuous(trans="log10")+
       scale_y_continuous(trans="pseudo_log")+
@@ -95,6 +95,8 @@ the IV and covid19 cases the DV (both logged):
       ylab("Confirmed covid19 cases\n(Log Scale)")+
       xlab("Tourism flows to and from China\n(In and Out-bound Tour Group Travellers, Log Scale)")+
       theme(legend.title = element_blank())
+
+    print(p)
 
 ![](readme_files/figure-markdown_strict/plots-1.png)
 
