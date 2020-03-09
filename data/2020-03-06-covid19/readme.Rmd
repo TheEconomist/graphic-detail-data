@@ -1,7 +1,7 @@
 ---
 title: "Tracking the Stealthy Killer"
 date: "06/03/2020"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
