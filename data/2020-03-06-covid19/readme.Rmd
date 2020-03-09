@@ -90,4 +90,4 @@ In models using data we cannot share here, we tested a range of other predictors
 
 We also tried alternative modelling strategies, including random forests, zero-inflated negative binomial models, and models which used per-capita measures of infection rates rather than the absolute number of confirmed cases, also with largely similar results. 
 
-The univariate linear model presented here was ultimately selected because it both fitted the data well and is easy to interpret.
+The univariate linear model presented here was ultimately selected because it both fits the data well and is easy to interpret.

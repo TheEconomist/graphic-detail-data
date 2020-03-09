@@ -114,4 +114,4 @@ per-capita measures of infection rates rather than the absolute number
 of confirmed cases, also with largely similar results.
 
 The univariate linear model presented here was ultimately selected
-because it both fitted the data well and is easy to interpret.
+because it both fits the data well and is easy to interpret.
