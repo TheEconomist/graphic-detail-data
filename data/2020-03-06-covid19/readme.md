@@ -21,13 +21,14 @@ This document details the analysis for “Tracking the stealthy killer”.
 -   Ministry of Culture and Tourism of the People’s Republic of China
     (2020). See:
     <a href="http://zwgk.mct.gov.cn/auto255/202001/t20200102_850061.html?keywords=%E5%87%BA%E5%A2%83%E6%97%85%E6%B8%B8" class="uri">http://zwgk.mct.gov.cn/auto255/202001/t20200102_850061.html?keywords=%E5%87%BA%E5%A2%83%E6%97%85%E6%B8%B8</a>
+    (Mandarin Chinese)
 
 The Ministry of Culture and Tourism track tour group visitors to and
 from China on a consistent basis across the top 30 recipient/sender
 countries and all other tour group travels by continent. For countries
 which were not in the top 30, we distributed the remaining tourists to
-that continent (‘Other Europe’ in the data) according to countries’
-logged population size.
+that continent (e.g. the row ‘Other Europe’ in the data) according to
+countries’ logged population size.
 
 While not all tourists travel in tour groups, this data was the best
 recent proxy for total tourism flows that we could identify. In
@@ -105,7 +106,12 @@ predictors, including flight passengers from Wuhan by country of
 destination in December, flights from Wuhan by destination country from
 October 2019 to April 2020 (scheduled), as well as covariates such as
 average temperature in January and February. Results were largely
-similar. We also tried alternative modelling strategies, including
-random forests, zero-inflated negative binomial models, and models which
-used per-capita measures of infection rates rather than the absolute
-number of confirmed cases, also with largely similar results.
+similar.
+
+We also tried alternative modelling strategies, including random
+forests, zero-inflated negative binomial models, and models which used
+per-capita measures of infection rates rather than the absolute number
+of confirmed cases, also with largely similar results.
+
+The univariate linear model presented here was ultimately selected
+because it both fitted the data well and is easy to interpret.

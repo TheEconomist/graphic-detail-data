@@ -34,9 +34,9 @@ pdat <- merge(pdat, unique(JH[, c("country", "cases")]), by = "country", all.x =
 ```
 
 ### Source for Chinese tourism data:
-* Ministry of Culture and Tourism of the People’s Republic of China (2020). See: http://zwgk.mct.gov.cn/auto255/202001/t20200102_850061.html?keywords=%E5%87%BA%E5%A2%83%E6%97%85%E6%B8%B8
+* Ministry of Culture and Tourism of the People’s Republic of China (2020). See: http://zwgk.mct.gov.cn/auto255/202001/t20200102_850061.html?keywords=%E5%87%BA%E5%A2%83%E6%97%85%E6%B8%B8 (Mandarin Chinese)
 
-The Ministry of Culture and Tourism track tour group visitors to and from China on a consistent basis across the top 30 recipient/sender countries and all other tour group travels by continent. For countries which were not in the top 30, we distributed the remaining tourists to that continent ('Other Europe' in the data) according to countries' logged population size. 
+The Ministry of Culture and Tourism track tour group visitors to and from China on a consistent basis across the top 30 recipient/sender countries and all other tour group travels by continent. For countries which were not in the top 30, we distributed the remaining tourists to that continent (e.g. the row 'Other Europe' in the data) according to countries' logged population size. 
 
 While not all tourists travel in tour groups, this data was the best recent proxy for total tourism flows that we could identify. In particular, it tracked both incoming and outcoming tourism, was available for a broad set of countries, tracked tourists final destination/origin, and was more recent than other sources (quarter 3 of 2019).
 
@@ -86,6 +86,8 @@ print(p)
 
 ```
 
-In models using data we cannot share here, we tested a range of other predictors, including flight passengers from Wuhan by country of destination in December, flights from Wuhan by destination country from October 2019 to April 2020 (scheduled), as well as covariates such as average temperature in January and February. Results were largely similar. We also tried alternative modelling strategies, including random forests, zero-inflated negative binomial models, and models which used per-capita measures of infection rates rather than the absolute number of confirmed cases, also with largely similar results. 
+In models using data we cannot share here, we tested a range of other predictors, including flight passengers from Wuhan by country of destination in December, flights from Wuhan by destination country from October 2019 to April 2020 (scheduled), as well as covariates such as average temperature in January and February. Results were largely similar. 
 
+We also tried alternative modelling strategies, including random forests, zero-inflated negative binomial models, and models which used per-capita measures of infection rates rather than the absolute number of confirmed cases, also with largely similar results. 
 
+The univariate linear model presented here was ultimately selected because it both fitted the data well and is easy to interpret.
