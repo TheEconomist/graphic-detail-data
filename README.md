@@ -17,6 +17,7 @@ This repository holds the data for many of the Graphic Detail pages, published w
 | 2019-07-06 | [If everyone had voted, Hillary Clinton would probably be president](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2019-07-06-mandatory-voting) | [:link:](https://www.economist.com/graphic-detail/2019/07/06/if-everyone-had-voted-hillary-clinton-would-probably-be-president)
 | 2020-02-22 | [China’s minorities have a tough time finding jobs](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2020-02-22-china-discrimination) | [:link:](https://www.economist.com/graphic-detail/2020/02/22/chinas-minorities-have-a-tough-time-finding-jobs)
 | 2020-03-06 | [Tourism flows and death rates suggest covid-19 is being under-reported](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2020-03-06-covid19) | [:link:](https://www.economist.com/graphic-detail/2020/03/07/tourism-flows-and-death-rates-suggest-covid-19-is-being-under-reported)
+| 2020-06-06 | [Democracies contain epidemics most effectively](https://github.com/TheEconomist/graphic-detail-data/tree/master/data/2020-06-06-democracies-contain-epidemics-most-effectively) | [:link:](https://www.economist.com/graphic-detail/2020/06/06/democracies-contain-epidemics-most-effectively)
 
 
 ### Licence
